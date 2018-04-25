@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/main_red">
+
+    <RadioGroup
+        android:id="@+id/ballFilterRg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignTop="@+id/filterBtn"
+        android:layout_centerInParent="true">
+
+        <RadioButton
+            android:id="@+id/footballRb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_ball_filter_left_bg"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="足球"
+            android:textColor="@color/color_selector_ball_filter"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/basketballRb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_ball_filter_right_bg"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="篮球"
+            android:textColor="@color/color_selector_ball_filter"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+
+    <ImageButton
+        android:id="@+id/filterBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/icon_filter"
+        android:visibility="visible"
+        />
+
+    <TextView
+        android:id="@+id/tvComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:text="完成"
+        android:visibility="invisible"/>
+    <ImageButton
+        android:id="@+id/back_ibtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/nav_back"
+        android:visibility="gone" />
+</RelativeLayout>

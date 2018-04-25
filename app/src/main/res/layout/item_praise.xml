@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.banana.commlib.view.pile.CircleImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    app:round_borderWidth="2dp"
+    app:round_borderColor="#ffffff" />

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/replyShowLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <include layout="@layout/layout_sync_to_my_home_page" />
+
+    <View style="@style/cutLine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:id="@+id/addEmojIv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_write_add_emoj" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_all_radius_white_solid_gray_stroke"
+            android:maxLines="4"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/sendCommentReplyTv"
+            android:layout_width="55dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/shape_all_radius_white_solid_gray_stroke"
+            android:text="发表" />
+
+    </LinearLayout>
+
+    <View style="@style/cutLine" />
+
+    <FrameLayout
+        android:id="@+id/emojiFramLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <fragment
+            android:id="@+id/emojiFragment"
+            android:name="com.android.xjq.fragment.input.EmojiFragment"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:tag="emojiFragment"></fragment>
+
+    </FrameLayout>
+</LinearLayout>

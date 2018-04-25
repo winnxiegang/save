@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="file:///android_asset/predict_info.css">
+    <link rel="stylesheet" href="file:///android_asset/base_style.css">
+</head>
+<body>
+[SUBJECT_CONTENT]
+<script type="text/javascript">
+
+   	var request = '[JCH_SERVER_URL]',
+				requestFt = '[FT_ICON_URL]',
+				requestBt = '[BT_ICON_URL]',
+				requestImage = '[JCH_IMAGE_URL]';
+
+			function getAjax(url, callback) {
+				var request = new XMLHttpRequest();
+				request.open('GET', url, true);
+				request.onreadystatechange = function () {
+					if (this.readyState === 4) {
+						if (this.status >= 200 && this.status < 400) {
+							var data = JSON.parse(this.responseText);
+							callback(data);
+						} else {}
+					}
+				};
+				request.send();
+				request = null;
+			}
+
+			function queryNode() {
+				var doc = document;
+				var anchors = doc.getElementsByTagName('a');
+				var spans = doc.getElementsByTagName('span');
+				var props;
+				var i;
+				var lens;
+				var imglistString = '';
+				var imglist = [];
+				doc.documentElement.addEventListener('click', function (e) {
+					var role = e.target.getAttribute('data-role');
+					if (role && role === 'at')
+						return;
+					MyApp.showDetail();
+				});
+				[].forEach.call(doc.querySelectorAll('img[src*="imageDataMid.resource"],img[src*="image.resource"]'), function (element, index) {
+					imglist.push(element.src);
+					element.style.height = 'auto';
+					element.addEventListener('click', function (e) {
+						e.stopPropagation();
+						MyApp.showImage(index, imglistString);
+					}, false);
+				});
+				imglistString = JSON.stringify(imglist);
+				for (i = 0, lens = anchors.length; i < lens; i++) {
+					if (anchors[i] && anchors[i].getAttribute('data-type') === 'tag' && anchors[i].getAttribute('data-tag') === 'project') {
+						getPrize(anchors[i], anchors[i].getAttribute('data-id'));
+					}
+				}
+				for (i = 0, lens = spans.length; i < lens; i++) {
+					if (spans[i] && spans[i].getAttribute('data-type') === 'tag' && spans[i].getAttribute('data-tag') === 'race') {
+						getMatch(spans[i], spans[i].getAttribute('biz_id'));
+					}
+				}
+			}
+			function getPrize(node, id) {
+				var uid = '[USER_ID]';
+				var url = request + '/client/service.json?service=PURCHASE_ORDER_QUERY_BY_PURCHASE_NO&purchaseNo=' + id + '&authedUserId=[USER_ID]';
+				var html;
+				getAjax(url, function (data) {
+					var info = data['response']['purchaseOrder'];
+					if (!info) {
+						console.log(data['response']['error']);
+						return;
+					}
+					var createrUserId = info.createrUserId;
+					var myCopy = info.copy === false
+						? '-'
+						: info.copyCountNum;
+					html = '<div class="money"  data-id="' + info.purchaseNo + '"  data-userInfo = "createrUserId=' + createrUserId + '&purchaseNo=' + id + '"><img class="logo" src="' + requestImage + '/images/lottery/type/' + info.lotteryType.name + '.png">';
+					html += '<table><colgroup span="1" width="30%"></colgroup>';
+					html += '<colgroup span="2" width="20%"></colgroup>';
+					html += '<colgroup span="1" width="30%"></colgroup>';
+					html += '<tr><th>金额</th><th>倍数</th><th>复制数</th><th>奖金</th></tr>';
+
+				    if (info.multiple === 0) {
+						html += '<tr><td>' + info.totalPaidFee + '元</td><td>-</td>';
+					} else {
+						if (typeof info.purchaseType === 'object' &&
+						    info.purchaseType.name === 'BLANK_ENTRY_SINGLE_FEE_UNFIXED' &&
+						    info.entryAmount === 0) {
+							html += '<tr><td>' + info.totalPaidFee + '元</td><td>-</td>';
+						} else {
+							html += '<tr><td>' + info.totalPaidFee + '元</td><td>' + info.multiple + '倍</td>';
+						}
+					}
+					html += '<td>' + myCopy + '</td>';
+					html += getTD(info, info.appPurchaseNo, uid == info.createrUserId);
+					html += '</tr></table></div>';
+					node.outerHTML = html;
+					createEvent(info.purchaseNo);
+				});
+			}
+
+			function getTD(info, url, isMe) {
+				var html;
+				var isZero = '';
+				if (info.prized) {
+					isZero = info.prizeFee === 0
+						? 'award-strong'
+						: '';
+					html = '<td class="award ' + isZero + '">' + info.prizeFee.toFixed(2) + '元</td>';
+				} else if (!info.copyable) {
+					html = '<td class="award  award-strong">-</td>';
+				} else if (info.copyable && !isMe) {
+					url=url+':'+info.platformCreationType.name+':'+info.platformCreationType.message;
+					if(info.entryAmount === 0){
+						return '<td class="award"><div class="copy"><a href="http://app_purchase_no=' + url + '" data-role="copy-btn" class="copy-btn ordercopy-btn">预约</a></div></td>';
+					}
+					html = '<td class="award"><div class="copy"><a href="http://app_purchase_no=' + url + '" data-role="copy-btn" class="copy-btn">复制</a></div></td>';
+				}
+				else {
+					html = '<td class="award award-strong">-</td>';
+				}
+				return html;
+			}
+
+			function getMatch(node, id) {
+				var url = request + '/client/service.json?service=JCZQ_DATA_QUERY_BY_BIZID&jczqBizId=' + id;
+				var jcData = 'jczqData';
+				var typeName = '竞足';
+				var logoDomain = requestFt;
+				var raceType = node.getAttribute('race_type');
+				if( raceType === 'JCLQ'){
+					url = request + '/client/service.json?service=JCLQ_DATA_QUERY_BY_BIZID&jclqBizId=' + id;
+					jcData = 'jclqData';
+					typeName = '竞篮';
+					logoDomain = requestBt;
+				}
+
+				var html;
+				getAjax(url, function(data) {
+					var info = data['response'][jcData];
+					if (!info) {
+						console.log(data['response']['error']);
+						return;
+					}
+					html = '<div class="match clearfix" data-id="' + id + '" race_type="' + raceType+ '">';
+					html += '<h3>' + typeName + ' ' + info.gameNo + ' ' + info.gameName + ' ' + info.startDate.slice(5, 16) + '</h3>';
+					html += '<div class="match-info"><div class="home-team">';
+
+					if(raceType === 'JCZQ'){
+
+					   html += '<img  src="' + logoDomain + '/team/logo/' + info.innerHomeTeamId + '.resource?&type=h">';
+					   html += '<span class="text-inline">' + info.homeTeamName + '</span></div>';
+					   html += '<div class="away-team"><img src="' + logoDomain + '/team/logo/' + info.innerGuestTeamId + '.resource?&type=g">';
+					   html += '<span class="text-inline">' + info.guestTeamName + '</span></div>';
+
+					}else if (raceType === 'JCLQ'){
+					   html += '<img  src="' + logoDomain + '/team/logo/' + info.innerGuestTeamId + '.resource?&type=g">';
+					   html += '<span class="text-inline">' + info.guestTeamName + '</span></div>';
+					   html += '<div class="away-team"><img src="' + logoDomain + '/team/logo/' + info.innerHomeTeamId + '.resource?&type=h">';
+					   html += '<span class="text-inline">' + info.homeTeamName + '</span></div>';
+					}
+
+
+					if(info.fullHomeScore === -1){
+						html += '<div class="scores-notstart">VS</div></div></div>';
+					}
+					else if (raceType === 'JCZQ') {
+						html += '<div class="scores"><div class="score">' + info.fullHomeScore + ':' + info.fullGuestScore + '</div>';
+						html += '<div class="half">半场' + info.halfHomeScore + ':' + info.halfGuestScore + '</div></div></div></div>';
+					}
+					else if (raceType === 'JCLQ') {
+						html += '<div class="scores"><div class="score">' + info.fullGuestScore + ':' +info.fullHomeScore  + '</div>';
+						html += '<div class="half">总分' + (info.fullHomeScore  + info.fullGuestScore) + ' 分差' + (info.fullHomeScore - info.fullGuestScore) + '</div></div></div></div>';
+					}
+
+					node.outerHTML = html;
+					createMatchEvent(id);
+				});
+			}
+
+
+			function createEvent(id) {
+				var element = document.querySelector('.money[data-id="' + id + '"]');
+				if (element) {
+					element.addEventListener('click', function (e) {
+						e.stopPropagation();
+						if (e.target.getAttribute('data-role') !== 'copy-btn') {
+							window.location.href = "http://" + this.getAttribute('data-userinfo');
+						}
+					});
+				}
+			}
+
+			function createMatchEvent(id) {
+				var element = document.querySelector('.match[data-id="' + id + '"]');
+				if (element) {
+					element.addEventListener('click', function (e) {
+						e.stopPropagation();
+						if(element.getAttribute('race_type') === 'JCLQ'){
+							MyApp.toJclqAnalysis('' + id);
+							return;
+						}
+						MyApp.toJczqAnalysis('' + id);
+					})
+				}
+			}
+
+			window.onload = function () {
+				queryNode();
+			}
+
+
+
+
+
+
+</script>
+</body>
+</html>

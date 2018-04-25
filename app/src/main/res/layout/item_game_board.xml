@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@drawable/item_football_ball_bg"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/home_team_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/icon_red_win_txt"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="新城堡联队" />
+
+    <TextView
+        android:id="@+id/guest_team_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:drawablePadding="5dp"
+        android:textColor="@color/black"
+        android:drawableRight="@drawable/icon_blue_win_txt"
+        android:gravity="center"
+        android:text="曼联" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/home_team_name">
+
+
+        <RelativeLayout
+            android:id="@+id/home_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/ctr_percent_lay">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/home_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/action_event_offside" />
+
+            <com.android.banana.commlib.game.ShowPopListSelectorView
+                android:id="@+id/leftNumSelectorView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="6dp"
+                android:clickable="true" />
+
+            <TextView
+                android:id="@+id/home_gold_coin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/home_icon"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@drawable/cold_coin_wai"
+                android:text="500" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ctr_percent_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="【-0.5球】【全场】比分" />
+
+            <com.android.banana.commlib.view.PercentProgressView
+                android:id="@+id/customer_progress_bar"
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                app:guestProgressColor="@color/lignt_blue3"
+                app:hostProgressColor="@color/lignt_red3" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="欧冠 01-13 14:13" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/guest_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/ctr_percent_lay">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/guest_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/action_event_offside" />
+
+            <com.android.banana.commlib.game.ShowPopListSelectorView
+                android:id="@+id/rightNumSelectorView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:layout_marginRight="45dp"
+                android:layout_marginTop="6dp" />
+
+            <TextView
+                android:id="@+id/guest_gold_coin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/guest_icon"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@drawable/cold_coin_wai"
+                android:text="500" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

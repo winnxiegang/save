@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/main_red"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingRight="10dp"
+        android:paddingTop="4dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="28dp"
+            android:src="@drawable/icon_hhs_text" />
+
+        <RelativeLayout
+            android:id="@+id/toSearchLayout"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:background="@drawable/shape_red_solid_oval"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColorHint="@color/white"
+                android:hint="搜索频道/昵称"/>
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_search" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <lumenghz.com.pullrefresh.PullToRefreshView
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fadingEdge="none" />
+
+
+    </lumenghz.com.pullrefresh.PullToRefreshView>
+
+
+</LinearLayout>
+

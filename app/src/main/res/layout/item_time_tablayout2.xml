@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+        android:id="@+id/week_day_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="周五"
+        android:textColor="@color/color_selector_time_filter"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/today_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/week_day_txt"
+        android:background="@drawable/shape_round_yellow_bg"
+        android:gravity="center"
+        android:text="今"
+        android:textColor="@color/white"
+        android:textSize="6sp" />
+
+    <TextView
+        android:id="@+id/date_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/week_day_txt"
+        android:text="10/28"
+        android:textColor="@color/color_selector_time_filter"
+        android:textSize="13sp" />
+</RelativeLayout>

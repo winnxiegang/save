@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/normal_bg"
+    tools:context=".fragment.schdulefragment.DataFragment">
+    <RadioGroup
+        android:background="@color/white"
+        android:id="@+id/radioGroup"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <RadioButton
+            android:gravity="center"
+            android:text="积分榜"
+            android:id="@+id/scoreRankRb"
+            android:layout_marginRight="@dimen/dp40"
+            android:layout_marginLeft="@dimen/dp40"
+            android:layout_weight="1"
+            android:background="@drawable/selector_homepage_left"
+            android:button="@null"
+            android:checked="true"
+            android:textColor="@drawable/selector_homepage_radiobutton_text"
+            android:layout_width="90dp"
+            android:layout_height="30dp" />
+        <RadioButton
+            android:text="伤停"
+            android:button="@null"
+            android:id="@+id/injuryRb"
+            android:layout_marginRight="@dimen/dp40"
+            android:layout_marginLeft="@dimen/dp40"
+            android:layout_weight="1"
+            android:textColor="@drawable/selector_homepage_radiobutton_text"
+            android:layout_width="90dp"
+            android:background="@drawable/selector_homepage_left"
+            android:gravity="center"
+            android:layout_height="30dp" />
+    </RadioGroup>
+    <FrameLayout
+        android:layout_marginTop="@dimen/dp10"
+        android:id="@+id/contentFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

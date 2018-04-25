@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:visibility="gone"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="@dimen/dp10"
+    android:layout_marginRight="@dimen/dp10"
+    android:id="@+id/JcdxCardLayout"
+    android:layout_marginBottom="@dimen/dp5"
+    android:background="@drawable/shape_rect_stroke_line"
+    android:gravity="center"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/match_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/sp12"
+        android:textColor="@color/light_text_color"
+        tools:text="英超\n11-28 17:59 " />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp10"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/artical_iv_left"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/user_default_logo" />
+
+        <TextView
+            android:id="@+id/artical_tvname_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLength="5"
+            android:textSize="@dimen/sp12"
+            android:textColor="@color/text_black"
+            tools:text="德玛西亚" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/artical_match_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/light_text_color"
+            android:textSize="@dimen/sp12"
+            tools:text="总分" />
+
+        <TextView
+            android:id="@+id/artical_match_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="3:1"
+            android:textColor="@color/text_black" />
+
+        <TextView
+            android:id="@+id/artical_match_diff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/light_text_color"
+            android:textSize="@dimen/sp12"
+            tools:text="分差" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/artical_iv_right"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/user_default_logo" />
+
+
+        <TextView
+            android:id="@+id/artical_tvname_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLength="5"
+            android:textSize="@dimen/sp12"
+            android:textColor="@color/text_black"
+            tools:text="德玛西亚" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ViewTitleLayout"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/main_red"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/backIv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/icon_back"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/cancelTv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:text="取消"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:text="首页"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/shareIv"
+        android:layout_width="25dp"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/infoIv"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@id/moreIv"
+        android:paddingLeft="@dimen/dp10"
+        android:src="@drawable/icon_detail_share"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/moreIv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/infoIv"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="8dp"
+        android:src="@drawable/ic_more"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/okTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:onClick="onclick"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <!--<ImageView-->
+    <!--android:id="@+id/more"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_alignBottom="@+id/infoIv"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginRight="25dp"-->
+    <!--android:src="@drawable/icon_more"-->
+    <!--android:visibility="gone" />-->
+
+    <ImageView
+        android:id="@+id/infoIv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_toLeftOf="@+id/text"
+        android:layout_toStartOf="@+id/text"
+        android:paddingLeft="@dimen/dp5"
+        android:src="@drawable/icon_info"
+        android:visibility="gone" />
+
+    <include layout="@layout/layout_subject_title_family_info" />
+
+
+    <TextView
+        android:id="@+id/sendTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:text="发表"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/selectTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/icon_filter"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/finishTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:text="完成(0)"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/writeMySubjectIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/icon_title_write"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/showSubjectDetailTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/titleTv"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_red_solid_white_stroke"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="查看主题"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/lookEliteCb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/titleTv"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/selector_touch_look_elite_bg"
+        android:button="@null"
+        android:visibility="gone" />
+
+</RelativeLayout>

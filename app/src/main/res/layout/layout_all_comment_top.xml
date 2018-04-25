@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="39dp">
+        <LinearLayout
+            android:background="@drawable/selector_main_bg_press_gray"
+            android:id="@+id/lookAllLayout"
+            android:paddingRight="@dimen/dp10"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/lookAllTv"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:textColor="@color/dialog_text_color"
+                android:layout_weight="1"
+                android:text="全部回复" />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/lookAllRedTv"
+                android:layout_gravity="center"
+                android:background="@color/main_red"
+                android:layout_width="25dp"
+                android:layout_height="2dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:background="@drawable/selector_main_bg_press_gray"
+            android:id="@+id/onlyLookAuthorLayout"
+            android:paddingRight="@dimen/dp10"
+            android:paddingLeft="@dimen/dp5"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/lookAuthorTv"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textColor="@color/colorTextG3"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="只看作者" />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/lookAuthorRedTv"
+                android:layout_gravity="center"
+                android:background="@color/main_red"
+                android:layout_width="25dp"
+                android:layout_height="2dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:padding="@dimen/dp10"
+            android:id="@+id/sortLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical|right">
+
+            <ImageView
+                android:id="@+id/replyTimeIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_reply_first" />
+
+            <TextView
+                android:id="@+id/sortTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="最早回复优先"
+                android:textColor="#3668b2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View style="@style/cutLine" />
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.bughdupdate"
+    android:versionCode="2"
+    android:versionName="1.0" >
+    <!--
+如果你使用的第三方库也配置了同样的FileProvider, 可以通过继承FileProvider类来解决合并冲突的问题
+    因APP红已经配置好了 不需要再配置了，示例如下：
+    -->
+    <!-- <provider -->
+    <!-- android:name=".utils.BuglyFileProvider" -->
+    <!-- android:authorities="${applicationId}.fileProvider" -->
+    <!-- android:exported="false" -->
+    <!-- android:grantUriPermissions="true" -->
+    <!-- tools:replace="name,authorities,exported,grantUriPermissions"> -->
+    <!-- <meta-data -->
+    <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+    <!-- android:resource="@xml/provider_paths" -->
+    <!-- tools:replace="name,resource"/> -->
+    <!-- </provider> -->
+    <!-- 这里要注意一下，FileProvider类是在support-v4包中的，检查你的工程是否引入该类库。 -->
+    <!-- 在res目录新建xml文件夹，创建provider_paths.xml文件如下： -->
+    <!-- <?xml version="1.0" encoding="utf-8"?> -->
+    <!-- <paths xmlns:android="http://schemas.android.com/apk/res/android"> -->
+    <!-- &lt;!&ndash; /storage/emulated/0/Download/${applicationId}/.beta/apk&ndash;&gt; -->
+    <!-- <external-path name="beta_external_path" path="Download/"/> -->
+    <!-- &lt;!&ndash;/storage/emulated/0/Android/data/${applicationId}/files/apk/&ndash;&gt; -->
+    <!-- <external-path name="beta_external_files_path" path="Android/data/"/> -->
+    <!-- </paths> -->
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <!-- 必选 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    3. 配置FileProvider
+
+    注意：如果您想兼容Android N或者以上的设备，必须要在AndroidManifest.xml文件中配置FileProvider来访问共享路径的文件。
+    <provider
+        android:name="android.support.v4.content.FileProvider"
+        android:authorities="dollar_openBracket_applicationId_closeBracket"
+        android:exported="false"
+        android:grantUriPermissions="true" >
+        <meta-data
+            android:name="android.support.FILE_PROVIDER_PATHS"
+            android:resource="@xml/provider_paths" />
+    </provider>
+
+    <application>
+        <activity
+            android:name="com.android.bughdupdate.updateDialog.UpdateDownloadActivity"
+            android:theme="@style/downloadDialogStyle" />
+    </application>
+
+</manifest>

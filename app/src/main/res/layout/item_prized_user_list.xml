@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/portraitIv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/user_default_logo"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/userNameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:maxEms="8"
+            android:singleLine="true"
+            android:text="用户名"
+            android:textColor="@color/colorSendName11"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/giftIv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="60dp"
+            android:layout_toLeftOf="@+id/giftCountTv"
+            android:src="@drawable/user_default_logo" />
+
+        <TextView
+            android:id="@+id/giftCountTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorSendName11"
+            android:textSize="12sp"
+            tools:text="x266" />
+
+    </LinearLayout>
+</FrameLayout>

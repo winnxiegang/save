@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title"></include>
+
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="账户 : "
+                android:textColor="@color/colorTextG4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/userNameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/colorTextG4"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="金币 : "
+                android:textColor="@color/colorTextG4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/moneyTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/colorTextG4"
+                android:textSize="16sp" />
+
+            <View
+                style="@style/cutVerticalLine"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="1dp"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="火红币 : "
+                android:textColor="@color/colorTextG4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/pointTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/colorTextG4"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/normal_bg"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical"
+                android:text="兑换数量"
+                android:textColor="@color/colorTextG4" />
+
+            <EditText
+                android:id="@+id/inputPointEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="8dp"
+                android:singleLine="true"
+                android:inputType="number"
+                android:background="@drawable/shape_normal_edit_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="3dp"
+                android:drawableRight="@drawable/icon_gold_coin"
+                android:gravity="center_vertical"
+                android:text="获得金币"
+                android:textColor="@color/colorTextG4" />
+
+            <EditText
+                android:id="@+id/exchangeMoneyEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorTextG2"
+                android:focusable="false"
+                android:enabled="false"
+                android:text=""
+                android:background="@drawable/shape_not_edit_bg" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/descTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="40dp"
+            android:text="兑换比例为:"
+            android:textColor="@color/colorTextG2" />
+
+        <Button
+            android:id="@+id/confirmBtn"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="15dp"
+            android:textSize="16sp"
+            android:layout_height="45dp"
+            android:text="确定兑换"
+            android:enabled="false"
+            android:background="@drawable/selector_normal_red_button"/>
+
+    </LinearLayout>
+</LinearLayout>

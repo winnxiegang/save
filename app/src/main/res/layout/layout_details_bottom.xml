@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <View style="@style/cutLine"/>
+    <LinearLayout
+        android:background="@color/white"
+        android:paddingTop="@dimen/dp10"
+        android:paddingBottom="@dimen/dp5"
+        android:paddingLeft="@dimen/dp10"
+        android:paddingRight="@dimen/dp10"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:id="@+id/replyTv"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/dp5"
+            android:paddingTop="@dimen/dp5"
+            android:paddingLeft="@dimen/dp10"
+            android:singleLine="true"
+            android:textColor="@color/gray"
+            android:background="@drawable/live_score_edit"
+            android:text="大神，别憋着，说点啥"
+            android:textSize="@dimen/sp12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <FrameLayout
+            android:id="@+id/locationReplyLayout"
+            android:layout_marginLeft="@dimen/dp10"
+            android:paddingRight="@dimen/dp5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:padding="5dp"
+                android:src="@drawable/icon_comment_dark"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <FrameLayout
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="top|right"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.android.banana.view.BadgeView
+                    android:id="@+id/replyCountTv"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:visibility="visible" />
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/supportLayout"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/supportImageIv"
+                android:padding="5dp"
+                android:src="@drawable/ic_support_black"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:textColor="@color/gray_text_color"
+                android:id="@+id/likeCountTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

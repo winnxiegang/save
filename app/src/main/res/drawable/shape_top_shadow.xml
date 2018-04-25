@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- SHADOW LAYER -->
+    <item
+        android:left="4dp">
+        <shape>
+            <gradient
+                android:centerColor="#99000000"
+                android:endColor="@color/white"
+                android:startColor="#66000000"></gradient>
+            <!--<solid android:color="#66000000" />-->
+            <!--<corners android:radius="30dip"/>-->
+        </shape>
+    </item>
+    <!-- CONTENT LAYER -->
+    <!-- 相当于padding -->
+    <item android:right="4dp">
+        <shape>
+            <solid android:color="@color/white" />
+            <!--<corners android:radius="30dip"/>-->
+        </shape>
+    </item>
+</layer-list>

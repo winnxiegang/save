@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_all_radius_white_bg"
+    android:orientation="vertical"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/spamTV"
+            style="@style/report_textStyle"
+            android:text="垃圾广告" />
+
+        <View style="@style/cutLine" />
+
+        <TextView
+            android:id="@+id/sensitiveMessageTV"
+            style="@style/report_textStyle"
+            android:text="敏感信息" />
+
+        <View style="@style/cutLine" />
+
+        <TextView
+            android:id="@+id/falsePrizeTv"
+            style="@style/report_textStyle"
+            android:text="虚假中奖" />
+
+        <View style="@style/cutLine" />
+
+        <TextView
+            android:id="@+id/pornographicTv"
+            style="@style/report_textStyle"
+            android:text="淫秽情色" />
+
+        <View style="@style/cutLine" />
+
+        <TextView
+            android:id="@+id/falseMessageTv"
+            style="@style/report_textStyle"
+            android:text="不实信息" />
+
+        <View style="@style/cutLine" />
+
+        <TextView
+            android:id="@+id/personAttackTv"
+            style="@style/report_textStyle"
+            android:text="人身攻击" />
+
+        <View style="@style/cutLine" />
+
+        <TextView
+            android:id="@+id/cancelTv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/main_red"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

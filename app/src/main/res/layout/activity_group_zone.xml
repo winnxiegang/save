@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <com.android.banana.pullrecycler.recyclerview.PullRecycler
+        android:id="@+id/PullRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+    </com.android.banana.pullrecycler.recyclerview.PullRecycler>
+
+
+    <include layout="@layout/widget_toolbar_40dp"></include>
+
+</FrameLayout>

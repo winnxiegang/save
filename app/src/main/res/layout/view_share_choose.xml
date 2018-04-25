@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--<View
+        android:id="@+id/myView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="#60000000"
+        android:visibility="gone"
+        android:layout_weight="1" />-->
+    <!--#AF000000 70%透明灰 -->
+
+
+    <LinearLayout
+        android:id="@+id/share_platform_choice_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:text="分享直播间到"
+            android:textColor="@color/colorTextG2"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/dp10">
+
+            <LinearLayout
+                android:id="@+id/WxLayout"
+                style="@style/share_layout_style">
+
+                <ImageView
+                    style="@style/share_img_style"
+                    android:src="@drawable/icon_wx" />
+
+                <TextView
+                    style="@style/share_text_style"
+                    android:text="微信" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/WxCircleLayout"
+                style="@style/share_layout_style">
+
+                <ImageView
+                    style="@style/share_img_style"
+                    android:src="@drawable/icon_wxcircle" />
+
+                <TextView
+                    style="@style/share_text_style"
+                    android:text="朋友圈" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/QQLayout"
+                style="@style/share_layout_style"
+                android:visibility="visible">
+
+                <ImageView
+                    style="@style/share_img_style"
+                    android:src="@drawable/icon_qq" />
+
+                <TextView
+                    style="@style/share_text_style"
+                    android:text="QQ" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/QzoneLayout"
+                style="@style/share_layout_style"
+                android:visibility="visible">
+
+                <ImageView
+                    style="@style/share_img_style"
+                    android:src="@drawable/icon_qzone" />
+
+                <TextView
+                    style="@style/share_text_style"
+                    android:text="QQ空间" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/SinaLayout"
+                style="@style/share_layout_style"
+                android:visibility="visible">
+
+                <ImageView
+                    style="@style/share_img_style"
+                    android:src="@drawable/icon_sina" />
+
+                <TextView
+                    style="@style/share_text_style"
+                    android:text="新浪微博" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--<View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/row1"
+            android:background="@color/alphGray" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:id="@+id/copyPasteLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ImageView
+                    style="@style/share_img_style"
+                    android:src="@drawable/icon_copy_paste" />
+
+                <TextView
+                    style="@style/share_text_style"
+                    android:text="复制链接" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/normal_bg"></View>
+
+    <LinearLayout
+        android:id="@+id/cancel_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/share_platform_choice_ll"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:textColor="@color/colorTextG2"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

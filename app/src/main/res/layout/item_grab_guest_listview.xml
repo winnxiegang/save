@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/stageTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_guest_selected_top"
+        android:gravity="center_vertical"
+        android:paddingLeft="18dp"
+        android:paddingTop="8dp"
+        android:text="第期\n()"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/hasApplyCountTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stageTv"
+        android:background="@drawable/icon_guest_selected_bottom"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="0/0"
+        android:textColor="#9F3A00"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/stateIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/icon_guest_has_apply"
+        android:visibility="visible" />
+</RelativeLayout>

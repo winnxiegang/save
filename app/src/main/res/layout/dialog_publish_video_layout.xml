@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/memoTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="@string/publish_video_memo"
+            android:textColor="@color/colorTextG2"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/videoInfoLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/memoTv"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/coverIv"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="6dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/videoTimeTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/coverIv"
+                android:text="00:00"
+                android:textColor="@color/colorTextG2"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/descEt"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/memoTv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/videoInfoLayout"
+            android:background="@null"
+            android:gravity="left"
+            android:hint="说点什么..."
+            android:maxLength="30"
+            android:textColor="@color/colorTextG3"
+            android:textColorHint="@color/colorTextG2"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descEt"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/videoInfoLayout"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/previewTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/linearLayout2"
+                android:layout_toEndOf="@+id/videoInfoLayout"
+                android:layout_toRightOf="@+id/videoInfoLayout"
+                android:text="@string/preview_video"
+                android:textColor="@color/colorTextG4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/trimTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="@string/trim_video"
+                android:textColor="@color/colorTextG4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/publishTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="发布()"
+                android:textColor="@color/pie_orange"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/closeIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@color/white"
+        android:padding="6dp"
+        android:src="@drawable/ic_close_x" />
+</FrameLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/leftInfoLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/leftOrderTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="1"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp">
+
+            <ImageView
+                android:id="@+id/leftPortraitBgIv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/icon_zhuwei_first_left_bg" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/leftPortraitIv"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0.5dp"
+                android:layout_marginTop="0.5dp"
+                android:src="@drawable/icon_guest_default" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/leftNameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/light_red5"
+                android:textSize="13sp"
+                tools:text="谁家阿夏" />
+
+            <TextView
+                android:id="@+id/leftGiftNumTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/light_red6"
+                android:textSize="13sp"
+                tools:text="送出:1024" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/rightInfoLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rightNameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/light_blue1"
+                android:textSize="13sp"
+                tools:text="谁家阿夏" />
+
+            <TextView
+                android:id="@+id/rightGiftNumTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/light_blue2"
+                android:textSize="13sp"
+                tools:text="送出:1024" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp">
+
+            <ImageView
+                android:id="@+id/rightPortraitBgIv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/icon_zhuwei_first_right_bg" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/rightPortraitIv"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="0.5dp"
+                android:layout_marginTop="0.5dp"
+                android:src="@drawable/icon_guest_default" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/rightOrderTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="1"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

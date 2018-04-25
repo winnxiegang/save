@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.banana.commlib.view.CommonStatusLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/icon_game_luck_draw_bg"
+        android:paddingBottom="10dp"
+        android:paddingTop="62dp">
+
+    </com.android.banana.commlib.view.CommonStatusLayout>
+
+
+    <ImageView
+        android:id="@+id/closeIv"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="right"
+        android:layout_margin="6dp"
+        android:padding="5dp"
+        android:src="@drawable/icon_coupon_close" />
+
+    <TextView
+        android:id="@+id/noPrizedView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:alpha="1"
+        android:drawablePadding="10dp"
+        android:drawableTop="@drawable/icon_nobody_prized"
+        android:text="@string/channel_area_no_draw"
+        android:textColor="@color/colorTextG3"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+</FrameLayout>

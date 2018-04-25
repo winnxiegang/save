@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/subjectLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/snapContentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/main_background">
+
+        <ImageView
+            android:id="@+id/qiuBaoTypeIv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_more" />
+
+        <TextView
+            android:id="@+id/subjectTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/main_background"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:paddingLeft="8dp"
+            android:paddingRight="10dp"
+            android:text="Java是一种可以"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:id="@+id/newsLayout"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/main_background"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/newsTitleTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:text="火烧圆明园"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/newsContentTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:text="Java是一种可以撰写跨平台应用程序的面向对象的程序设计语言。Java 技术具有卓越的通用性、高效性、平台移植性和安全性，广泛应用于PC、数据中心、游戏控制台" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/matchTypeIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_more"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/subjectDeleteLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f2"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_more" />
+
+        <TextView
+            android:id="@+id/warnMessageTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="抱歉，该话题已删除" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

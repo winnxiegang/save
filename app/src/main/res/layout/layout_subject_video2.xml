@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_subject_title_user"></include>
+
+    <include layout="@layout/layout_subject_item_title"></include>
+
+
+    <FrameLayout
+        android:id="@+id/video_layout"
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+        <ImageView
+            android:id="@+id/video_blur"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4C000000"
+            android:adjustViewBounds="true" />
+
+        <com.android.banana.commlib.view.XjqVideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/transparent"
+            android:visibility="gone">
+
+        </com.android.banana.commlib.view.XjqVideoView>
+
+
+        <ImageView
+            android:id="@+id/video_thumb"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+
+        <RadioButton
+            android:id="@+id/video_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:button="@drawable/selector_subject_video"
+            android:checked="true" />
+
+        <ProgressBar
+            android:id="@+id/video_progressBar"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <include layout="@layout/layout_subject_item_footer"></include>
+</LinearLayout>

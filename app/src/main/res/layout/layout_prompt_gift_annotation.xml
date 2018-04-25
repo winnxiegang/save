@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/memoLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rect_alpha_drak"
+            android:drawableLeft="@drawable/icon_white_horn"
+            android:drawablePadding="5dp"
+            android:padding="8dp"
+            android:text="请点击填写礼物广播  >"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/indicateIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/shape_triangle_down" />
+    </LinearLayout>
+</FrameLayout>

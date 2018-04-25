@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/v_decoration"
+        android:layout_width="3dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/yellowred" />
+
+    <TextView
+        android:id="@+id/tv_match_name"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_margin="8dp"
+        android:layout_toEndOf="@id/v_decoration"
+        android:layout_toRightOf="@id/v_decoration"
+        android:gravity="center_vertical"
+        android:textColor="@color/google_yellow"
+        android:textSize="14sp"
+        tools:text="日乙 11-12 12:00" />
+
+    <ImageView
+        android:id="@+id/iv_team_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/v_decoration"
+        android:layout_margin="8dp" />
+
+    <TextView
+        android:id="@+id/tv_team_name"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_below="@id/v_decoration"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/iv_team_icon"
+        android:layout_toRightOf="@id/iv_team_icon"
+        android:gravity="center_vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        tools:text="水户(主)" />
+
+    <View
+        android:id="@+id/v_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/iv_team_icon"
+        android:background="@color/colorGray10" />
+
+    <TextView
+        android:id="@+id/tv_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_divider"
+        android:gravity="center_horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="暂无数据"
+        android:visibility="visible" />
+
+    <View
+        android:id="@+id/v_divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tv_empty"
+        android:background="@color/colorGray10"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_divider"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/tv_player_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            tools:text="岛田" />
+
+        <TextView
+            android:id="@+id/tv_position"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center_horizontal"
+            tools:text="前锋" />
+
+        <TextView
+            android:id="@+id/tv_match_index"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center_horizontal"
+            tools:text="9" />
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            tools:text="0" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            tools:text="伤病" />
+
+        <ImageView
+            android:id="@+id/iv_expand"
+            android:layout_width="35dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="5dp"
+            android:src="@drawable/icon_down_arrow_gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_triangle"
+            android:tint="@color/colorGray5" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGray5"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            tools:text="头部损伤" />
+
+    </LinearLayout>
+
+</RelativeLayout>

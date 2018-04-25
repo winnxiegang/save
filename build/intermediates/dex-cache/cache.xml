@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\app\libs\pldroid-shortvideo-1.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ef13263923bf6a2a4c1913d985fef8ab894e960c">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\2\pldroid-shortvideo-1.7.0_2707a2e8b31f955f351ba9c8c1e5b49dff43884c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\ilive\build\intermediates\bundles\default\libs\wup-1.0.0-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ed71856de464ff25335fdf6593662a2ba7f62535">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\wup-1.0.0-SNAPSHOT_6e5738232c98c01c6e2b3ce1b7e3ac3ad6cb2344\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\sharelib\build\intermediates\bundles\default\libs\weiboSDKCore_3.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2bc78160e85f56f81c91271dfa44bd8c8293cb94">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\weiboSDKCore_3.1.4_d8c0d5e5c174d94e8f260a30a448d27a6e24c70a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\sharelib\build\intermediates\bundles\default\libs\wechat-sdk-android-with-mta-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c166e81e3dac147b2973d0f804e125eb40ea0603">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\wechat-sdk-android-with-mta-1.1.6_7f78f782a59a87557faf95bf2bdc21fc4952ce72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\ilive\build\intermediates\bundles\default\libs\bugly_2.4.0_imsdk_release.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dfcd0f03a806d4be369ab8381dee2681822ef35f">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\bugly_2.4.0_imsdk_release_1b1ecbc82a9f019bd78d755ede4c9675356fd9fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\app\libs\alipaySdk-20170725.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1d443e99c96e04892e8dc51bac06f29260015cb7">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\2\alipaySdk-20170725_5a413540e793f833be7298a63b77479db4b92d85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\app\build\intermediates\incremental-runtime-classes\minglin\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\10000\instant-run_69bc6dd48053760a2241095074e7faad0a177233\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\oap_android_sdk\sdk_jijuxie\build\intermediates\bundles\default\libs\commons-codec-1.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e59f14b69400cefb20624c699e887a7b66094f2">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\commons-codec-1.9_53162a615f9e208730ed334a914fa37e6cad88ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\sharelib\build\intermediates\bundles\default\libs\open_sdk_r5781.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="85f474ddea56aff6373e48425b1bfe64d3fd2824">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\open_sdk_r5781_4dc98bab2da98c299c9727c42abd5f4e547e4a55\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\commlib\build\intermediates\bundles\default\libs\umeng-analytics-v6.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fdd44f5f08b85ab98fc728d3b6f89629f7e416de">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\umeng-analytics-v6.1.0_ca688819bf94406c16771ef29b749d7834109e6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\tencentrtmpsdk\build\intermediates\bundles\default\libs\txrtmpsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7f3d710d9f59e89663effb090c7046cb724d12ac">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\txrtmpsdk_3605cc25e7a3c114b37257fe5f9822f3c3225983\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\ilive\build\intermediates\bundles\default\libs\imsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="468f37422998c50516284d7734d119ba6858980b">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\imsdk_95c5339327c35c7090f0d6099171eefc1e4e84c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\ilive\build\intermediates\bundles\default\libs\mobilepb.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12db2628b7d6bcc9bb7632941f499bf860c503a4">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\mobilepb_52698045e722a8d053681680f37c5c260a7f4db6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\sharelib\build\intermediates\bundles\default\libs\umeng_social_net.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea5249d150b4bd4e5f1a7cd80a9fb311414bb2dd">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\umeng_social_net_64395a14ac4b32855dabb4214db3c114e2d98106\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\sharelib\build\intermediates\bundles\default\libs\SocialSDK_QQ_Full.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="163601bc0bbc9d7f0ac98ac6da7fe229107645c7">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\SocialSDK_QQ_Full_054b7ba310dd7482a9d6660d64e78598a85fc679\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\sharelib\build\intermediates\bundles\default\libs\umeng_social_tool.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8b17b7c71ac912fb54ad4df2c5d1f3b36ec95837">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\umeng_social_tool_8b23b731dce12be28270748955ef408612777f93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\app\build\intermediates\incremental-classes\minglin\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0addcc6c9eca5ad0b914c8d36d92a61e236013ce">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\10000\instant-run-bootstrap_b6a2a2d7e04a8d21de4e56dca1c43197213ddfa8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\ilive\build\intermediates\bundles\default\libs\tls_sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a6da9385bea5f3df761f9898b71589a7d1aaf64e">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\tls_sdk_d9f78c8e663fcac7acffd83e80937699b760247c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\sharelib\build\intermediates\bundles\default\libs\umeng_social_api.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2e9dcc2745944ef881e3d4c7975afdb0c35b5280">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\umeng_social_api_599238d0a4aef2d5cae1a2b13fb1f6ab6da8cc54\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\sharelib\build\intermediates\bundles\default\libs\SocialSDK_WeiXin_Full.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="474190c6c55dff6458b7e507bcebd26403d0f33f">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\SocialSDK_WeiXin_Full_fde748aaa84fc596cbec631ff79a5d935c84cfa7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\sharelib\build\intermediates\bundles\default\libs\SocialSDK_Sina_Full.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="555c3b02ebdf3160e3e5843914d23614f0831a3a">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\SocialSDK_Sina_Full_322ef15a53ef4e8d6cfe0cec4e49b7c625089111\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\ilive\build\intermediates\bundles\default\libs\qalsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fdd4283571cc6e7c97b4a97d6c1526a58b02a0fc">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\qalsdk_66577ae45b450dfc9eff15993a22fb3b5951133e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\ilive\build\intermediates\bundles\default\libs\soload.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6becc9c086f7be9f85881c088d5c0a8d54553a6d">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\soload_c9db4789c3c609a3f3e23d30ca3288c491b09b70\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\ilive\build\intermediates\bundles\default\libs\qavsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8175a61d21a5ccbc02a132c6a72e584ca51e7777">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\qavsdk_45e4ceac187f7c8fa27d3648060a969e1bd5b6f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\app\libs\libwebp.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b8b3b3080d2b4928f658182db374e8377fbe3ca3">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\2\libwebp_6fbe6b5e43f1f90bacdb3048d46b67419bd67b9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\201843_banana_update\ilive\build\intermediates\bundles\default\libs\beacon_1.5.3_imsdk_release.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6b466573fd1108e92797d7969120d154ddc70025">
+        <dex dex="E:\201843_banana_update\app\build\intermediates\transforms\dex\minglin\debug\folders\1000\8\beacon_1.5.3_imsdk_release_5bc8aa756eeb9788a8effab2ea9aed36b29c3cfb\classes.dex" />
+    </item>
+
+</items>

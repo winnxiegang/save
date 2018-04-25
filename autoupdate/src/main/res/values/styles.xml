@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="downloadDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_activity_title_bar" />
+
+    <LinearLayout
+        android:id="@+id/subjectTypeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/subject_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@drawable/icon_close"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/subjectTypeTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/arrowRightIv"
+            android:drawableRight="@drawable/right_arrow"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:minHeight="45dp"
+            android:paddingLeft="16dp"
+            android:singleLine="true"
+            android:text="选择赛事"
+            android:textColor="@color/hintColor" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/titleLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp10"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/titleEt"
+            style="@style/title_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="输入标题"
+            android:textColor="@color/text"
+            android:textColorHint="@color/hintColor"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollContentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/textParentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp90"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/contentEt"
+                    style="@style/title_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:hint="输入内容"
+                    android:minHeight="50dp"
+                    android:textColorHint="@color/hintColor"
+                    tools:text="啊大大" />
+
+            </LinearLayout>
+
+            <com.android.banana.commlib.view.MyGridView
+                android:id="@+id/gridView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:numColumns="4" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <include layout="@layout/layout_sync_to_my_home_page" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fcfdff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="@dimen/dp5">
+
+            <RadioButton
+                android:id="@+id/addEmojIv"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:button="@drawable/selector_subject_emoji" />
+
+
+            <RadioButton
+                android:id="@+id/addPhotoIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:button="@drawable/icon_add_photo_normal" />
+
+
+            <RadioButton
+                android:id="@+id/addIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/icon_add_content_normal"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/contentTextNumTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="10000"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <View style="@style/cutLine" />
+
+    <include layout="@layout/layout_add" />
+
+    <LinearLayout
+        android:id="@+id/emojLayout"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:visibility="gone">
+
+        <fragment
+            android:id="@+id/emojiFragment"
+            android:name="com.android.xjq.fragment.input.EmojiFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></fragment>
+    </LinearLayout>
+
+</LinearLayout>

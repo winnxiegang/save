@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--下面这个SurfaceView 不要删除 更不要试图应用它-->
+
+        <!--因为【个人主页】中存在视频播放的 VideoView，
+        而VideoView继承与SurfaceView ，
+        SurfaceView的双缓冲机制，
+        在第一次初始化的时候 强行被拉到最前面，
+        且会有一个黑色闪屏的现象，
+        下面这个方法可以解决-->
+
+        <SurfaceView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:paddingTop="@dimen/dp20"
+            android:id="@+id/headLayout"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:background="@color/alpha_gray"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+
+                <ImageView
+                    android:id="@+id/livingIv"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:paddingLeft="@dimen/dp5"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/ic_living"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp50"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_white_radius"
+                        android:padding="@dimen/dp1">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/photoIv"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/user_default_logo" />
+                    </FrameLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/dp10">
+
+                        <TextView
+                            android:id="@+id/userNameTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingBottom="@dimen/dp10"
+                            android:text="--" />
+
+                        <com.android.banana.commlib.view.MedalLayout
+                            android:id="@+id/medalLayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="5dp">
+
+                        </com.android.banana.commlib.view.MedalLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/dp15"
+                    android:padding="@dimen/dp10">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:id="@+id/toAttentionLayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/dp10"
+                                android:text="关注"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:id="@+id/attentionCountTv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/dp10"
+                                android:text="-"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/sp20" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/dp5"
+                            android:background="@color/white" />
+
+                        <LinearLayout
+                            android:id="@+id/toFansLayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp10"
+                                android:text="粉丝"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:id="@+id/fansCountTv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp10"
+                                android:text="-"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/sp20" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/simpleChatTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="23dp"
+                        android:gravity="center"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:layout_marginRight="@dimen/dp10"
+                        android:background="@drawable/shape_white_solid_3radius_bg"
+                        android:paddingLeft="17dp"
+                        android:paddingRight="17dp"
+                        android:text="私聊"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <CheckedTextView
+                        android:id="@+id/attentionTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="@dimen/dp16"
+                        android:background="@drawable/selector_attention"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </FrameLayout>
+        <com.android.banana.commlib.view.MyTabLayout
+            android:id="@+id/tabLayout"
+            style="@style/MyCustomTabLayout"
+            android:background="@color/white" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_marginTop="@dimen/dp5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backIv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/dp10"
+            android:src="@drawable/icon_back" />
+    </LinearLayout>
+
+</FrameLayout>

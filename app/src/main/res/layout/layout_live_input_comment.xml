@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/outerCommentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <com.android.xjq.view.recyclerview.MyClickRecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/live_dialog_height"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey_950"
+            android:visibility="visible" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/innerCommentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/white"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:padding="6dp"
+                android:visibility="visible">
+
+
+                <ImageView
+                    android:id="@+id/showBubbleIv"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="6dp"
+                    android:src="@drawable/selector_bubble_show"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/inputBgLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_white_solid_gray_stroke_radius"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <com.android.xjq.view.ImageViewWithRedPoint
+                        android:id="@+id/managerMedalIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:paddingRight="3dp"
+                        android:src="@drawable/icon_without_medal"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/lineView"
+                        style="@style/cutVerticalLine"
+                        android:visibility="gone" />
+
+                    <com.android.banana.commlib.view.EmojiEditTextView
+                        android:id="@+id/inputCommentEt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:hint="和主播聊聊吧~"
+                        android:imeActionLabel="发送"
+                        android:imeOptions="actionSend|flagNoExtractUi"
+                        android:inputType="text"
+                        android:textSize="12sp" />
+
+                    <CheckBox
+                        android:id="@+id/showEmojIv"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_marginRight="6dp"
+                        android:background="@drawable/selector_emoj_toggle"
+                        android:button="@null" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/sendCommentIv"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/selector_send_comment_landscape" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/functionContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:clickable="true"
+                android:visibility="gone" />
+
+            <!--android:layout_gravity="bottom"-->
+            <!--<com.android.libEmoj.View.EmojView
+                android:id="@+id/emojView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:visibility="gone" />-->
+        </FrameLayout>
+    </LinearLayout>
+
+
+</FrameLayout>
+

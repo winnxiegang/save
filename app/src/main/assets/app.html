@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	
+	<strong id="mydom"></strong>
+	<script>
+	
+	var _xhr = new XMLHttpRequest();
+	
+	_xhr.open('get', "http://ft.huored.net/race/getEurOddsHistoryData.json?oddIds=13820&recordCount=10",true);
+
+	_xhr.onload = function(){
+		document.getElementById('mydom').innerHTML = '<strong>' + _xhr.responseText + '</strong>';
+	 
+		}
+
+	_xhr.send(null);
+	
+	</script>
+	
+</body>
+</html>

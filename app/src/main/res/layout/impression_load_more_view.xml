@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/footView"
+    android:gravity="center"
+    android:paddingLeft="@dimen/dp10"
+    android:orientation="vertical"
+    android:layout_height="46dp">
+    <ProgressBar
+        android:id="@+id/loadMorePb"
+        android:layout_width="22dp"
+        android:layout_height="22dp" />
+    <TextView
+        android:textColor="@color/gray"
+        android:text="加载中..."
+        android:layout_marginTop="@dimen/dp5"
+        android:textSize="@dimen/sp10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

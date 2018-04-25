@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_summary_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dp16"
+    android:paddingRight="@dimen/dp16">
+
+    <com.android.banana.commlib.view.HtmlEmojiTextView
+        android:id="@+id/item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:textColor="#333333"
+        android:textSize="15sp"
+        tools:text="这里显标题,如果有话题内容就显示一行,否则两行..." />
+
+    <com.android.banana.commlib.view.HtmlEmojiTextView
+        android:id="@+id/item_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="3dp"
+        android:maxLines="2"
+        android:textColor="#666666"
+        android:textSize="13sp"
+        tools:text="这里是话题内容，如果有标题就显示2行...不然也是2行" />
+</LinearLayout>

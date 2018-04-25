@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_lay"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/main_red">
+
+    <com.android.xjq.view.OverlapTabWithDrawableView
+        android:id="@+id/over_lap_tab_with_drawable_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+
+    <ImageButton
+        android:id="@+id/filterBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/icon_filter_empty"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="10dp"
+        android:text="完成"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/back_ibtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/nav_back"
+        android:visibility="visible" />
+</FrameLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_widget_overal_tab_n"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/left_tab_lay"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/shape_widget_overal_tab_h"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/left_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:drawableLeft="@drawable/foot_ball_h"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="足球"
+            android:textSize="16sp"
+            android:textColor="@color/main_red" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/right_tab_lay"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/right_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:drawableLeft="@drawable/basket_ball_n"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="篮球"
+            android:textSize="16sp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/child_main_lay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/dashLine"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/divider_dash_line"
+        android:layerType="software" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_basket_ball_bg"
+        android:orientation="vertical"
+        android:paddingTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <TextView
+                android:id="@+id/child_host_zhuwei_txt"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/selector_txt_host_bg"
+                android:gravity="center"
+                android:text="助威"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/child_guest_zhuwei_txt"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/selector_txt_guest_bg"
+                android:gravity="center"
+                android:text="助威"
+                android:textColor="@color/black" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/child_changci_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="[全场]比分"
+                    android:textColor="@color/colorGray5"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/child_support_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="曼联-1.5分，支持哪支球队获胜？"
+                    android:textColor="@color/colorGray5"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/child_coins_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/child_host_coin_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/host_zhuwei_txt"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/icon_gold_coin"
+                android:drawablePadding="3dp"
+                android:paddingLeft="8dp"
+                android:text="500" />
+
+            <TextView
+                android:id="@+id/child_guest_coin_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/guest_zhuwei_txt"
+                android:layout_marginTop="3dp"
+                android:drawableLeft="@drawable/icon_gold_coin"
+                android:drawablePadding="3dp"
+                android:gravity="right"
+                android:paddingRight="8dp"
+                android:text="300" />
+        </LinearLayout>
+
+        <com.android.banana.commlib.view.PercentProgressView
+            android:id="@+id/child_customer_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp" />
+
+        <LinearLayout
+            android:id="@+id/childCloseLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGray10" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="收起"
+                android:textSize="12sp"
+                android:textColor="@color/lignt_blue2"
+                android:background="@drawable/shape_blue_half_radius_bg"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

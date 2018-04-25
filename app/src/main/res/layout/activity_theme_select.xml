@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray2"
+    android:orientation="vertical"
+    tools:context="com.android.xjq.fragment.MatchScheduleFragment">
+
+    <include layout="@layout/layout_theme_select"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"></include>
+
+    <com.android.xjq.activity.myzhuwei.widget.BannerView
+        android:id="@+id/bannerView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:visibility="gone">
+
+    </com.android.xjq.activity.myzhuwei.widget.BannerView>
+    <com.android.xjq.view.indicate.TimeTabLayout2
+        android:id="@+id/timeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        app:tb_textColor="@color/color_selector_time_filter"
+        android:gravity="center" />
+
+    <ExpandableListView
+        android:id="@+id/expandableView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:groupIndicator="@null"
+        android:dividerHeight="0dp"
+        android:divider="#dfdfdf"
+        android:childDivider="@null"
+        android:background="#dfdfdf"
+        android:padding="@dimen/dp10">
+    </ExpandableListView>
+</LinearLayout>

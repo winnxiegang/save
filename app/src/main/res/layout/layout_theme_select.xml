@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/white">
+
+    <RadioGroup
+        android:id="@+id/ballFilterRg"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignTop="@+id/filterBtn"
+        android:layout_centerInParent="true">
+
+        <RadioButton
+            android:id="@+id/footballRb"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:padding="3dp"
+            android:background="@drawable/selector_bottom_line"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="足球"
+            android:textColor="@color/color_selector_git_tab"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/basketballRb"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_bottom_line"
+            android:button="@null"
+            android:padding="3dp"
+            android:checked="false"
+            android:gravity="center"
+            android:text="篮球"
+            android:textColor="@color/color_selector_git_tab"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+
+    <ImageButton
+        android:id="@+id/filterBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/icon_filter"
+        android:visibility="visible"
+        />
+
+    <TextView
+        android:id="@+id/tvComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorTextG4"
+        android:textSize="14sp"
+        android:text="完成（0）"
+        android:visibility="visible"/>
+    <ImageButton
+        android:id="@+id/back_ibtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/jjx_icon_back"
+        android:visibility="visible" />
+</RelativeLayout>

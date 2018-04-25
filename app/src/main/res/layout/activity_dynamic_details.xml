@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.android.xjq.activity.SubjectDetailActivity">
+
+    <include layout="@layout/view_activity_title_bar" />
+
+    <LinearLayout
+        android:id="@+id/mainContentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            layout="@layout/view_slide_refresh_listview"/>
+
+        <!--底部点赞布局容器-->
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical"
+                android:id="@+id/addImpressionLayout"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="@dimen/dp10"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/addImpressionEt"
+                    android:layout_weight="1"
+                    android:hint="添加印象"
+                    android:singleLine="true"
+                    android:padding="@dimen/dp10"
+                    android:layout_margin="@dimen/dp10"
+                    android:background="@drawable/shape_gray_corner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <include layout="@layout/layout_empty_view" />
+</LinearLayout>

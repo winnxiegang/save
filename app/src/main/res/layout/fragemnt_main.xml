@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title" />
+
+    <com.android.banana.commlib.view.CommonStatusLayout
+        android:id="@+id/statusLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <lumenghz.com.pullrefresh.PullToRefreshView
+            android:id="@+id/refreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:fadingEdge="none"
+                android:paddingTop="8dp"
+                android:visibility="visible"/>
+
+        </lumenghz.com.pullrefresh.PullToRefreshView>
+    </com.android.banana.commlib.view.CommonStatusLayout>
+
+
+</LinearLayout>
+

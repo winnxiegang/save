@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/liveHostInfoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/live_portrait_guest_header_height"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="8dp"
+    android:paddingRight="6dp">
+
+    <include layout="@layout/view_live_host_info_layout"></include>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/guestRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

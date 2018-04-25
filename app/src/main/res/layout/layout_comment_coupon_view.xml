@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:orientation="horizontal"
+    android:id="@+id/sendCouponLayout"
+    android:visibility="visible"
+    android:layout_marginLeft="2dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:src="@drawable/icon_comment_coupon"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/sendCouponAmountTv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_right_radius_white_solid_red_stroke"
+        android:gravity="center_vertical"
+        android:text="共发给作者0.86元"
+        android:textColor="@color/main_red"
+        android:textSize="12sp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"/>
+
+
+</LinearLayout>

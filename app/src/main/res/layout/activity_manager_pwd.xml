@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_setting_bg">
+
+    <include layout="@layout/layout_title"></include>
+
+    <LinearLayout
+        android:id="@+id/edit_old_pwd_lay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/old_pwd_img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/icon_old_pwd" />
+
+        <EditText
+            android:id="@+id/old_pwd_edt"
+            style="@style/login_edit_text_style"
+            android:clickable="false"
+            android:hint="@string/please_old_pwd"
+            android:inputType="numberDecimal"
+            android:maxLength="11" />
+
+    </LinearLayout>
+
+    <View
+        style="@style/cutHorizontalLine"></View>
+    <LinearLayout
+        android:id="@+id/set_check_num_lay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/set_check_num_img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/icon_pwd" />
+
+        <EditText
+            android:id="@+id/input_pwd_edt"
+            style="@style/login_edit_text_style"
+            android:clickable="false"
+            android:hint="@string/please_input_pwd"
+            android:inputType="numberDecimal"
+            android:maxLength="11" />
+
+    </LinearLayout>
+
+    <View
+        style="@style/cutHorizontalLine"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/icon_confirm_pwd" />
+
+        <EditText
+            android:id="@+id/confirm_pwd_edt"
+            style="@style/login_edit_text_style"
+            android:clickable="false"
+            android:hint="@string/please_confirm_pwd"
+            android:inputType="numberDecimal"
+            android:maxLength="11" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/confirm_bind_txt"
+        style="@style/forget_btn_style"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/selector_forget_pwd"
+        android:clickable="false"
+        android:text="@string/commit" />
+
+</LinearLayout>

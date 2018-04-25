@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/channel_item_lay"
+    android:background="@color/light_pink_gray"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/day_time_txt"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="right"
+        android:textSize="11sp"
+        android:textColor="@color/gray_text_color"
+        android:text="今天" />
+
+    <RelativeLayout
+        android:layout_width="31dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/verLine"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="#999"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/ivDot"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_gray_dot" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/hour_min_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textSize="12sp"
+        android:textColor="@color/gray_text_color"
+        android:layout_marginRight="10dp"
+        android:text="18:45" />
+
+    <TextView
+        android:id="@+id/context_txt"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textSize="12sp"
+        android:textColor="@color/gray_text_color"
+        android:text="小七解说............." />
+
+    <TextView
+        android:id="@+id/status_txt"
+        android:layout_width="65dp"
+        android:layout_height="25dp"
+        android:background="@drawable/shape_red_solid_bg"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/grey_550"
+        android:text="已结束" />
+</LinearLayout>
+
+
+
+

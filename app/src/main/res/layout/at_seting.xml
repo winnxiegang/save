@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title"></include>
+
+    <include layout="@layout/view_setting_clear_cache"></include>
+
+    <include layout="@layout/view_setting_check_update"></include>
+
+    <include layout="@layout/view_setting_about_app"></include>
+
+    <include layout="@layout/view_debug_update_layout"></include>
+
+    <include layout="@layout/view_setting_logout"></include>
+
+
+</LinearLayout>

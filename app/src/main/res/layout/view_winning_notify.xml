@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <com.android.xjq.view.expandtv.MarqueeTextView
+        android:id="@+id/marqueeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/icon_winning_notify_bg"
+        android:ellipsize="none"
+        android:gravity="center_vertical"
+        android:paddingLeft="65dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+    <!--android:ellipsize="marquee"-->
+    <!--android:focusable="true"-->
+    <!--android:focusableInTouchMode="true"-->
+
+    <com.android.banana.commlib.view.CountdownTextView
+        android:id="@+id/countdownTv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/icon_winning_countdown_bg"
+        android:gravity="center"
+        android:paddingLeft="80dp"
+        android:text="距离开奖还有:04:59"
+        android:textColor="#fff"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/matchThemeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <com.android.xjq.view.recyclerview.PKRecyclerView
+            android:id="@+id/pkRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            tools:listitem="@layout/list_item_pk_progressing" />
+
+        <ImageView
+            android:id="@+id/closePKIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="4dp"
+            android:src="@drawable/icon_coupon_close"
+            android:visibility="gone" />
+
+        <com.android.banana.commlib.view.PageIndicatorView
+            android:id="@+id/indicatorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <com.android.xjq.view.expandtv.VerticalScrollTextView
+        android:id="@+id/verticalTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FEE3E5"
+        android:visibility="gone"></com.android.xjq.view.expandtv.VerticalScrollTextView>
+</LinearLayout>

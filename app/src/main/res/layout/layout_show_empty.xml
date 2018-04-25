@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/emptyLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingTop="50dp"
+    android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/emptyIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_reply_empty" />
+
+    <TextView
+        android:id="@id/emptyTipTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂无回复" />
+</LinearLayout>

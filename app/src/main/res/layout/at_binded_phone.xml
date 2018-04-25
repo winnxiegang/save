@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:paddingTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/icon_change_phone"
+                android:layout_width="40dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="30dp"/>
+            <TextView
+                android:id="@+id/bindedPhoneTv"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/warnMessageTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:lineSpacingExtra="8dp"
+                android:padding="15dp"
+                android:textColor="#8A8A8A" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:id="@+id/changeBindTv"
+        android:background="@drawable/shape_all_red"
+        android:text="更换手机号"
+        android:layout_margin="@dimen/dp10"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+</LinearLayout>

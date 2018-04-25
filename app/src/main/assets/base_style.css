@@ -1,0 +1,387 @@
+@media screen and (min-width:240px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 9px;
+	}
+}
+@media screen and (min-width:320px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 12px;
+	}
+}
+@media screen and (min-width:374px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 14px;
+	}
+}
+@media screen and (min-width:400px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 15px;
+	}
+}
+@media screen and (min-width:413px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 15.5px;
+	}
+}
+@media screen and (min-width:426px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 16px;
+	}
+}
+@media screen and (min-width:450px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 18px;
+	}
+}
+@media screen and (min-width:480px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 18px;
+	}
+}
+@media screen and (min-width:540px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 20.25px;
+	}
+}
+@media screen and (min-width:590px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 22.13px;
+	}
+}
+@media screen and (min-width:600px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 22.5px;
+	}
+}
+@media screen and (min-width:640px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 24px;
+	}
+}
+@media screen and (min-width:720px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 27px;
+	}
+}
+@media screen and (min-width:800px) {
+	body,
+	button,
+	html,
+	input,
+	select,
+	textarea {
+		font-size: 30px;
+	}
+}
+a,
+body,
+div,
+h3,
+html,
+p,
+span,
+table,
+td,
+th,
+tr {
+	padding: 0;
+	margin: 0;
+}
+body {
+	padding: 0 .75rem;
+	color: #333;
+	font-size: 1.155rem;
+	line-height: 1.875rem;
+}
+a,
+p {
+	font-size: 1.155rem;
+	line-height: 1.875rem;
+}
+* {
+	word-wrap: break-word;
+	word-break: break-all;
+	text-decoration: none;
+	max-width: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+th {
+	font-weight: normal;
+}
+a[data-type="tag"][ data-tag="project"] {
+	display: block;
+	height: 4.5rem;
+	margin: .541667rem 0 .416667rem;
+}
+span[data-type="tag"][data-tag="race"] {
+	display: block;
+	height: 4.908333rem;
+	margin: .666667rem 0 1.041667rem;
+}
+.face {
+
+    height: 1.155rem;
+}
+.money {
+	position: relative;
+	margin: .541667rem 0 .416667rem;
+}
+.money .logo {
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	margin-top: -1.5rem;
+	height: 3rem;
+	width: 3rem;
+	text-align: center;
+}
+.money table {
+	color: #000;
+	font-size: .93913rem;
+	line-height: 2.25rem;
+	border-spacing: 1px;
+	padding-left: 1.5rem;
+	width: 100%;
+	box-sizing: border-box;
+}
+.money td {
+	text-align: center;
+	border: none;
+	background-color: #f8f8f8;
+}
+.money th {
+	background-color: #efefef;
+	color: #999;
+}
+.money .award {
+	position: relative;
+	color: #ec584e;
+}
+.money .award .copy {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: -100%;
+	background-color: #f8f8f8;
+}
+.money .award .copy-btn {
+	position: absolute;
+	top: .9rem;
+	bottom: .9rem;
+	left: 1rem;
+	right: 1rem;
+	display: block;
+	text-decoration: none;
+	line-height: 2.7rem;
+	text-align: center;
+	color: #fff;
+	background-color: #ec584e;
+	border-radius: 5px;
+}
+
+.money .award .ordercopy-btn {
+	background-color: #ff910e;
+}
+/* 比赛数据 */
+.match {
+	height: 4.349rem;
+	overflow: hidden;
+	/*border: 1px solid #f0f0f0;*/
+	color: #000;
+	margin: .75rem 0 1.041667rem;
+}
+.match[race_type="JCZQ"]{
+				background: url(file:///android_asset/icon_match_snap_jczq.png) no-repeat;
+				background-size: 100% 4.349rem;
+}
+.match[race_type="JCLQ"]{
+				background: url(file:///android_asset/icon_match_snap_jclq.png) no-repeat;
+				background-size: 100% 4.349rem;
+}
+.match h3 {
+	/*竞足 周日001 */
+	padding: .458333rem 0;
+	margin: 0 .541667rem;
+	font: .841667rem/1 normal;
+}
+.match[race_type="JCZQ"] h3{
+    color: #4d962e;
+}
+.match[race_type="JCLQ"] h3{
+    color: #be9760;
+}
+.match-info {
+	position: relative;
+	padding: 0 .75rem;
+	margin-bottom: .666667rem;
+}
+.match-info .home-team {
+	position: absolute;
+	left: .75rem;
+	top: 50%;
+	/*margin-top: -0.979167rem;*/
+}
+.match-info .away-team {
+	position: absolute;
+	right: .75rem;
+	top: 50%;
+	/*margin-top: -0.979167rem;*/
+}
+.home-team span {
+	float: left;
+}
+.away-team span {
+	float: right;
+	text-align: right;
+}
+.away-team span,
+.home-team span {
+	line-height: 1.958333rem;
+	font-size: .875rem;
+}
+.away-team img {
+	float: right;
+	height: 1.958333rem;
+	margin-left: .5rem;
+}
+.home-team img {
+	float: left;
+	height: 1.958333rem;
+	margin-right: .5rem;
+}
+.match-info .scores {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.match-info .scores-notstart {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	font-size: 1rem;
+}
+.match-info .score {
+	text-align: center;
+	font-size: 1rem;
+	padding-bottom: .25rem;
+	line-height: 1;
+}
+.match-info .half {
+	text-align: center;
+	font-size: .8rem;
+	color: #959595;
+	line-height: 1;
+}
+img {
+	max-width: 100%;
+}
+.money .award-strong {
+	color: #000;
+}
+a:link {
+	color: #448bdc;
+}
+/* 未访问的链接 */
+a:visited {
+	color: #448bdc;
+}
+/* 已访问的链接 */
+a:hover {
+	color: #448bdc;
+}
+/* 鼠标移动到链接上 */
+a:active {
+	color: #448bdc;
+}
+/* 选定的链接 */
+.clearfix:after,
+.clearfix:before {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+table {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+.icon-label {
+    height: 1.5rem;
+    vertical-align:middle;
+}

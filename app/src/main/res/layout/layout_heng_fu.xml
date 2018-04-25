@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/hengfuLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_double"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="张三送李4" />
+
+        <TextView
+            android:id="@+id/numberTv"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="" />
+
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <!--头部-->
+        <com.android.banana.commlib.view.MyTabLayout
+            android:id="@+id/giftTypeTab"
+            android:layout_width="match_parent"
+            style="@style/MyCustomTabLayout"
+            app:tabIndicatorHeight="2dp"
+            app:tabTextColor="@color/colorTextG4"
+            android:layout_height="35dp" />
+
+        <RadioGroup
+            android:id="@+id/payTypeRg"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="1dp">
+
+            <RadioButton
+                android:id="@+id/stampPayRb"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/selector_coin_pay_bg"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="礼金"
+                android:textColor="@color/color_selector_pay_tab"
+                android:textSize="13sp" />
+
+          <!--  <RadioButton
+                android:id="@+id/stampPayRb"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_gift_pay_bg"
+                android:button="@null"
+                android:gravity="center"
+                android:text="礼金"
+                android:textColor="@color/color_selector_pay_tab"
+                android:textSize="13sp" />-->
+
+            <RadioButton
+                android:id="@+id/bananaPayRb"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_banana_pay_bg"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/banana_pay"
+                android:textColor="@color/color_selector_pay_tab"
+                android:textSize="13sp" />
+        </RadioGroup>
+
+        <com.android.banana.commlib.view.CommonStatusLayout
+            android:id="@+id/statusLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/empty_content_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                app:srcCompat="@drawable/gift_empty_content" />
+
+            <GridView
+                android:id="@+id/gridView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:horizontalSpacing="16dp"
+                android:numColumns="4"
+                android:paddingBottom="5dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="5dp"
+                android:verticalSpacing="6dp"></GridView>
+
+        </com.android.banana.commlib.view.CommonStatusLayout>
+
+        <!--底部-->
+
+        <View style="@style/cutLine"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <CheckBox
+                    android:id="@+id/walletCb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/selector_wallet_rb"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableTop="@drawable/icon_dialog_wallet"
+                    android:enabled="false"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="6dp"
+                    android:text="钱包"
+                    android:textColor="@color/colorGray8"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/line_color"></View>
+
+                <CheckBox
+                    android:id="@+id/rechargeCb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:drawableTop="@drawable/icon_dialog_recharge"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="6dp"
+                    android:text="充值"
+                    android:textColor="@color/colorGray8"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/line_color"></View>
+
+            <RelativeLayout
+                android:id="@+id/giftNumLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.2"
+                android:background="@drawable/selector_press_gray"
+                android:paddingLeft="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/giftNumTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/giftTypeTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="触发连击"
+                        android:textColor="@color/colorGray8"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/icon_right_arrow_black" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/sendGiftBtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_red_btn"
+                android:enabled="false"
+                android:text="赠送"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:id="@+id/searchLayout"
+    android:background="@color/main_red1"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/shape_white_solid_oval"
+        android:layout_weight="1">
+        <EditText
+            android:id="@+id/searchEt"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:focusable="true"
+            android:imeOptions="actionSearch"
+            android:maxEms="15"
+            android:maxLength="15"
+            android:singleLine="true"
+            android:paddingLeft="10dp"
+            android:textSize="15sp" />
+        <ImageView
+            android:id="@+id/deleteTextIv"
+            android:visibility="gone"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="3dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_delete_history_data"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/searchTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/white"
+        android:text="搜索"/>
+
+</LinearLayout>
+

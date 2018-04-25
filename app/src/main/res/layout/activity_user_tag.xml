@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_tag_close"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:paddingLeft="@dimen/dp18"
+            android:paddingRight="@dimen/dp18"
+            android:scaleType="center"
+            android:src="@drawable/bg_cancel" />
+
+        <TextView
+            android:id="@+id/iv_tag_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:paddingLeft="@dimen/qav_bottombar_margin_for_ivr"
+            android:paddingRight="@dimen/qav_bottombar_margin_for_ivr"
+            android:text="@string/str_completed"
+            android:textColor="@color/colorGray6"
+            android:textSize="@dimen/h6" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_tag_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dp18"
+        android:text="您已选择(4):"
+        android:textColor="@color/colorGray6"
+        android:textSize="@dimen/h6" />
+
+    <com.android.xjq.view.FlowLayout
+        android:id="@+id/flowlayout_tag"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingBottom="9dp"
+        android:paddingLeft="@dimen/dp18"
+        android:paddingRight="@dimen/dp18"
+        android:paddingTop="9dp"
+        app:horizontalSpacing="8dp"
+        app:verticalSpacing="8dp"></com.android.xjq.view.FlowLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        android:background="#E7E8E9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F9FAFD"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="#F9FAFD"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/rg_tag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"></RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_right_line" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="13dp"
+                android:text="请选择你感兴趣的标签"
+                android:textColor="@color/black"
+                android:textSize="@dimen/h6" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview_tag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

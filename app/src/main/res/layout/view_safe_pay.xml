@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/safePayLayout"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@drawable/selector_comm">
+
+    <View
+        style="@style/cutHorizontalLineWithSpace"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"></View>
+
+    <ImageView
+        android:id="@+id/safePayIv"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/icon_pay_safe" />
+
+    <TextView
+        android:id="@+id/safePayTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/safePayIv"
+        android:text="支付安全"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/icon_right_arrow_gray" />
+</RelativeLayout>

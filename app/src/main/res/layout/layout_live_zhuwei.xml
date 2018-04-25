@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/live_video_height"
+        android:background="@drawable/icon_header_cheer_ft_bg">
+
+        <com.android.banana.groupchat.view.baselist.TopicRecyclerView3
+            android:id="@+id/topicRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:visibility="visible"
+            tools:listitem="@layout/item_cheer_betting_game_group1" />
+
+        <com.android.banana.commlib.view.PageIndicatorView
+            android:id="@+id/indicatorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="4dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/emptyTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableTop="@drawable/icon_empty_cheer"
+            android:gravity="center"
+            android:text="@string/empty_cheer"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.android.banana.commlib.view.CountdownTextView
+        android:id="@+id/luckyDrawTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_lucky_draw_notify_bg"
+        android:gravity="center_vertical|right"
+        android:paddingRight="6dp"
+        android:textColor="@color/white"
+        tools:text="抽奖进行中>" />
+
+    <com.android.banana.commlib.view.CountdownTextView
+        android:id="@+id/limitSpeedTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_limit_speed_notify_bg"
+        android:gravity="center_vertical|right"
+        android:paddingRight="6dp"
+        android:textColor="@color/white"
+        tools:text="29s后开始" />
+
+    <RelativeLayout
+        android:id="@id/couponLayout"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_gravity="right">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/coupon_anim" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape_coupon_count_bg"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:text=""
+            android:textColor="#Fff"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+</LinearLayout>

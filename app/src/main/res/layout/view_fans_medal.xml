@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fan_medal_relLay"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@drawable/selector_comm">
+
+    <View
+        style="@style/cutHorizontalLineWithSpace"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"></View>
+
+    <ImageView
+        android:id="@+id/fans_medal_img"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/icon_my_medal" />
+
+    <TextView
+        android:id="@+id/fans_medal_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/fans_medal_img"
+        android:text="@string/fans_medal"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/icon_right_arrow_gray" />
+</RelativeLayout>

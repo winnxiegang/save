@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/themeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/white"
+        tools:text="阿森纳这个点球进不进?" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/themeTv"
+        android:layout_marginBottom="2dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icon_pk_progressing_bg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <android.support.percent.PercentFrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/icon_red_pk_btn_bg" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/leftGiftIv"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="1.5dp"
+                            android:src="@drawable/icon_guest_default" />
+                    </FrameLayout>
+
+                    <com.android.banana.commlib.game.ShowPopListSelectorView
+                        android:id="@+id/leftNumSelectorView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:clickable="true" />
+
+                    <TextView
+                        android:id="@+id/leftPointTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="36dp"
+                        android:layout_marginTop="16dp"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        tools:text="进" />
+
+                    <TextView
+                        android:id="@+id/leftGiftNumTv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="34dp"
+                        android:background="@drawable/shape_rect_alpha_drak"
+                        android:paddingBottom="1dp"
+                        android:paddingLeft="6dp"
+                        android:paddingRight="3dp"
+                        android:paddingTop="1dp"
+                        android:textColor="@color/white"
+                        android:textSize="10sp"
+                        app:layout_widthPercent="55%"
+                        tools:text="送出多少个啤酒" />
+
+                    <com.android.xjq.view.PkPortraitLinearLayout
+                        android:id="@+id/leftPortraitLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="18dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="horizontal">
+
+                    </com.android.xjq.view.PkPortraitLinearLayout>
+
+                    <TextView
+                        android:id="@+id/leftJoinPeopleNumTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:text="254人已参与"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+                </android.support.percent.PercentFrameLayout>
+
+                <android.support.percent.PercentFrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/icon_blue_pk_btn_bg" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/rightGiftIv"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="1.5dp"
+                            android:src="@drawable/icon_guest_default" />
+                    </FrameLayout>
+
+                    <com.android.banana.commlib.game.ShowPopListSelectorView
+                        android:id="@+id/rightNumSelectorView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="70dp"
+                        app:background_color="blue" />
+
+                    <TextView
+                        android:id="@+id/rightPointTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="36dp"
+                        android:layout_marginTop="16dp"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        tools:text="不进" />
+
+                    <TextView
+                        android:id="@+id/rightGiftNumTv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="34dp"
+                        android:background="@drawable/shape_rect_alpha_drak"
+                        android:gravity="right"
+                        android:paddingBottom="1dp"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="6dp"
+                        android:paddingTop="1dp"
+                        android:textColor="@color/white"
+                        android:textSize="10sp"
+                        app:layout_widthPercent="55%"
+                        tools:text="送出多少个啤酒" />
+
+                    <com.android.xjq.view.PkPortraitLinearLayout
+                        android:id="@+id/rightPortraitLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="18dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="horizontal" />
+
+                    <TextView
+                        android:id="@+id/rightJoinPeopleNumTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:text="254人已参与"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+                </android.support.percent.PercentFrameLayout>
+
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icon_pk_img" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/shareIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="6dp"
+        android:padding="4dp"
+        android:src="@drawable/icon_share_no_bg" />
+</RelativeLayout>

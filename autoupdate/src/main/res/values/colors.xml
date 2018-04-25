@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_red">#EC4432</color>
+    <color name="red_progress">#f44336</color>
+</resources>

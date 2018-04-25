@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|bottom"
+    android:layout_height="60dp">
+    <RelativeLayout
+        android:visibility="visible"
+        android:layout_width="100dp"
+        android:layout_height="30dp">
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:visibility="visible"
+            android:id="@+id/flyLeftTv"
+            android:layout_marginLeft="@dimen/dp5"
+            android:gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_marginRight="@dimen/dp5"
+            android:layout_alignParentRight="true"
+            android:visibility="visible"
+            android:gravity="bottom"
+            android:id="@+id/flyRightTv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/addWaterBtn"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rocket_fire"
+        android:gravity="center"
+        android:text="浇水"
+        android:textColor="@color/white" />
+</LinearLayout>

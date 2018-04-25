@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/headerIv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_send_rocket_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="12dp">
+
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:text="发送火箭"
+            android:textColor="@color/main_text_color"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/descTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="本直播间为您的火箭点火"
+            android:textColor="@color/light_text_color"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/portraitIv"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/user_default_logo" />
+
+            <com.android.banana.commlib.view.expandtv.NumLimitEditText
+                android:id="@+id/descEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:background="@null"
+                android:hint="@string/play_gift_hint_text"
+                android:imeOptions="flagNoExtractUi"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="@color/colorTextG4"
+                android:textColorHint="@color/colorTextG2"
+                android:textSize="14sp"
+                app:maxLength="10" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/shape_gray_rect_radius"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/giftTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/colorTextG4"
+                    android:textSize="12sp"
+                    tools:text="火箭" />
+
+                <TextView
+                    android:id="@+id/giftValueTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@+id/giftTv"
+                    android:drawableRight="@drawable/icon_silver_banana_coin"
+                    android:textColor="@color/colorTextG2"
+                    android:textSize="12sp"
+                    tools:text="500" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/giftIv"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/user_default_logo" />
+
+
+            <TextView
+                android:id="@+id/confirmBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/selector_yellow_gradient_btn"
+                android:gravity="center"
+                android:minEms="5"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="发送"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

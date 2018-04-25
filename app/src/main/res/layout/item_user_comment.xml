@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_comment_top" />
+
+        <include layout="@layout/layout_comment_footer" />
+
+        <View
+            android:id="@+id/cutLine"
+            style="@style/cutLine"
+            android:layout_marginTop="5dp" />
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_show_empty" />
+
+</LinearLayout>

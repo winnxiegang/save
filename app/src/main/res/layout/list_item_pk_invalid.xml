@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/themeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/white"
+        tools:text="阿森纳这个点球进不进?" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <android.support.percent.PercentFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icon_pk_invalid_bg" />
+
+            <TextView
+                android:id="@+id/leftGiftNumTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_rect_alpha_drak"
+                android:paddingLeft="6dp"
+                android:paddingRight="3dp"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                tools:text="共送出多少个啤酒" />
+
+
+            <TextView
+                android:id="@+id/rightTotalGiftNumTv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/shape_rect_alpha_drak"
+                android:gravity="right"
+                android:paddingLeft="6dp"
+                android:paddingRight="3dp"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                app:layout_widthPercent="35%"
+                tools:text="共送出多少个啤酒" />
+
+
+            <TextView
+                android:id="@+id/leftPointTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="22dp"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                tools:text="不进" />
+
+
+            <TextView
+                android:id="@+id/rightPointTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                tools:text="不进" />
+
+            <TextView
+                android:id="@+id/rightGiftNumTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_rect_alpha_drak"
+                android:paddingLeft="6dp"
+                android:paddingRight="3dp"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                tools:text="共送出多少个啤酒" />
+
+            <TextView
+                android:id="@+id/leftTotalGiftNumTv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/shape_rect_alpha_drak"
+                android:paddingLeft="6dp"
+                android:paddingRight="3dp"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                app:layout_widthPercent="35%"
+                tools:text="共送出多少个啤酒" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="14dp"
+                android:text="好糟糕,无效了呢~"
+                android:textColor="@color/white"></TextView>
+
+        </android.support.percent.PercentFrameLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icon_pk_invalid_img" />
+    </FrameLayout>
+</LinearLayout>

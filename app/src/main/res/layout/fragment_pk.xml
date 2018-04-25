@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.banana.commlib.view.swipyrefreshlayout.SwipyRefreshLayout
+        android:id="@+id/pk_swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/pk_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10dp"
+            android:fadingEdge="none"
+            android:paddingTop="8dp"
+            android:visibility="visible" />
+
+    </com.android.banana.commlib.view.swipyrefreshlayout.SwipyRefreshLayout>
+
+</LinearLayout>

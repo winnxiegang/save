@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title"></include>
+
+
+    <LinearLayout
+        android:id="@+id/input_phone_num_lay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/phoneIv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/selector_edit_phone" />
+
+        <EditText
+            android:id="@+id/phone_num_edt"
+            style="@style/login_edit_text_style"
+            android:clickable="false"
+            android:hint="请输入手机号"
+            android:inputType="numberDecimal"
+            android:maxLength="11" />
+
+    </LinearLayout>
+
+    <View
+        style="@style/cutLine"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <LinearLayout
+        android:id="@+id/check_num_lay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/smsIv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/selector_edit_sms" />
+
+        <EditText
+            android:id="@+id/checkEdt"
+            style="@style/login_edit_text_style"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="10.27"
+            android:hint="请输入验证码"
+            android:inputType="numberDecimal" />
+
+
+        <com.android.banana.commlib.view.CountdownTextView
+            android:id="@+id/get_check_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/selector_sms_bg"
+            android:gravity="center"
+            android:minEms="6"
+            android:padding="10dp"
+            android:text="获取验证码"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <View
+        style="@style/cutLine"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="120dp" />
+
+    <TextView
+        android:id="@+id/next_txt"
+        style="@style/forget_btn_style"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/selector_forget_pwd"
+        android:clickable="false"
+        android:text="下一步" />
+
+</LinearLayout>

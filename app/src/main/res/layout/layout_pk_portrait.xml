@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/portraitIv"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/user_default_logo" />
+
+        <TextView
+            android:id="@+id/tagTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_rect_orange"
+            android:text="大神"
+            android:textColor="#F9EB04"
+            android:textSize="6sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/userNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:singleLine="true"
+        android:maxLength="8"
+        android:textColor="@color/colorTextG2"
+        tools:text="很长的名字"/>
+</LinearLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/portraitLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <!--<include layout="@layout/view_portrait_live_state"></include>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <include layout="@layout/view_live_header_info_layout"></include>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/closeIv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:src="@drawable/icon_live_close"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/audioPlayLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/live_video_height"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/audioPlayBgIv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/audioPlayIv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="80dp"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/portraitIv"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="音频直播中,更省流量"
+                    android:textColor="#61676F" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/floatLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/live_video_height"
+                android:paddingBottom="6dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="6dp"
+                android:visibility="invisible">
+
+                <RelativeLayout
+                    android:id="@+id/functionView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="6dp"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:id="@+id/shareIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/closeVideoIv"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="8dp"
+                        android:src="@drawable/icon_share"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/closeVideoIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/scaleIv"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/selector_live_close_video"
+                        android:button="@null"
+                        android:checked="true"
+                        android:enabled="false" />
+
+
+                    <ImageView
+                        android:id="@+id/scaleIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="8dp"
+                        android:src="@drawable/selectpr_live_scale" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/shape_black_alpha_solid_all_radius"
+                        android:orientation="horizontal"
+                        android:padding="6dp">
+
+                        <include
+                            layout="@layout/layout_live_people_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/live_tab_height"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/live_tab_height"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    app:tabIndicatorColor="@color/colorRed"
+                    app:tabSelectedTextColor="@color/colorRed" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#ffe6e6"
+                    android:gravity="center"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:text="关注\n14914"
+                    android:textColor="@color/main_red"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <View style="@style/cutLine" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <View style="@style/cutLine" />
+
+        </LinearLayout>
+
+        <include layout="@layout/layout_record_view"></include>
+
+
+        <com.android.banana.commlib.view.pk.PKProgressView
+            android:id="@+id/pk_progress_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="180dp"
+            android:focusable="true"
+            android:visibility="gone" />
+    </FrameLayout>
+
+
+</LinearLayout>

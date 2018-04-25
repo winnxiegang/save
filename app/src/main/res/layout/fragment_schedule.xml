@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray2"
+    android:orientation="vertical"
+    tools:context="com.android.xjq.fragment.MatchScheduleFragment">
+
+    <include layout="@layout/layout_match_filter_title"></include>
+
+    <com.android.xjq.view.indicate.ViewPagerIndicator
+        android:id="@+id/vpi"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/main_red"
+        android:orientation="horizontal"
+        app:item_count="3" />
+
+    <com.android.xjq.view.indicate.TimeTabLayout2
+        android:id="@+id/timeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:gravity="center" />
+
+    <View style="@style/cutHorizontalLine"></View>
+
+    <com.android.banana.commlib.view.CommonStatusLayout
+        android:id="@+id/statusLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/emptyLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_marginTop="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blank_content_bg" />
+
+            <TextView
+                android:id="@+id/emptyTipTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="暂无赛程"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorTextG3"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </com.android.banana.commlib.view.CommonStatusLayout>
+</LinearLayout>

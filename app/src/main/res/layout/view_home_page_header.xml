@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/headLayout"
+    android:layout_width="match_parent"
+    android:layout_height="160dp">
+
+    <TextView
+        android:id="@+id/guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/ic_tab_me_guide"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingLeft="10dp"
+        android:text="玩法引导"
+        android:textColor="@color/white"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/guide"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/portraitIv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="16dp"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/white"
+                android:src="@drawable/user_default_logo" />
+
+        <LinearLayout
+            android:id="@+id/userInfoLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/userNameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxEms="10"
+                android:singleLine="true"
+                android:text="qiaomu"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/attentionTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:text="关注150 |  粉丝250"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+            <com.android.banana.commlib.view.MedalLayout
+                android:id="@+id/medal_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp">
+
+            </com.android.banana.commlib.view.MedalLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/changeAccountTv"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="14dp"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/icon_right_white_arrow"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="6dp"
+            android:text="个人信息"
+            android:textColor="#ffb8b8b8"
+            android:textSize="@dimen/sp12" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

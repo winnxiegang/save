@@ -1,0 +1,397 @@
+<resources>
+    <string name="app_name">香蕉球</string>
+
+    <string name="home_fragment">首页</string>
+    <string name="live">节目单</string>
+    <string name="publish"></string>
+    <string name="match_schedule">赛程</string>
+    <string name="me">我的</string>
+    <string name="my_zhuwei">我的助威</string>
+    <string name="zhuwei_detail">助威详情</string>
+
+    <string name="home_recommend">推荐</string>
+    <string name="home_jcdx">竞猜大学</string>
+    <string name="home_st">伤停</string>
+    <string name="home_news">资讯活动</string>
+
+    <!-- login re fragment-->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="tencent_tls_ui_independentLoginTitle">用户名登录</string>
+    <string name="tencent_tls_ui_independentRegisterTitle">用户名注册</string>
+    <string name="title_living">是否回到上次直播</string>
+    <string name="action_settings">settings</string>
+    <string name="startDate">开始日期</string>
+    <string name="endDate">结束日期</string>
+
+    <string name="btn_take_photo">拍照</string>
+    <string name="btn_pic_photo">从手机相册选择</string>
+    <string name="btn_return_home">返回首页</string>
+    <string name="btn_return">返回</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_refuse">拒绝</string>
+    <string name="btn_agree">同意</string>
+    <string name="btn_sure">确定</string>
+    <string name="btn_close">关闭</string>
+
+
+    <string name="error_code_prefix">错误码：</string>
+
+
+    <!-- live fragment-->
+    <string name="live_unknown">未知</string>
+    <string name="live_titile">最新直播</string>
+    <string name="dialog_members_tips">邀请互动连线（最多可与三个成员进行互动直播）</string>
+
+
+    <!-- live play -->
+    <string name="send">发送</string>
+    <string name="invite_dialog_tips">主播邀请您与他进行互动直播</string>
+    <string name="live_end_ask_tips">确定结束直播?</string>
+    <string name="live_end_tips">直播结束啦</string>
+    <string name="live_time_tips">直播时长</string>
+    <string name="live_members_tips">观看人数</string>
+    <string name="live_admires_tips">获赞数量</string>
+
+    <string name="live_report_tips">请选择您的举报原因</string>
+    <string name="live_report_dirty">垃圾营销</string>
+    <string name="live_report_false">不实信息</string>
+    <string name="live_report_virus">有害信息</string>
+    <string name="live_report_illegal">违法信息</string>
+    <string name="live_report_yellow">淫秽信息</string>
+
+    <string name="live_host_leave">主播可能暂时离开</string>
+
+    <string name="live_btn_par">par</string>
+    <string name="live_btn_record">录制</string>
+    <string name="live_btn_push">开启推流</string>
+    <string name="live_btn_stop_push">关闭推流</string>
+    <string name="live_btn_stop_record">停录</string>
+
+    <!-- pushstream -->
+    <string name="clip_title">点击地址复制到黏贴版</string>
+    <string name="clip_tip">地址复制到黏贴版上了</string>
+
+    <!-- msgadapter -->
+    <item name="tag_first" type="id"></item>
+    <item name="tag_second" type="id"></item>
+
+
+    <!-- profile fragment-->
+    <string name="profile_title">编辑个人信息</string>
+    <string name="profile_icon">头像</string>
+    <string name="profile_nickname">昵称</string>
+    <string name="profile_sign">签名</string>
+    <string name="profile_set">设置</string>
+
+    <string name="profile_about">关于随心播</string>
+    <string name="btn_login_out">退出登录</string>
+    <string name="tip_force_offline">您的帐号已在其它地方登陆</string>
+
+    <!-- set -->
+    <string name="set_live_animator">渐隐动画</string>
+    <string name="set_log_level">日志等级</string>
+    <string name="set_sdk_version">SDK版本</string>
+
+    <!-- edit -->
+    <string name="edit_error">修改失败</string>
+
+
+    <!-- fragment publish -->
+    <string name="publish_already_launch_avRoom">wait!</string>
+    <string name="publish_photo_take">拍照</string>
+    <string name="publish_photo_album">相册</string>
+    <string name="publish_need_photo_tips">从未发起过图片，请选择一张作为直播封面</string>
+    <string name="publish_wait_uploading">请等待封面上传完成</string>
+    <string name="publish_upload_success">上传封面成功</string>
+    <string name="publish_photo_make_sure_tips">请添加一张照片</string>
+    <string name="publish_photo_make_sure_title">请输入图片标题</string>
+    <string name="publish_create_room_failed">创建房间失败</string>
+    <string name="publish_upload_cover_failed">上传封面失败</string>
+    <string name="publish_photo_success">发布图片成功</string>
+    <string name="text_continue">继续</string>
+    <string name="text_publish">开始直播</string>
+    <string name="text_live_preview">发布直播</string>
+    <string name="text_photo_preview">发布照片</string>
+    <string name="text_live_title_input">请输入直播标题</string>
+    <string name="text_photo_title_input">你的照片你做主</string>
+    <string name="text_live_open_lbs">开启位置</string>
+    <string name="text_live_close_lbs">不显示位置</string>
+    <string name="text_live_location">正在定位中</string>
+    <string name="text_live_lbs_fail">定位失败</string>
+    <string name="text_live_lbs_unknown">未知</string>
+    <string name="text_live_default_title">我的直播我做主</string>
+    <string name="text_start_push">开启推流</string>
+    <string name="text_record_info">开始录制后直播视频自动录制，并可以进行回放</string>
+    <string name="text_live_all_see">所有人可看</string>
+    <string name="text_live_share">同步到</string>
+    <string name="text_live">正在直播>></string>
+    <string name="text_live_add_title_tips">给你的直播设置一个满意的封面</string>
+    <string name="text_live_admire_limit">点赞过于频繁</string>
+    <string name="tip_no_permission">权限不足</string>
+
+    <string name="host_sign">我的签名就是把我的世界直播给你们</string>
+    <string name="host_phone">iPhone6S Plus</string>
+    <string name="host_funs">粉丝数:9090</string>
+    <string name="host_follow">关注:7089</string>
+    <string name="host_admire">赞:11.3w</string>
+
+
+    <string name="ping_ing">测速中</string>
+    <string name="ping_progress">测速进度</string>
+    <string name="ping_speed_test">网络测速</string>
+    <string name="ping_start">开始测速</string>
+    <string name="ping_no_server">获取测速列表失败，请稍后重试</string>
+    <string name="ping_time">平均时延</string>
+    <string name="ping_miss">丢包率</string>
+    <string name="ping_cancel">取消</string>
+    <string name="ping_TEL">电信</string>
+    <string name="ping_CMCC">移动</string>
+    <string name="ping_CNC">联通</string>
+    <string name="ping_SH">上海</string>
+    <string name="ping_SZ">深圳</string>
+    <string name="ping_CD">成都</string>
+    <string name="ping_TJ">天津</string>
+    <string name="ping_NJ">南京</string>
+    <string name="ping_HZ">杭州</string>
+    <string name="ping_GZ">广州</string>
+    <string name="str_record">录制</string>
+    <string name="str_loading_record">正在努力获取录制视频列表。。。</string>
+    <string name="str_rec_nobody">未知</string>
+    <string name="have_login_in_other">你的账号已在其他地方登录</string>
+    <string name="have_open_room_in_other">你已在其他地方打开房间</string>
+    <string name="user_kick_out_from_channel">您已被踢出房间</string>
+    <string name="recharge_remain_money">  : %1$s</string>
+    <string name="recharge_give_gold">赠送%1$s金币</string>
+    <string name="recharge_money">立即支付%1$s元</string>
+    <string name="need_install_WX">手机未安装微信</string>
+    <string name="WX_version_not_support">微信版本不支持支付</string>
+    <string name="cancel_recharge">您已取消支付</string>
+
+    <string name="gold_coin">金锭</string>
+
+    <string name="gold_exchange_rate">"兑换比例为:1火红币=%1$s金币"</string>
+    <string name="coupon_expire_desc">"未领取的红包,将于%1$s小时之后返回于您的账户"</string>
+    <string name="coupon_min_money_reminder">"最少为%1$s金币"</string>
+    <string name="toast_least_phone_number">手机号最少为11个数字</string>
+    <string name="toast_find_phonenumer_error">找回密码失败</string>
+    <string name="toast_input_checknum">您还未填写验证码</string>
+    <string name="toast_input_phonenum">您还未填写手机号码</string>
+    <string name="toast_new_pwd_not_null">新密码不能为空</string>
+    <string name="toast_confirm_pwd_not_null">确认密码不能为空</string>
+    <string name="toast_confirm_pwd">新旧密码不一致</string>
+    <string name="toast_reget_checknum">短信验证码输错次数太多，请重新获取验证码</string>
+    <string name="toast_least_pwd">密码最少为6个字符</string>
+    <string name="toast_max_pwd">密码最多为32个字符</string>
+    <string name="toast_match_pwd_rule">密码只支持字母、数字和特殊字符（仅限!@#$%^\&amp;*()）</string>
+    <string name="fans_medal">我的勋章</string>
+    <string name="host_name">主播:%1$s</string>
+    <string name="fans_medal_min_gold">单次送礼超过%1$s香蕉币或者%2$s金币/礼金</string>
+    <string name="guest_of_honor">贵宾席</string>
+    <string name="fan_list">粉丝榜</string>
+    <string name="none_hornered">无人上榜</string>
+    <string name="host_has_not_open_medal">主播尚未开通粉丝勋章</string>
+    <string name="fans_medal_award_over_max_num">您的勋章已挂满,如果需要获得新勋章,\n请先删除已有勋章</string>
+    <string name="logining">正在登录...</string>
+    <string name="loading">正在加载...</string>
+    <string name="other_login_way">其他登录方式</string>
+    <string name="title_my_account">我的账户</string>
+    <string name="my_info">我的资料</string>
+    <string name="bind_phone_get_check_code">获取验证码</string>
+    <string name="bind_phone">绑定手机号</string>
+    <string name="edit_group_card">编辑群名片</string>
+    <string name="pwd_manager">密码管理</string>
+    <string name="real_confirm">实名认证</string>
+    <string name="home_pager">我的主页</string>
+    <string name="home_pager_ta">TA的主页</string>
+    <string name="not_bind">未绑定</string>
+    <string name="set_phone_num">设置手机号</string>
+    <string name="edit_phone_num">换绑手机号</string>
+    <string name="set_pwd">设置密码</string>
+    <string name="current_bind_phone_num">已绑定手机号:</string>
+    <string name="please_input_phone_num_again">请再次输入手机号</string>
+    <string name="please_input_need_bind">请输入新的手机号</string>
+    <string name="confirm_bind">确认绑定</string>
+    <string name="bind_success">绑定成功</string>
+    <string name="please_input_pwd">请输入密码</string>
+    <string name="please_confirm_pwd">请确认密码</string>
+    <string name="please_input_phone_num">请输入手机号</string>
+    <string name="commit">提交</string>
+    <string name="please_old_pwd">请输入原密码</string>
+    <string name="nick_name_suggest_one"><font color="#807c7c">建议填写自己喜欢的昵称</font>，<font color="#e43637">此昵称不可随意更改</font></string>
+    <string name="please_input_nick_name">请输入昵称</string>
+    <string name="nick_name_suggest_two"><font color="#807c7c">完成绑定后，可微信账号</font>，<font color="#e43637">一键登录哦</font></string>
+    <string name="info">*温馨提示:</string>
+    <string name="please_input_real_info">真实姓名与身份证号码是您提现时的重要依据，请务必填写真实信息。</string>
+    <string name="real_name">真实姓名</string>
+    <string name="id_card_num">身份证号</string>
+    <string name="please_input_name">认证后不可更改</string>
+    <string name="please_input_id_card_num">认证后不可更改</string>
+    <string name="help_strong">助威</string>
+    <string name="match_finish_info">当前赛事所有助威已结束</string>
+    <string name="all_match_finish_info_wait">所有助威结束，请等待派奖</string>
+    <string name="init_password_success">初始化支付密码成功</string>
+    <string name="change_password_success">修改支付密码成功</string>
+    <string name="reset_password_success">重置支付密码成功</string>
+
+    <string name="role_nickname">角色昵称:%1$s</string>
+    <string name="expand_more">展开更多</string>
+    <string name="pack_up">收起</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_code">xjq</string>
+    <string name="no_recharge_channel">暂无充值通道</string>
+    <string name="no_live">暂无直播</string>
+
+
+    <string name="notify">通知</string>
+    <string name="atMe">\@我的</string>
+
+    <string name="recommd">回复</string>
+    <string name="support">支持</string>
+
+    <string name="banana_pay">香蕉币</string>
+    <string name="elite">精华</string>
+    <string name="all">全部</string>
+    <string name="article_photo_size">共%d张</string>
+    <string name="comment_off_tip">由于本主题已关闭回复功能，您无法进行回复</string>
+    <!--通知、消息相关-->
+    <string name="defaultShowMessage">暂不支持该内容的显示,请到网站上查看</string>
+    <string name="deleteCommentMessage">抱歉,该内容已删除</string>
+    <string name="deleteSubjectMessage">抱歉,该话题已被删除</string>
+    <string name="user_predict_already_tip">您已发表过预测，确定发表普通评论么？</string>
+    <string name="user_predict_race_stop_sell">比赛已截止投注，无法发表含预测项的评，确定发表普通评论吗？</string>
+    <string name="tab_me_item_1">群</string>
+    <string name="tab_me_item_2">玩法记录</string>
+    <string name="tab_me_item_3">我的战袍</string>
+    <string name="tab_me_item_4">领域称号</string>
+    <string name="tab_me_item_5">我的勋章</string>
+    <string name="tab_me_item_6">商城</string>
+    <string name="tab_me_item_7">收货地址</string>
+    <string name="tab_me_item_8">支付安全</string>
+    <string name="tab_me_item_9">设置</string>
+    <string name="user_name">用户名</string>
+    <string name="my_account">我的账户</string>
+    <string name="title_fans">粉丝</string>
+    <string name="title_attention">关注</string>
+    <string name="title_edit_group_postcard">编辑群名片</string>
+    <string name="title_edit_address">地址管理</string>
+    <string name="title_edit_address_add">填写收货地址</string>
+    <string name="title_detail_address">详细地址，街道、门牌号等</string>
+    <string name="modify_post_card_nick_success">群名片修改成功</string>
+    <string name="my_attention">我的关注</string>
+    <string name="my_suggestion">推荐</string>
+
+    <string name="fans_number">粉丝%1$s</string>
+    <string name="focus_number">关注%1$s</string>
+
+    <string name="focus_and_fans_number">关注 %1$s | 粉丝 %2$s</string>
+
+
+    <string name="cancel_focus">取消关注</string>
+
+    <string name="leave_tip">现在离开,输入的内容将不被保存,还要继续离开吗?</string>
+    <string name="write_subject_hint">没事说两句...</string>
+    <string name="write_subject_speak_title">写说说</string>
+    <string name="write_subject_reply">回复</string>
+    <string name="write_subject_coloum_title">写专栏</string>
+    <string name="write_subject_content_limit_min">内容最少输入%1$d个字</string>
+    <string name="write_subject_content_limit_max">内容最多输入%1$d个字</string>
+    <string name="group_zone_title">群空间</string>
+    <string name="jczq_race">足球赛事</string>
+    <string name="jclq_race">篮球赛事</string>
+    <string name="select_match_title">选择赛事</string>
+    <string name="match_select_max_limit">选择的比赛数已达上限</string>
+    <string name="str_completed">完成</string>
+    <string name="match_select_completed">完成(%d)</string>
+    <string name="select_match_tip">选择赛事</string>
+    <string name="avart_modify_success">头像修改成功</string>
+
+    <string name="gift_text">礼物</string>
+    <string name="play_type_text">玩法</string>
+    <string name="package_text">包裹</string>
+
+    <string name="current_pk">当前PK</string>
+    <string name="pk_record">PK记录</string>
+    <string name="cancel_forbidden">取消禁言</string>
+    <string name="forbidden">禁言</string>
+    <string name="remove_out_group">移除本群</string>
+    <string name="remove_group_chat_member_success">成功将此人移除本群</string>
+    <string name="cancel_forbidden_success">取消禁言成功</string>
+
+    <string name="pk_multiple">送出%1$s个%2$s</string>
+    <string name="pk_total_multiple">共送出%1$s个%2$s</string>
+    <string name="pk_multiple_invalid">我退回%1$s个%2$s</string>
+    <string name="pk_total_multiple_invalid">退回%1$s个%2$s</string>
+    <string name="pk_total_join_num">%1$s人已参与</string>
+
+    <string name="transform_title">分享</string>
+    <string name="transform_publish">发表</string>
+    <string name="transform_success">转发成功</string>
+    <string name="share_group_title">请选择一个群聊</string>
+    <string name="share_group_title_zone">请选择一个群空间</string>
+    <string name="share_group_no_data_tip">您暂未添加群聊,快去添加吧!</string>
+    <string name="share_group_no_data_retry">好气噢~,加载失败了,点击重试!</string>
+    <string name="share_group_loading">正在加载群聊...</string>
+    <string name="share_transform_ing">正在分享...</string>
+    <string name="str_share">分享</string>
+    <string name="str_share_success">分享成功</string>
+    <string name="str_share_failed">分享失败</string>
+    <string name="address_user">收货人</string>
+    <string name="address_mobile_phone">手机号码</string>
+    <string name="address_province">省、市、区</string>
+    <string name="address_title_province">--省--</string>
+    <string name="address_title_city">--市--</string>
+    <string name="address_title_county">--区--</string>
+    <string name="address_title_town">--镇--</string>
+    <string name="address_address_detail">详细地址</string>
+    <string name="address_save">保存</string>
+    <string name="add_address">填写收货地址</string>
+
+    <string name="publish_video_memo">录制成功,点击发布保存到个人主页并上墙</string>
+    <string name="preview_video">预览</string>
+    <string name="trim_video">截取视频</string>
+
+    <string name="play_gift_hint_text">设置广播如\"主播最帅\"</string>
+
+
+    <string name="purchase_list_title">投注人员</string>
+    <string name="purchase_gift_num">已投入%1$s个礼物</string>
+    <string name="fans_follow_empty">你还没有粉丝哦~</string>
+    <string name="live_wall_empty">上墙暂无</string>
+    <string name="live_attitude_empty">态度暂无</string>
+
+    <string name="live_pk_empty">暂无PK</string>
+    <string name="live_cheer_empty">暂无助威</string>
+
+    <string name="total_num">共%1$s个</string>
+    <string name="self_send_gift_num">我已送出%1$s个</string>
+    <string name="activity_count_down">%1$s秒后开始</string>
+    <string name="prized_show">恭喜!%1$s抢到%2$s  %3$s次</string>
+
+    <string name="str_make_sure">确定</string>
+
+    <string name="the_treasure">宝箱</string>
+    <string name="the_props">道具</string>
+    <string name="gift_gold">礼金</string>
+    <string name="banana_coin">香蕉币</string>
+
+    <string name="prized_join_people_num">已参与人数:%1$s</string>
+    <string name="package_empty_tip">包裹空空如也</string>
+
+    <string name="live_send_rocket_default_txt">火箭升空，倒计时!</string>
+    <string name="live_send_imperial_default_txt">快来接旨抢红包!</string>
+    <string name="select_group_first">请先选择一个群聊</string>
+    <string name="select_group_zone_first">请先选择一个群空间</string>
+    <string name="cancel_publish">是否取消上传</string>
+    <string name="subject_title_limit">专栏标题不能为空,长度大于%1$d且在%2$d字以内</string>
+    <string name="sorry_subject_source_deleted">抱歉,该内容以被删除</string>
+
+    <string name="celebrity_empty">尚且无人上榜,快给自己喜欢的球队助威吧</string>
+    <string name="cheer_title">助威</string>
+
+    <!--兴趣-->
+    <string name="selected_count">您已选择(%1$d):</string>
+</resources>
+

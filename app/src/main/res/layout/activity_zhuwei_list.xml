@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:background="@color/main_bg"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/widget_toolbar_40dp"></include>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/viewNodata"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingTop="55dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_no_content_about_match_schedule_detail"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="暂无助威记录"/>
+        </LinearLayout>
+        <com.android.banana.commlib.view.swipyrefreshlayout.SwipyRefreshLayout
+            android:id="@+id/refreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.android.xjq.activity.myzhuwei.widget.MyZhuweiListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#f1f1f1"
+                android:dividerHeight="10dp">
+
+            </com.android.xjq.activity.myzhuwei.widget.MyZhuweiListView>
+
+        </com.android.banana.commlib.view.swipyrefreshlayout.SwipyRefreshLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

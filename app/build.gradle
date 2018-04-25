@@ -1,0 +1,109 @@
+apply plugin: 'com.android.application'
+
+
+def configInfo = rootProject.ext.android
+def hhsConfig = rootProject.ext.hhsConfig
+
+
+android {
+    compileSdkVersion configInfo.compileSdkVersion
+    buildToolsVersion configInfo.buildToolsVersion
+    defaultConfig {
+        applicationId "com.android.xjq"
+        minSdkVersion configInfo.minSdkVersion
+        targetSdkVersion configInfo.targetSdkVersion
+        versionCode hhsConfig.versionCode
+        versionName hhsConfig.versionName
+
+        multiDexEnabled true
+        ndk {
+            abiFilters 'armeabi-v7a', 'x86'
+        }
+    }
+
+
+    signingConfigs {
+        releaseConfig {
+            storeFile file('../发布文件/xjq.jks')
+            storePassword 'huored_xjq'
+            keyAlias 'xjq'
+            keyPassword 'huored_xjq'
+        }
+    }
+
+    buildTypes {
+        debug {
+
+            // 进行混淆
+            minifyEnabled false
+            // 进行压缩优化
+            zipAlignEnabled true
+            // 进行资源优化，移除无用的resource文件
+            shrinkResources false
+            // 使用的签名信息
+            signingConfig signingConfigs.releaseConfig
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            // 正式版不显示log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            // 进行混淆
+            minifyEnabled true
+            // 进行压缩优化
+            zipAlignEnabled true
+            // 进行资源优化，移除无用的resource文件
+            shrinkResources false
+            // 使用的签名信息
+            signingConfig signingConfigs.releaseConfig
+            applicationVariants.all {
+                variant ->
+                    variant.outputs.each { output ->
+                        if (output.outputFile != null && output.outputFile.name.endsWith('.apk')
+                                && 'release'.equals(variant.buildType.name)) {
+                            //开始输出,自定义输出路径
+                            output.outputFile = new File(hhsConfig.appOutputDir + "app-release.apk")
+                        }
+                    }
+            }
+        }
+
+        dexOptions {
+            preDexLibraries false
+            javaMaxHeapSize "4g"
+        }
+
+    }
+
+    // 多渠道
+    productFlavors {
+        minglin {}
+
+        productFlavors.all { flavor ->
+            flavor.manifestPlaceholders = [CHANNEL_VALUE: name]
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':refresh_library')
+    compile project(':downloadmanagerlib')
+    compile project(':autoupdate')
+    compile project(':sharelib')
+    compile project(':groupchat')
+    compile project(':lotterylib')
+    compile project(':photoPickerlib')
+    compile project(':sdk_jijuxie')
+
+    /*弹幕*/
+    compile 'com.github.ctiao:DanmakuFlameMaster:0.7.1'
+    compile 'com.github.ctiao:ndkbitmap-armv7a:0.7.1'
+    /* butterknife注解*/
+    compile 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+
+    /*录屏、视频编辑*/
+    compile files('libs/pldroid-shortvideo-1.7.0.jar')
+}

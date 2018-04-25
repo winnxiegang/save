@@ -1,0 +1,216 @@
+package com.android.xjq.adapter.main;
+
+import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.net.Uri;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.SpannableStringBuilder;
+import android.text.style.ImageSpan;
+import android.view.Gravity;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+
+import com.android.xjq.R;
+import com.android.library.Utils.LibAppUtil;
+import com.facebook.drawee.backends.pipeline.Fresco;
+import com.facebook.drawee.interfaces.DraweeController;
+import com.facebook.drawee.view.SimpleDraweeView;
+import com.squareup.picasso.Picasso;
+
+import java.util.List;
+
+/**
+ * Created by lingjiu on 2017/3/6 11:59.
+ */
+public abstract class MyBaseAdapter<T> extends BaseAdapter {
+
+
+    protected List<T> list;
+
+    protected LayoutInflater layoutInflater;
+
+    protected Context context;
+
+    public MyBaseAdapter(Context context) {
+        this(context, null);
+    }
+
+    public MyBaseAdapter(Context context, List<T> list) {
+
+        this.context = context;
+
+        this.list = list;
+
+        layoutInflater = LayoutInflater.from(context);
+    }
+
+
+    @Override
+    public int getCount() {
+        return list == null ? 0 : list.size();
+    }
+
+    @Override
+    public Object getItem(int i) {
+        return list.get(i);
+    }
+
+    @Override
+    public long getItemId(int i) {
+        return i;
+    }
+
+    @Override
+    public View getView(int i, View convertView, ViewGroup viewGroup) {
+
+
+        return null;
+    }
+
+
+    /**
+     * 设置黄马甲
+     *
+     * @param horseList
+     * @return
+     */
+    public SpannableString getYellowClothes(List<String> horseList) {
+        SpannableStringBuilder ssb = new SpannableStringBuilder();
+        if (horseList == null || horseList.size() == 0) return new SpannableString(ssb);
+        if (horseList.contains("CTL_YELLOW_HORSE")) {
+            addIcon(ssb, R.drawable.icon_control_clothes);
+        }
+        if (horseList.contains("HONOR_GREEN_HORSE")) {
+            addIcon(ssb, R.drawable.icon_green_horse);
+        }
+        if (horseList.contains("HONOR_BLUE_HORSE")) {
+            addIcon(ssb, R.drawable.icon_blue_horse);
+        }
+
+        return new SpannableString(ssb);
+    }
+
+    public void addIcon(SpannableStringBuilder ssb, int iconId) {
+        SpannableString str1 = new SpannableString("黄");
+        Drawable d = context.getResources().getDrawable(iconId);
+        d.setBounds(0, 0, (int) (d.getIntrinsicWidth() * 1.2), (int) (d.getIntrinsicHeight() * 1.2));
+        ImageSpan span = new ImageSpan(d, ImageSpan.ALIGN_BASELINE);
+        str1.setSpan(span, 0, str1.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        ssb.append(str1);
+    }
+
+    protected void setImageShow(SimpleDraweeView simpleDraweeView, String url, boolean enable) {
+
+        if (url == null) return;
+
+        DraweeController draweeController = Fresco.newDraweeControllerBuilder()
+                .setUri(Uri.parse(url))
+                .setAutoPlayAnimations(enable)
+                .build();
+        simpleDraweeView.setController(draweeController);
+    }
+
+    protected void setImageShow(SimpleDraweeView simpleDraweeView, String url) {
+
+        if (url == null) return;
+
+        simpleDraweeView.setImageURI(Uri.parse(url));
+    }
+
+    protected void setImageShow(ImageView imageView, String url) {
+
+        if (url == null) return;
+
+        Picasso.with(context.getApplicationContext())
+                .load(Uri.parse(url))
+                .error(R.drawable.user_default_logo)
+                .into(imageView);
+    }
+
+    protected void setIconShow(final ImageView iv, String url) {
+
+        if (url == null) {
+            return;
+        }
+        Picasso.with(context.getApplicationContext())
+                .load(Uri.parse(url))
+                .into(iv);
+    }
+
+
+    /**
+     * 设置勋章图标
+     *
+     * @param userMedalBeanList
+     * @param userInfoLayout
+     */
+    public void setUserMedalShow(List<String> userMedalBeanList, LinearLayout userInfoLayout, int location) {
+        LinearLayout medalContainer = new LinearLayout(context);
+
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
+
+        medalContainer.setLayoutParams(params);
+
+        int childCount = userInfoLayout.getChildCount();
+
+        for (int i = 0; i < childCount; i++) {
+
+            View child = userInfoLayout.getChildAt(i);
+
+            if (child instanceof LinearLayout) {
+
+                userInfoLayout.removeView(child);
+            }
+        }
+
+        if (userMedalBeanList != null && userMedalBeanList.size() != 0) {
+            for (String url : userMedalBeanList) {
+
+                ImageView imageView = getUserMedalImageview(url);
+
+                medalContainer.addView(imageView);
+
+            }
+
+            userInfoLayout.addView(medalContainer, location);
+        }
+
+    }
+
+
+    protected ImageView getUserMedalImageview(String url) {
+
+        ImageView imageView = new ImageView(context);
+
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LibAppUtil.dip2px(context, 14));
+
+        params.gravity = Gravity.CENTER_VERTICAL;
+
+        params.leftMargin = LibAppUtil.getDpToPxValue(context, 2);
+
+        params.rightMargin = LibAppUtil.getDpToPxValue(context, 0);
+
+        imageView.setLayoutParams(params);
+
+        //设定高度,使宽度自适应
+        imageView.setScaleType(ImageView.ScaleType.FIT_XY);
+
+        imageView.setAdjustViewBounds(true);
+
+        if (url == null) {
+            imageView.setVisibility(View.GONE);
+            return imageView;
+        }
+
+        setImageShow(imageView, url);
+
+        return imageView;
+    }
+
+
+}

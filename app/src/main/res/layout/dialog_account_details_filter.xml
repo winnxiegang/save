@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:gravity="right"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginRight="@dimen/dp10"
+        android:background="@drawable/account_details_filter_bg"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/allLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/allIv"
+                android:paddingRight="@dimen/dp10"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/icon_all_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:paddingTop="5dp"
+                android:id="@+id/allTv"
+                android:text="全部"
+                android:drawablePadding="@dimen/dp10"
+                android:paddingRight="@dimen/dp10"
+                android:paddingBottom="@dimen/dp5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/line_color"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:id="@+id/inLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/inIv"
+                android:paddingRight="@dimen/dp10"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/icon_in_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:paddingTop="5dp"
+                android:id="@+id/inTv"
+                android:text="收入"
+                android:paddingRight="@dimen/dp10"
+                android:paddingBottom="@dimen/dp5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/line_color"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:id="@+id/outLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/outIv"
+                android:layout_marginTop="@dimen/dp2"
+                android:paddingRight="@dimen/dp10"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/icon_out_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:paddingTop="@dimen/dp5"
+                android:id="@+id/outTv"
+                android:paddingRight="@dimen/dp10"
+                android:text="支出"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
+

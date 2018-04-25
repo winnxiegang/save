@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="300dp"
+    android:padding="@dimen/dp15"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/userLogoIv"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="6dp"
+        android:src="@drawable/user_default_logo"
+        android:scaleType="centerInside"
+        android:layout_width="21dp"
+        android:layout_height="21dp" />
+
+    <FrameLayout
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rocket_fire_water_dialog_bg"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="240dp">
+        <ImageView
+            android:id="@+id/closeIv"
+            android:padding="@dimen/dp10"
+            android:layout_marginBottom="27dp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/close_rocket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.android.banana.commlib.view.CountdownTextView
+            android:layout_marginTop="@dimen/dp15"
+            android:id="@+id/countTimeTv"
+            android:textColor="@color/white"
+            android:background="@drawable/shape_alpha_gray_oval"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="center"
+            android:layout_marginRight="15dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/titleShowTv"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="140dp"
+            android:text="---------------------"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="150dp"
+            android:orientation="horizontal"
+            android:layout_width="300dp"
+            android:gravity="center"
+            android:layout_height="70dp">
+            <com.android.xjq.liveanim.RocketButtonClickLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:id="@+id/rocketFireLayout"
+                app:rocketClickTextColor="#EB4F12"
+                app:addFire="true"
+                app:buttonBackGround="@drawable/rocket_fire"
+                android:layout_height="wrap_content">
+
+            </com.android.xjq.liveanim.RocketButtonClickLayout>
+            <com.android.xjq.liveanim.RocketButtonClickLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:id="@+id/rocketWaterLayout"
+                app:rocketClickTextColor="#6FA6F7"
+                app:addFire="false"
+                app:buttonBackGround="@drawable/rocket_water"
+                android:layout_height="wrap_content">
+
+            </com.android.xjq.liveanim.RocketButtonClickLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

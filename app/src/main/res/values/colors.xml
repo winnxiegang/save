@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tencent_tls_ui_white">#FFFFFF</color>
+    <color name="tencent_tls_ui_gray">#444444</color>
+    <color name="tencent_tls_ui_shadowgray">#CCCCCC</color>
+    <color name="tencent_tls_ui_deepgray">#777777</color>
+    <color name="tencent_tls_ui_countryCodeColor">#009900</color>
+    <color name="tencent_tls_ui_black">#000000</color>
+    <color name="tencent_tls_ui_titleBackground">#FFFFFF</color>
+    <color name="tencent_tls_ui_titleFontColor">#000000</color>
+    <color name="tencent_tls_ui_defaultButtonColor">#0099FF</color>
+    <color name="tencent_tls_ui_pressedButtonColor">#0066CC</color>
+    <color name="tencent_tls_ui_background">#EEEEEE</color>
+    <color name="tencent_tls_ui_transparent">#9000</color>
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="line_color">#D4D4D4</color>
+
+    <color name="orange2">#FF6748</color>
+    <color name="redImpression">#f9594e</color>
+    <color name="impressionPink">#ffdfde</color>
+
+    <color name="light_gray2">#E3E2E2</color>
+    <color name="background">#F9F7F8</color>
+    <color name="background_gray1">#BEBEBE</color>
+    <color name="background_gray2">#E6E6E6</color>
+    <color name="background_gray3">#D4D4D4</color>
+    <color name="background_gray4">#EFEFF4</color>
+    <color name="line">#DDDDDD</color>
+    <color name="line_btn">#BBBBBB</color>
+    <color name="text_gray1">#777777</color>
+    <color name="text_gray2">#767676</color>
+    <color name="text_blue1">#1173CB</color>
+    <color name="text_blue2">#1173CA</color>
+    <color name="panel_black">#25272A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="btn_red">#EC4432</color>
+    <color name="btn_red_press">#50EC4432</color>
+    <color name="btn_red_hover">#E8484B</color>
+    <color name="btn_blue">#0F73CB</color>
+    <color name="light_gray_text_color">#3B3B3B</color>
+    <color name="btn_blue_hover">#1E86E4</color>
+    <color name="btn_text">#FFFFFF</color>
+    <color name="btn_text_hover">#CCFFFFFF</color>
+    <color name="btn_live">#5F6164</color>
+    <color name="btn_live_press">#2F3134</color>
+    <color name="txt_forget_pwd">#CFCFCF</color>
+
+    <color name="homepage_bg_text">#FF724E</color>
+    <!--蒙版-->
+    <color name="colorMask">#66000000</color>
+    <color name="dialog_btn_pressed_color">#efefef</color>
+
+    <color name="search_solid_color">#b5262a</color>
+
+    <!--app主色调，背景色-->
+    <color name="colorPrimary">#FFFFFF</color>
+    <!--背景色-->
+    <color name="colorBackground">#F0F0F0</color>
+    <!--app主题色，应用于导航，按钮-->
+    <color name="colorTheme">#80407A</color>
+    <!--主题色激活态，如按钮高亮-->
+    <color name="colorThemeActive">#A15C9A</color>
+    <!--红色标签/提示-->
+    <color name="colorLabelRed">#FF447D</color>
+    <!--红色标签/提示高亮-->
+    <color name="colorLabelRedActive">#FF89AB</color>
+    <!--黄色色标签/提示-->
+    <color name="colorLabelYellow">#FFAE20</color>
+    <!--黄色色标签/提示高亮-->
+    <color name="colorLabelYellowActive">#FFCD35</color>
+    <!--黄色蒙版-->
+    <color name="colorLabelYellowMask">#4DFFAE20</color>
+    <!--红色-->
+    <color name="colorRed">#FF3333</color>
+    <!--文字白色-->
+    <color name="colorTextWhite">#FFFFFF</color>
+    <!--文字G1-->
+    <color name="colorTextG1">#CCCCCC</color>
+    <!--文字G2-->
+    <color name="colorTextG2">#999999</color>
+    <!--文字G3-->
+    <color name="colorTextG3">#666666</color>
+    <!--文字G4-->
+    <color name="colorTextG4">#333333</color>
+    <!--文字G5-->
+    <color name="colorTextG5">#9E9D9D</color>
+    <!--文字G6-->
+    <color name="colorTextG6">#7e7f82</color>
+    <!--文字black-->
+    <color name="colorTextBlack">#000000</color>
+    <!--gray1-->
+    <color name="colorGray1">#F0F0F0</color>
+    <!--light gray-->
+    <color name="colorLightGray">#E6E6E6</color>
+    <!--gray2-->
+    <color name="colorGray2">#DCDCDC</color>
+    <!--gray3-->
+    <color name="colorGray3">#C8C8C8</color>
+    <!--gray4-->
+    <color name="colorGray4">#787878</color>
+    <!--gray5-->
+    <color name="colorGray5">#505050</color>
+    <!--gray6-->
+    <color name="colorGray6">#141414</color>
+    <!--gray7-->
+    <color name="colorGray7">#8C8C8C</color>
+    <!--gray8-->
+    <color name="colorGray8">#9B9B9B</color>
+    <!--gray9-->
+    <color name="colorGray9">#888888</color>
+    <color name="btnEnable">#969696</color>
+    <color name="btnEnable2">#c1920b</color>
+
+    <color name="alphGray">#77000000</color>
+    <color name="halfAlpha">#33000000</color>
+    <color name="alphBalck">#99000000</color>
+    <color name="alphaGray">#FFEEEEEE</color>
+    <color name="alphaWhite">#AAFFFFFF</color>>
+    <color name="alpha_white">#DDFFFFFF</color>
+
+    <color name="alpha_white2">#50FFFFFF</color>
+
+    <color name="lightGray">#F2F1F1</color>
+    <color name="lightGray2">#CACACA</color>
+    <color name="lightGray3">#F4F4F4</color>
+
+    <color name="red">#ff0000</color>
+    <color name="main_red1">#f63f3f</color>
+    <color name="main_red">#ec4432</color>
+    <color name="main_red2">#FD4E42</color>
+    <color name="main_red3">#F63F3F</color>
+    <color name="main_red4">#BFF63F3F</color>
+
+    <color name="light_red">#ED786C</color>
+    <color name="light_red2">#FF574E</color>
+    <color name="light_red3">#FDA3A3</color>
+
+    <color name="light_red5">#EE1515</color>
+    <color name="light_red6">#FF8B8B</color>
+    <color name="light_red7">#fe4b2a</color>
+
+    <color name="light_blue1">#0068B8</color>
+    <color name="light_blue2">#72C1FD</color>
+    <color name="light_blue3">#0071fc</color>
+    <color name="light_blue4">#288ffc</color>
+
+    <color name="light_yellow">#f6ff00</color>
+    <color name="light_yellow2">#E4D083</color>
+    <color name="light_yellow3">#FFCE42</color>
+    <color name="light_yellow4">#fff238</color>
+    <color name="light_yellow5">#972107</color>
+    <color name="light_yellow6">#FF8300</color>
+
+    <color name="light_yellow7">#FFA800</color>
+
+    <color name="normal_red1">#ff5a5a</color>
+    <color name="normal_red2">#ffd6d6</color>
+
+    <color name="coffee_color">#CA2813</color>
+
+    <color name="colorSendName">#9966cc</color>
+    <color name="colorSendName1">#FF3163</color>
+    <color name="colorSendName2">#973365</color>
+    <color name="colorSendName3">#006599</color>
+    <color name="colorSendName4">#D07E44</color>
+    <color name="colorSendName5">#97BC87</color>
+    <color name="colorSendName6">#FFAE1F</color>
+    <color name="colorSendName7">#FF437D</color>
+    <color name="colorSendName8">#EA390C</color>
+    <color name="colorSendName9">#FF9300</color>
+    <color name="colorSendName10">#15C044</color>
+
+    <color name="colorTextBlue">#55B5FA</color>
+    <color name="colorTextBlue2">#548bdd</color>
+    <color name="tab_gray">#666666</color>
+    <color name="light_white">#FFB6B6</color>
+    <!--蒙版-->
+    <color name="normal_bg">#f4f4f4</color>
+    <color name="normal_bg2">#ededed</color>
+    <color name="normal_bg3">#EEEEEE</color>
+    <color name="mic_color">#30a9ef</color>
+    <color name="my_setting_bg">#F3F3F3</color>
+    <color name="stroke_gray">#B1B1B1</color>
+    <color name="gold">#F9BA01</color>
+    <color name="gold_deep">#FF921B</color>
+
+    <color name="light_gold2">#FFB727</color>
+    <color name="deep_gold2">#FF8827</color>
+
+    <color name="perple_light">#38385b</color>
+    <color name="perple_deep">#373652</color>
+    <color name="light_red4">#d64f4c</color>
+    <color name="light_blue">#3898da</color>
+    <color name="light_gray5">#E5E5E5</color>
+    <color name="red_jiu_hong">#ab3131</color>
+    <color name="lignt_pink">#fbe3e3</color>
+    <color name="zhan_lan_blue">#0e4ea6</color>
+    <color name="lignt_blue">#c2f7fb</color>
+    <color name="title_light_normal">#FFC3C3</color>
+    <color name="hint">#BFBFBF</color>
+    <color name="lignt_red2">#ff5757</color>
+    <color name="deep_red2">#e12206</color>
+    <color name="lignt_blue3">#70a8f3</color>
+    <color name="lignt_red3">#fd6969</color>
+    <color name="subject_footer_gray">#bbbbbb</color>
+    <color name="score_green">#009900</color>
+    <color name="score_red">#ff0000</color>
+    <color name="common_bg">#F4F5F5</color>
+
+    <color name="text_dark">#444242</color>
+    <color name="bg_dark">#F6F5F4</color>
+    <color name="primary">#C01E2F</color>
+    <color name="red_light">#ff5655</color>
+    <color name="gray_light">#e1e0e0</color>
+    <color name="orange_light">#ff6748</color>
+    <color name="light_pink_gray">#f2f1f1</color>
+    <color name="light_white_pink">#f59f85</color>
+    <color name="yellow_mango">#ffc900</color>
+    <color name="red_water_melon">#ff515a</color>
+    <color name="orange_red">#e34f48</color>
+    <color name="mango_yellow">#ff8422</color>
+    <color name="deep_green">#1e7d1d</color>
+    <color name="light_green">#43a73f</color>
+    <color name="high_light_red">#f63f3f</color>
+    <color name="orange_color">#f63f3f</color>
+    <color name="light_gray">#E4E4E4</color>
+    <color name="light_green2">#288d28</color>
+
+    <color name="package_enable">#ff581b00</color>
+    <color name="purple_blue">#6F92F7</color>
+    <color name="deep_blue">#141e33</color>
+    <color name="package_count">#ef7a07</color>
+    <color name="light_gray_bg">#F5F5F5</color>
+    <color name="light_black">#333333</color>
+    <color name="light_gray3">#999999</color>
+    <color name="light_gray6">#666666</color>
+    <color name="package_empty_tip_color">#53CBE6</color>
+    <color name="dark_yellow">#bb7231</color>
+    <color name="yellow_txt">#E59F04</color>
+    <color name="yellow_bg">#c98306</color>
+
+    <color name="height_yellow">#FD7212</color>
+    <color name="tab_selected">#FBC1C1</color>
+
+</resources>

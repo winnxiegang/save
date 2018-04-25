@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTeams"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="10dp"
+            android:text="皇家马德里 VS 巴萨罗那"
+            android:textSize="13sp"
+            android:textColor="@color/text_black" />
+
+        <TextView
+            android:id="@+id/ctr_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017-10-19\n11:22:22发起"
+            android:textColor="@color/colorTextG2"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        android:background="@color/colorGray10" />
+
+    <TextView
+        android:id="@+id/changci_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="[上半场]比分"
+        android:textSize="13sp"
+        android:textColor="@color/gray_text_color" />
+    <TextView
+        android:id="@+id/tvFeng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/textViewZhu"
+        android:text="皇家马德里让-1.5球，你支持哪支球队获胜？"
+        android:textColor="@color/gray_text_color"
+        android:textSize="13sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="54dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="10dp">
+        <TextView
+            android:id="@+id/tvMyTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我助威：皇家"
+            android:textColor="@color/colorTextG2"
+            android:textSize="11sp" />
+
+
+        <TextView
+            android:id="@+id/tvHot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_below="@+id/tvMyTeam"
+            android:layout_marginTop="6dp"
+            android:text="助威值：12000"
+            android:textColor="@color/colorTextG2"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="成功"
+            android:textColor="@color/colorTextG2"
+            android:textSize="11sp" />
+        <TextView
+            android:id="@+id/tvRewardNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvStatus"
+            android:layout_marginTop="3dp"
+            android:gravity="right"
+            android:minWidth="60dp"
+            android:text="0"
+            android:textColor="@color/main_red"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

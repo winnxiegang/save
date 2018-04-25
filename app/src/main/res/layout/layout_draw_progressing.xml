@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:orientation="vertical">
+
+    <com.android.banana.commlib.view.VerticalScrollTextView2
+        android:id="@+id/prizedUserNameTv"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/shape_rect_deep_orange_with_top_radius"
+        android:visibility="visible"
+        app:tv_textColor="@color/white"
+        tools:text="三等奖获得者:张三" />
+
+    <FrameLayout
+        android:id="@+id/prizeInfoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFEACB"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/prizeNameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorSendName11"
+            android:textSize="12sp"
+            tools:text="当前抽取二等奖 爱心宵夜一份" />
+
+        <TextView
+            android:id="@+id/prizeNumTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textColor="@color/colorSendName11"
+            android:textSize="12sp"
+            tools:text="共2个" />
+    </FrameLayout>
+
+    <com.android.xjq.view.wheelview.WheelView
+        android:id="@+id/wheelView"
+        style="@style/wheelViewStyle_time"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        app:isCyclic="true"
+        app:isEnable="false"
+        app:itemNumber="5"
+        app:normalTextColor="@color/colorSendName12"
+        app:selectedTextColor="@color/colorSendName12" />
+
+</LinearLayout>

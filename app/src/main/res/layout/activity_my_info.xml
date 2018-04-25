@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/white"
+        android:clipChildren="false"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@drawable/bg_person_info"
+            android:clipChildren="false">
+
+            <include layout="@layout/widget_toolbar_40dp"></include>
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-40dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_avart"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center|bottom"
+                android:clickable="true"
+                android:src="@drawable/user_default_logo" />
+
+            <ImageView
+                android:id="@+id/camera_iv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_modify_avart"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/info_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#ff333333"
+                android:textSize="16sp"
+                tools:text="疯狂球迷" />
+
+            <CheckedTextView
+                android:id="@+id/pay_attention"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/selector_attention" />
+        </LinearLayout>
+
+        <com.android.banana.commlib.view.MedalLayout
+            android:id="@+id/medal_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+        </com.android.banana.commlib.view.MedalLayout>
+
+        <com.android.banana.view.LabelTextView
+            android:id="@+id/realNameTv"
+            style="@style/userInfoLabelStyle"
+            android:drawableLeft="@drawable/ic_user_nick"
+            android:drawableRight="@null"
+            app:label_text_left="@string/user_name" />
+
+        <com.android.banana.view.LabelTextView
+            android:id="@+id/edit_group_card"
+            style="@style/userInfoLabelStyle"
+            android:drawableLeft="@drawable/ic_group_postcard"
+            app:label_text_left="@string/edit_group_card" />
+
+
+        <com.android.banana.view.LabelTextView
+            android:id="@+id/bind_phone_lay"
+            style="@style/userInfoLabelStyle"
+            android:drawableRight="@drawable/icon_insert_match_right_arrow"
+            android:drawableLeft="@drawable/icon_user_phone"
+            app:label_text_left="@string/bind_phone" />
+
+        <com.android.banana.view.LabelTextView
+            android:id="@+id/certificate_lay"
+            style="@style/userInfoLabelStyle"
+            android:drawableLeft="@drawable/ic_group_postcard"
+            android:text="@string/real_confirm"
+            app:label_text_left="@string/real_confirm" />
+
+        <com.android.banana.view.LabelTextView
+            android:id="@+id/user_homePager"
+            style="@style/userInfoLabelStyle"
+            android:drawableLeft="@drawable/ic_home_pager"
+            android:drawableRight="@drawable/icon_insert_match_right_arrow"
+            app:draw_bottom_line_without_right="false"
+            app:label_text_left="@string/home_pager" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/secretChatLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <View
+          style="@style/cutLine"/>
+       <ImageView
+           android:padding="@dimen/dp5"
+           android:src="@drawable/ic_secret_chat"
+           android:layout_width="100dp"
+           android:layout_height="match_parent" />
+    </LinearLayout>
+
+</FrameLayout>

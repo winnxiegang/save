@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="dp10" type="id">10dp</item>
+    <item name="id_tag" type="id">id_tag</item>
+</resources>

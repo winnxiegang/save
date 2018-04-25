@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/logoutLayout"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="12dp"
+    android:background="@drawable/selector_normal_button">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="退出当前账号"
+        android:textSize="16sp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/btn_red"/>
+</RelativeLayout>

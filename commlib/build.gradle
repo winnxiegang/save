@@ -1,0 +1,69 @@
+apply plugin: 'com.android.library'
+
+
+def appDependency = rootProject.ext.dependency
+def configInfo = rootProject.ext.android
+android {
+    compileSdkVersion configInfo.compileSdkVersion
+    buildToolsVersion configInfo.buildToolsVersion
+
+
+    defaultConfig {
+        minSdkVersion configInfo.minSdkVersion
+        targetSdkVersion configInfo.targetSdkVersion
+        versionCode hhsConfig.versionCode
+        versionName hhsConfig.versionName
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile(name: 'library-release', ext: 'aar')
+    compile(name: 'httprequestlib-release', ext: 'aar')
+    compile(name: 'lib_viewpagerindicator-release', ext: 'aar')
+
+    /* Support依赖包*/
+    compile appDependency.supportV7
+    compile appDependency.recyclerview
+    compile appDependency.cardview
+    compile appDependency.supportDesign
+    compile appDependency.percent
+    /*Http请求依赖*/
+    compile appDependency.okhttp
+    compile appDependency.httpclient
+    compile appDependency.logging_interceptor
+    compile appDependency.async_http
+    compile appDependency.eventbus
+    compile appDependency.gson
+    compile appDependency.multidex
+    compile appDependency.constraint_layout
+    compile appDependency.flexboxlayout
+    /*图片加载*/
+    compile appDependency.circleimageview
+    compile appDependency.picasso
+    /*Utils工具Apache工具类*/
+    compile appDependency.commons_lang
+    //友盟
+    //内存检测
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+    /*图片加载框架*/
+    compile('com.facebook.fresco:fresco:1.1.0') {
+        exclude group: 'com.android.support', module: 'support-v4'
+        exclude group: 'com.android.support', module: 'support-compat'
+        exclude group: 'com.android.support', module: 'support-core-utils'
+    }
+    compile('com.facebook.fresco:animated-gif:1.1.0') {
+        exclude group: 'com.android.support', module: 'support-v4'
+        exclude group: 'com.android.support', module: 'support-compat'
+        exclude group: 'com.android.support', module: 'support-core-utils'
+    }
+}

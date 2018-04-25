@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/shape_dialog_bg"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="@dimen/dp10"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/share_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/share_group_title" />
+
+        <ImageView
+            android:id="@+id/share_close"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:src="@drawable/ic_close_x" />
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#40E6E6E6"
+        android:overScrollMode="never"
+        android:paddingBottom="@dimen/dp5"
+        android:paddingLeft="@dimen/dp16"
+        android:paddingRight="@dimen/dp16"
+        android:visibility="gone"
+        tools:listitem="@layout/dialog_share_group_list_item" />
+
+
+    <TextView
+        android:id="@+id/share_loading"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#40E6E6E6"
+        android:gravity="center"
+        android:text="@string/share_group_loading" />
+
+    <com.android.banana.commlib.view.expandtv.NumLimitEditText
+        android:id="@+id/share_des"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_rect_gray"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLength="15"
+        app:show_limit_text="false"
+        android:paddingLeft="@dimen/dp10"
+        android:textColor="@color/light_text_color"
+        android:textSize="@dimen/sp12" />
+
+    <RadioButton
+        android:id="@+id/share_btn"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="@dimen/dp16"
+        android:background="@drawable/selector_rect_orange"
+        android:button="@null"
+        android:gravity="center"
+        android:text="@string/str_share"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</LinearLayout>

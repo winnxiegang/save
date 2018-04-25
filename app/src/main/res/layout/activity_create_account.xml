@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_setting_bg">
+    <include layout="@layout/layout_title"></include>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:text="@string/nick_name_suggest_one" />
+
+    <EditText
+        android:id="@+id/nick_name_edt"
+        style="@style/drawable_left_edt"
+        android:drawableLeft="@drawable/icon_nick_name"
+        android:hint="@string/please_input_nick_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/phone_num_edt"
+            style="@style/drawable_left_edt"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/icon_phone"
+            android:hint="@string/please_input_phone_num" />
+
+        <EditText
+            android:id="@+id/pwd_edt"
+            style="@style/drawable_left_edt"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/icon_pwd"
+            android:hint="@string/please_input_pwd" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/confirm_bind_txt"
+        style="@style/forget_btn_style"
+        android:layout_marginTop="30dp"
+        android:clickable="false"
+        android:background="@drawable/selector_forget_pwd"
+        android:text="@string/btn_sure" />
+
+
+</LinearLayout>

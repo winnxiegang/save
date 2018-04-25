@@ -1,0 +1,39 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <script type="text/javascript">
+        function showToast(toast) {
+            javascript:control.showToast(toast);
+        }
+        function log(msg){
+            console.log(msg);
+        }
+
+        function enterRoom(channelId) {
+            javascript:control.enterRoom(channelId);
+
+            javascript:control.bindXjqResult(result);
+        }
+
+        function exit(){
+            javascript:control.exit();
+        }
+
+         function openUrl(url) {
+            javascript:control.openUrl(url);
+        }
+
+
+
+    </script>
+
+</head>
+
+<body>
+<input type="button" value="toast"
+       onClick="showToast('Hello world')"/>
+<input type="button" value="channelId"
+       onClick="enterRoom('200015')"/>
+</body>
+</html>

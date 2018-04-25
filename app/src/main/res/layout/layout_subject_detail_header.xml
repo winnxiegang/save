@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_plate_blue_bg"
+            android:layout_gravity="right|top"
+            android:text="预测"
+            android:padding="@dimen/dp2"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/jcdxArticleType"
+            android:textColor="#4fb4fa"
+            android:layout_width="34dp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <include layout="@layout/view_portrait" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:id="@+id/userInfoLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="10dp">
+                        <TextView
+                            android:id="@+id/userNameTv"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:textColor="#ff438ec8"
+                            android:text="    ---    " />
+
+                        <ImageView
+                            android:visibility="gone"
+                            android:id="@+id/authorIv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/icon_author" />
+                        <com.android.banana.commlib.view.MedalLayout
+                            android:id="@+id/medalLayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="5dp">
+
+                        </com.android.banana.commlib.view.MedalLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/analysisTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:paddingRight="2dp"
+                            android:paddingLeft="2dp"
+                            android:layout_gravity="center"
+                            android:text="综合分析"
+                            android:visibility="gone"
+                            android:background="@drawable/shape_analysis_tag_bg"
+                            android:textColor="#ff7200"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/timeTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/light_text_color"
+                    android:text="             "
+                    android:textSize="@dimen/text_below_username_size" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:visibility="visible" />
+
+    <include layout="@layout/layout_subject_item_artical_card"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#f1f1f1" />
+
+    <com.android.xjq.view.ImpressionLayout
+        android:layout_width="match_parent"
+        android:id="@+id/impressionLayout"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp10"
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_height="wrap_content">
+
+    </com.android.xjq.view.ImpressionLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/main_red">
+
+    <ImageView
+        android:id="@+id/search_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"
+        android:minWidth="22dp"
+        android:padding="@dimen/dp10"
+        android:src="@drawable/icon_search_main_white" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/icon_main_xjq" />
+
+    <ImageView
+        android:id="@+id/notificationIv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"
+        android:padding="8dp"
+        android:src="@drawable/icon_title_message"
+        android:visibility="visible" />
+</LinearLayout>

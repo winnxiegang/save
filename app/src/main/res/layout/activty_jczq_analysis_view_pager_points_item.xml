@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/cycleLeagueRg"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:visibility="gone"
+        android:weightSum="4.0">
+
+        <RadioButton
+            android:id="@+id/firstCycleRb"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_home_page_friend"
+            android:button="@null"
+            android:checked="true"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="首循环"
+            android:textColor="@color/selector_home_page_text_color"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/secondCycleRb"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_home_page_friend"
+            android:button="@null"
+            android:gravity="center"
+            android:text="次循环"
+            android:textColor="@color/selector_home_page_text_color"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/totalCycleRb"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_home_page_friend"
+            android:button="@null"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="总榜"
+            android:textColor="@color/selector_home_page_text_color"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:id="@+id/PointsTableRg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/normal_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <RadioButton
+            android:id="@+id/totalPointsRbtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_analysis_rank_toggle_left"
+            android:button="@null"
+            android:checked="true"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="总榜"
+            android:textColor="@color/selector_text_red_white" />
+
+        <RadioButton
+            android:id="@+id/homePointsRbtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_analysis_rank_toggle_mid"
+            android:button="@null"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="主场"
+            android:textColor="@color/selector_text_red_white" />
+
+        <RadioButton
+            android:id="@+id/guestPointsRbtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_analysis_rank_toggle_right"
+            android:button="@null"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="客场"
+            android:textColor="@color/selector_text_red_white" />
+    </RadioGroup>
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F1F1F1"
+        android:divider="@null" />
+
+    <TextView
+        android:id="@+id/no_data"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="暂无数据"
+        android:textColor="@color/light_text_color"
+        android:textSize="@dimen/sp12"
+        android:visibility="gone" />
+
+    <include layout="@layout/layout_show_empty" />
+
+</LinearLayout>
+
+
+

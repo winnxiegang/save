@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/dp10"
+    android:orientation="vertical">
+
+    <!--动态类型分类标签-->
+    <TextView
+        android:id="@+id/dynamicTypeTv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/normal_bg"
+        android:drawableLeft="@drawable/icon_homepage_hot"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp16"
+        android:text="热门动态"
+        android:visibility="gone" />
+
+    <!--分割线-->
+    <View
+        android:id="@+id/spilt_view"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/normal_bg" />
+
+    <!--是否在直播中-->
+    <ImageView
+        android:id="@+id/live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="-10dp"
+        android:paddingLeft="@dimen/dp5"
+        android:paddingRight="16dp"
+        android:src="@drawable/ic_living" />
+
+    <!--用户头像 用户名  勋章 发布日期-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp16"
+        android:paddingRight="@dimen/dp16"
+        android:paddingTop="@dimen/dp10">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/title_portraitIv"
+            android:layout_width="@dimen/portrait_size"
+            android:layout_height="@dimen/portrait_size"
+            android:src="@drawable/user_default_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/title_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="#ff438ec8"
+                    android:textSize="14sp"
+                    tools:text="莫小小不是小小个" />
+
+                <com.android.banana.commlib.view.MedalLayout
+                    android:id="@+id/medal_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp">
+
+                </com.android.banana.commlib.view.MedalLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/title_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff999999"
+                android:textSize="13sp"
+                tools:text="18:21" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

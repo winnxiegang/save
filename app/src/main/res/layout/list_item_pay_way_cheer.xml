@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/top_rel_lay"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/host_team_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/grey_900"
+            android:text="皇家马德里" />
+
+        <TextView
+            android:id="@+id/vs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/host_team_name"
+            android:textSize="14sp"
+            android:textColor="@color/grey_900"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="VS" />
+
+        <TextView
+            android:id="@+id/guest_team_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="14sp"
+            android:textColor="@color/grey_900"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/vs"
+            android:layout_toRightOf="@+id/vs"
+            android:text="巴萨罗那" />
+
+
+        <TextView
+            android:id="@+id/time_m_y_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/text_gray1"
+            android:textSize="12sp"
+            android:text="2017-10-27" />
+
+        <TextView
+            android:id="@+id/time_h_f_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_gray1"
+            android:layout_below="@+id/time_m_y_r"
+            android:layout_alignParentRight="true"
+            android:textSize="12sp"
+            android:text="11:11:11 发起" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/top_rel_lay"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorLightGray" />
+
+    <TextView
+        android:id="@+id/chang_ci_bi_fen"
+        android:layout_below="@+id/divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_gray1"
+        android:text="[全场]比分" />
+
+    <TextView
+        android:id="@+id/support_for"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chang_ci_bi_fen"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/text_gray1"
+        android:text="皇家马德里-1球， 你支持那支球队获胜？" />
+
+    <TextView
+        android:id="@+id/support_team"
+        android:layout_below="@+id/support_for"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/text_gray1"
+        android:text="我助威：皇家马德里" />
+
+    <TextView
+        android:id="@+id/support_value"
+        android:layout_below="@+id/support_team"
+        android:textColor="@color/text_gray1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="助威值：25000" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_gray1"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/support_team"
+        android:text="成功" />
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_alignBottom="@+id/support_value"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/deep_orange_A400"
+        android:drawableLeft="@drawable/icon_gold_coin"
+        android:text="+4000000" />
+
+
+</RelativeLayout>

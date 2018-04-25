@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_toolbar_40dp"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/layoutHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="@dimen/portrait_size"
+                android:layout_height="@dimen/portrait_size"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/portraitIv"
+                    android:layout_width="@dimen/portrait_size"
+                    android:layout_height="@dimen/portrait_size"
+                    android:src="@drawable/user_default_logo" />
+
+                <ImageView
+                    android:id="@+id/vipIv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/icon_portrait_vip"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/friendSearchResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="12dp">
+
+                <LinearLayout
+                    android:id="@+id/userInfoLl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvUsername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="80dp"
+                        android:ellipsize="middle"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="#333333"
+                        android:textSize="14.5sp" />
+
+                    <TextView
+                        android:id="@+id/tvTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text=""
+                        android:textColor="#999999"
+                        android:textSize="10sp" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line1"
+            style="@style/cutLine"
+            android:layout_below="@+id/layoutHeader" />
+        <ImageView
+            android:id="@+id/ivStatus"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="-10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/line1"/>
+        <TextView
+            android:id="@+id/tvTeams"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="10dp"
+            android:text=""
+            android:textColor="@color/text_black" />
+        <LinearLayout
+            android:id="@+id/layoutTopInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTeams"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:background="#f3f3f3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/changci_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="12sp"
+                android:textColor="@color/gray_text_color" />
+            <TextView
+                android:id="@+id/tvFeng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_toRightOf="@+id/textViewZhu"
+                android:text=""
+                android:textColor="@color/gray_text_color"
+                android:textSize="12sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp1"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/background_gray3" />
+            <TextView
+                android:id="@+id/tvMyTeam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/gray_text_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/tvHot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="助威值"
+            android:textColor="@color/colorTextG2"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvHotNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvHot"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:minWidth="45dp"
+            android:text=""
+            android:textColor="@color/main_black_text_color"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tvRewardNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:minWidth="55dp"
+            android:text=""
+            android:textColor="@color/main_black_text_color"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tvReward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tvHot"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tvRewardNum"
+            android:text="累计奖励"
+            android:textColor="@color/colorTextG2"
+            android:textSize="12sp" />
+    </RelativeLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="15dp"
+    android:background="@color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/white"
+        android:padding="12dp"
+        android:text="助威明细"
+        android:textColor="@color/colorTextG2"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:id="@+id/layoutDetailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dp1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/dp1"
+            android:layout_weight="1"
+            android:background="#efefef"
+            android:gravity="center"
+            android:text="助威礼物"
+            android:textColor="@color/colorTextG2"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/dp1"
+            android:layout_weight="1"
+            android:background="#efefef"
+            android:gravity="center"
+            android:text="热力值"
+            android:textColor="@color/colorTextG2"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/dp1"
+            android:layout_weight="1"
+            android:background="#efefef"
+            android:gravity="center"
+            android:text="金锭奖励"
+            android:textColor="@color/colorTextG2"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#efefef"
+            android:gravity="center"
+            android:text="礼金奖励"
+            android:textColor="@color/colorTextG2"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <com.android.xjq.activity.myzhuwei.widget.GiftListView
+        android:id="@+id/listviewGift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/white"
+        android:dividerHeight="@dimen/dp1"></com.android.xjq.activity.myzhuwei.widget.GiftListView>
+</LinearLayout>

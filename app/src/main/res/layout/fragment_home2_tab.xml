@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--下面这个SurfaceView 不要删除 更不要试图应用它-->
+
+    <!--因为TabhomeFragment中存在视频播放的 VideoView，
+    而VideoView继承与SurfaceView ，
+    SurfaceView的双缓冲机制，
+    在第一次初始化的时候 强行被拉到最前面，
+    且会有一个黑色闪屏的现象，
+    下面这个方法可以解决-->
+
+    <SurfaceView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone" />
+
+    <com.android.banana.pullrecycler.recyclerview.PullRecycler
+        android:id="@+id/pullRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.android.banana.pullrecycler.recyclerview.PullRecycler>
+</LinearLayout>

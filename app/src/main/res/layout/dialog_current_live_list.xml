@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/normal_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#f63f3f"></View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="本房间直播"
+            android:textColor="@color/colorTextG4"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/contentView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <com.android.banana.commlib.loadmore.LoadMoreListView
+            android:id="@+id/listView"
+            android:divider="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.android.banana.commlib.loadmore.LoadMoreListView>
+
+        <LinearLayout
+            android:id="@+id/emptyLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/emptyIv"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/icon_my_channel_empty" />
+
+            <TextView
+                android:id="@+id/emptyTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="暂无频道"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

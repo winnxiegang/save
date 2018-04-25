@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+        <ImageView
+            android:id="@+id/video_thumb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:maxHeight="220dp"
+            android:scaleType="fitXY" />
+
+        <RadioButton
+            android:id="@+id/videoPlayRb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:button="@drawable/selector_subject_video"
+            android:checked="true" />
+
+        <ProgressBar
+            android:id="@+id/video_progressBar"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#44000000">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_light_gray_grand">
+
+            <ImageView
+                android:id="@+id/backIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp15"
+                android:src="@drawable/icon_left_arrow_white" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="150dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/portraitIv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/user_default_logo" />
+
+            <ImageView
+                android:id="@+id/likeIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/selector_large_support" />
+
+            <TextView
+                android:id="@+id/likeTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"
+                tools:text="-" />
+
+            <TextView
+                android:id="@+id/commentTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableTop="@drawable/icon_large_comment"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                tools:text="-" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/videoMemoTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@drawable/shape_light_gray_grand"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/white"
+            android:minLines="2"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            tools:text="快给我点赞,赞赞赞赞赞~快给我点赞,赞赞赞赞赞~快给我点赞,赞赞赞赞赞~" />
+
+    </FrameLayout>
+
+</RelativeLayout>

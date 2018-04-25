@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/transparent"></View>
+
+    <LinearLayout
+        android:id="@+id/group_main_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_basket_ball_bg"
+        android:orientation="vertical"
+        android:paddingTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/match_type_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="欧冠"
+                    android:textColor="@color/colorGray4"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/match_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10-29 13:00"
+                    android:textColor="@color/colorGray4"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/host_team_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/vs_txt"
+                android:maxLength="6"
+                android:text="曼联"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/vs_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="VS"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/guest_team_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/vs_txt"
+                android:maxLength="6"
+                android:text="切尔西"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorGray10" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <TextView
+                android:id="@+id/host_zhuwei_txt"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/selector_txt_host_bg"
+                android:gravity="center"
+                android:text="助威"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/guest_zhuwei_txt"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/selector_txt_guest_bg"
+                android:gravity="center"
+                android:text="助威"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:id="@+id/finish_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/colorGray5"
+                android:visibility="gone"
+                android:textSize="12sp"
+                android:text="@string/match_finish_info" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/changci_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="[全场]比分"
+                    android:textColor="@color/colorGray5"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/support_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="曼联-1.5分，支持哪支球队获胜？"
+                    android:textColor="@color/colorGray5"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/coinsLinearLay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/host_coin_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/host_zhuwei_txt"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/icon_gold_coin"
+                android:drawablePadding="3dp"
+                android:paddingLeft="8dp"
+                android:text="500"
+                android:textColor="@color/gold_deep" />
+
+            <TextView
+                android:id="@+id/guest_coin_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/guest_zhuwei_txt"
+                android:layout_marginTop="3dp"
+                android:drawableLeft="@drawable/icon_gold_coin"
+                android:drawablePadding="3dp"
+                android:gravity="right"
+                android:paddingRight="8dp"
+                android:text="300"
+                android:textColor="@color/gold_deep" />
+        </LinearLayout>
+
+        <com.android.banana.commlib.view.PercentProgressView
+            android:id="@+id/customer_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            app:guestProgressColor="@color/lignt_blue3"
+            app:hostProgressColor="@color/lignt_red3" />
+
+        <LinearLayout
+            android:id="@+id/expandLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorGray10" />
+
+            <com.android.banana.commlib.loadmore.CommonLoadMoreView
+                android:id="@+id/loadMoreView"
+                android:layout_width="match_parent"
+                app:init_show_view="3"
+                android:layout_height="30dp"/>
+
+
+            <!--<TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_blue_half_radius_bg"
+                android:gravity="center"
+                android:text="展开更多"
+                android:textColor="@color/lignt_blue2" />-->
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

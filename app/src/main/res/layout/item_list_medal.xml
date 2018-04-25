@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_lay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:drawSelectorOnTop="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp">
+    <!--android:minHeight="80dp"-->
+    <!--如果item设置background单色,则原本item点击效果消失(5.0以上是水波纹);
+    要保留点击效果则item布局里添加android:drawSelectorOnTop="true",并且listView节点上也需要添加-->
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/medal_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_fans_medal_lv1" />
+
+        <TextView
+            android:id="@+id/medal_status_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="佩戴中"
+            android:textColor="@color/gold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/medal_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="毛毛酱"
+            android:ellipsize = "end"
+            android:maxLines="1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.android.xjq.view.CustomProgressView
+                android:id="@+id/progress_bar"
+                android:layout_width="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/action_type_img"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/action_type_img"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/medal_level_increase" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/operate_medal_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_operate_medal_h"
+        android:paddingBottom="3dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="3dp"
+        android:text="佩戴"
+        android:textColor="@color/red" />
+</LinearLayout>

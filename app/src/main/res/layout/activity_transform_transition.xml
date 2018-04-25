@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_toolbar_40dp"></include>
+
+    <com.android.banana.commlib.view.expandtv.NumLimitEditText
+        android:id="@+id/num_limit_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="start"
+        android:lines="4"
+        android:padding="16dp" />
+
+    <include layout="@layout/layout_subject_item_transform" />
+
+    <Space
+        android:layout_width="1px"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/transform_emoji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp10"
+        android:layout_marginLeft="@dimen/dp16"
+        android:contentDescription="@null"
+        android:padding="@dimen/dp10"
+        android:src="@drawable/icon_add_emoj_normal" />
+
+    <FrameLayout
+        android:id="@+id/emojiFramLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone">
+
+        <fragment
+            android:id="@+id/emoji_fragment"
+            android:name="com.android.xjq.fragment.input.EmojiFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="emoji_fragment">
+
+        </fragment>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avart_image"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/user_default_logo" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="username"
+                android:textColor="#ff333333"
+                android:textSize="15sp" />
+
+            <com.android.banana.commlib.view.MedalLayout
+                android:id="@+id/medal_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></com.android.banana.commlib.view.MedalLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/attention_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp10"
+            android:textColor="#ff999999"
+            android:textSize="13sp"
+            tools:text="关注 1523    粉丝 152" />
+
+    </LinearLayout>
+
+
+    <CheckedTextView
+        android:id="@+id/attentionTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/dp16"
+        android:checked="true"
+        android:background="@drawable/selector_attention" />
+</LinearLayout>

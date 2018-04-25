@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contentView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_pink_gray">
+
+    <include layout="@layout/layout_match_fragment_title"></include>
+
+    <com.android.xjq.view.indicate.TimeTabLayout2
+        android:id="@+id/timeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/title_lay"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        app:tb_backgroundColor="@color/white"
+        app:tb_textColor="@color/color_selector_gray_red">
+
+    </com.android.xjq.view.indicate.TimeTabLayout2>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/match_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/timeLayout"
+        android:background="@color/white"
+        android:divider="@color/red_water_melon"
+        android:dividerHeight="5dp"
+        android:fadingEdge="none"
+        android:visibility="visible">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ImageView
+        android:id="@+id/no_content_schedule_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon_no_content_about_match_schedule_detail"
+        android:visibility="gone" />
+
+</RelativeLayout>

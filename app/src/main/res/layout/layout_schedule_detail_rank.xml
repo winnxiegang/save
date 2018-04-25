@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.banana.commlib.view.swipyrefreshlayout.SwipyRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:background="@color/normal_bg"
+    android:layout_height="match_parent">
+
+    <com.android.banana.view.ScrollListView
+        android:id="@+id/rankListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null" />
+    <TextView
+        android:gravity="center"
+        android:text="@string/no_data"
+        android:id="@+id/emptyTv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</com.android.banana.commlib.view.swipyrefreshlayout.SwipyRefreshLayout>

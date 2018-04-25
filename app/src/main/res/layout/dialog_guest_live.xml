@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.android.xjq.view.SwitchTabView
+        android:id="@+id/switch_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/light_gray2"
+        android:dividerHeight="1dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <View
+        android:id="@+id/bottom_divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/normal_bg"
+        android:visibility="gone"></View>
+
+    <include layout="@layout/layout_empty_view"></include>
+
+    <RelativeLayout
+        android:id="@+id/bottom_seat_relLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_live_apply_guest_bg"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/icon_guest"
+            android:drawablePadding="5dp"
+            android:text="开通贵宾席即享有特权并可上座"
+            android:textColor="@color/colorTextG4" />
+
+        <Button
+            android:id="@+id/applyGuestBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_orange_btn"
+            android:text="申请贵宾席"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</LinearLayout>

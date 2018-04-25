@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/share_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:id="@+id/layout_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:alpha="0.1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:scaleX="0"
+            android:scaleY="0"
+            android:visibility="visible">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_write_subject_coloum" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="写专栏"
+                android:textColor="#666666" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout_wx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:alpha="0.1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:scaleX="0"
+            android:scaleY="0">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_write_subject_speak" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="写说说"
+                android:textColor="#666666" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/share_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:paddingBottom="15dp"
+            android:src="@drawable/ic_close_x" />
+    </FrameLayout>
+
+
+</FrameLayout>

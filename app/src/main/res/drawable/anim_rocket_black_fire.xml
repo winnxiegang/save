@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+
+    <item
+        android:drawable="@drawable/black_fire01"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/black_fire02"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire03"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire04"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire05"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire06"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire07"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire08"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire09"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire10"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire11"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/black_fire12"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire13"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire14"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire15"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire16"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire17"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire18"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire19"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire20"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire21"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/black_fire22"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire23"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire24"
+        android:duration="100"/>
+
+    <item
+        android:drawable="@drawable/black_fire25"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire26"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire27"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire28"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire29"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/black_fire30"
+        android:duration="50"/>
+
+</animation-list>

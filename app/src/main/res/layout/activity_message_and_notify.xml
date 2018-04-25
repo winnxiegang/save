@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/messageLayout"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <include layout="@layout/view_activity_title_bar" />
+    <com.android.banana.view.ScrollListView
+        android:visibility="visible"
+        android:id="@+id/refreshListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/background"
+        android:dividerHeight="10dp" />
+
+
+</LinearLayout>
+
+

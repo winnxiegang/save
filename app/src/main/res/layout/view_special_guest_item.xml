@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/dp10"
+    android:paddingLeft="14dp"
+    android:paddingRight="14dp"
+    android:paddingTop="@dimen/dp10">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/portraitIv"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerCrop"
+        android:src="@drawable/user_default_logo" />
+
+    <RelativeLayout
+        android:id="@+id/content_ctr_lay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/guest_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            tools:text="TextView" />
+
+        <com.android.banana.commlib.view.MedalLayout
+            android:id="@+id/medalLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/guest_name"
+            android:layout_marginTop="@dimen/dp2" />
+
+        <TextView
+            android:id="@+id/attention_num_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/medalLayout"
+            android:text="关注 1523"
+            android:textColor="@color/gray_text_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/fans_num_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/medalLayout"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@id/attention_num_txt"
+            android:text="粉丝 152"
+            android:textColor="@color/gray_text_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/send_gift_count_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fans_num_txt"
+            android:textSize="12sp"
+            android:visibility="gone"
+            tools:text="已投入148个礼物" />
+    </RelativeLayout>
+
+    <CheckedTextView
+        android:id="@+id/attentionTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/selector_attention"
+        android:checked="true" />
+
+</LinearLayout>

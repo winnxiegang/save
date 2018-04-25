@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_setting_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title"></include>
+
+    <LinearLayout
+        android:id="@+id/edit_new_phone_num_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/bind_title_lay"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/current_bind_phone_num"
+                android:textColor="@color/background_gray1"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/edit_old_phone_num_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:textColor="@color/background_gray1"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/input_new_phone_lay"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/phoneIv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/selector_edit_phone" />
+
+            <EditText
+                android:id="@+id/set_new_phone_num_edt"
+                style="@style/login_edit_text_style"
+                android:hint="@string/please_input_need_bind"
+                android:inputType="numberDecimal"
+                android:maxLength="11" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/cutLine"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+        <LinearLayout
+            android:id="@+id/set_check_num_lay"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/checkSmsIv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/selector_edit_sms" />
+
+            <EditText
+                android:id="@+id/check_code_edt"
+                style="@style/login_edit_text_style"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="10.27"
+                android:hint="请输入验证码"
+                android:inputType="numberDecimal" />
+
+            <com.android.banana.commlib.view.CountdownTextView
+                android:id="@+id/set_check_number_ctv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/selector_sms_bg"
+                android:gravity="center"
+                android:minEms="6"
+                android:padding="10dp"
+                android:text="获取验证码"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/confirm_bind_txt"
+            style="@style/forget_btn_style"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/selector_forget_pwd"
+            android:clickable="false"
+            android:text="@string/confirm_bind" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

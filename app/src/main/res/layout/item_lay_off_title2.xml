@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.android.xjq.controller.schduledetail.injury.RowTextView
+        android:id="@+id/tvRow"
+        android:layout_width="match_parent"
+        android:layout_height="31.4dp"
+        android:textSize="12.3sp"
+        android:textColor="@color/main_text_color"/>
+    <TextView
+        android:id="@+id/tvNoData"
+        android:layout_width="match_parent"
+        android:layout_height="32.5dp"
+        android:gravity="center"
+        android:text="@string/no_data"
+        android:textColor="@color/cashier_text_black"
+        android:textSize="13.4sp"
+        android:background="@color/white"/>
+</LinearLayout>

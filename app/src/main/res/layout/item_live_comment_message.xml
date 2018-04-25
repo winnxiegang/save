@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="2dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="8dp"
+    android:paddingTop="2dp">
+
+    <com.google.android.flexbox.FlexboxLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/contentLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:alignContent="stretch"
+        app:alignItems="stretch"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="flex_start">
+
+        <com.android.xjq.view.expandtv.ChatTextView
+            android:id="@+id/messageTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:text=""
+            android:visibility="visible" />
+
+        <com.android.xjq.view.expandtv.ChatTextView
+            android:id="@+id/bubbleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:visibility="visible" />
+
+        <com.android.xjq.frescoUtils.SimpleDraweeSpanTextView
+            android:id="@+id/giftMessageTv"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dp"
+            android:focusable="false"
+            android:text=""
+            android:visibility="gone" />
+        <!--android:textColor="#fe6969"-->
+
+    </com.google.android.flexbox.FlexboxLayout>
+</LinearLayout>

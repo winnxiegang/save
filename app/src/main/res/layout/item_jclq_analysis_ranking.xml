@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/homeTeamLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/white"
+            android:visibility="visible">
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:background="#F63F3F" />
+
+            <TextView
+                android:id="@+id/homeTeamTitleTv"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="排名" />
+
+            <ImageView
+                android:id="@+id/homeTeamArrowIv"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/points_up" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/homeTeamDataLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:id="@+id/guestTeamLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:visibility="visible">
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:background="#3698E6" />
+
+            <TextView
+                android:id="@+id/guestTeamTitleTv"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="排名" />
+
+            <ImageView
+                android:id="@+id/guestTeamArrowIv"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/points_up" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/guestTeamDataLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/empty_view_main" />
+
+</LinearLayout>

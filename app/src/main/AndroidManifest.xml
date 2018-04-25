@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.xjq">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".XjqApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon_app_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="CHANNEL"
+            android:value="${CHANNEL_VALUE}" />
+        <meta-data
+            android:name="step"
+            android:value="2" />
+        <meta-data
+            android:name="developer"
+            android:value="2" />
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+
+        <activity
+            android:name=".activity.LiveActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.androd.xjq.live_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.BettingGameActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.android.xjq.betting_game" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.userInfo.UserInfoActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.android.xjq.userinfo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.userInfo.BindedPhoneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.mall.MallActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="xjq.app"
+                    android:pathPrefix="/openApp"
+                    android:scheme="com.android.xjq" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.userInfo.FindPayPassWordActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.android.xjq.forgetpassword" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.setting.ResetPassWordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FansMedalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="hhs.app"
+                    android:pathPrefix="/openApp"
+                    android:scheme="com.android.hhs" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.android.xjq.login" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.setting.ForgetPassWordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.login.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.login.RegisterSecondStepActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".test.TestActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+
+            <!--
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".activity.test.TestShengZhiActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SwitchRoleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AboutUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SearchActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateVisible" />
+        <activity
+            android:name=".activity.MyChannelActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PrizeCoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.RechargeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.android.xjq.recharge" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MyWalletActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ExchangeGoldActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.BindThirdCertifyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GuestApplyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ThirdWebActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.UserAgreeLicenseActivity" />
+        <activity
+            android:name=".activity.DialogActivity.AccountQuitDialogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- android:noHistory="true" -->
+        <activity
+            android:name=".activity.DialogActivity.LiveTransferNoticeActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".activity.myzhuwei.MyZhuweiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.myzhuwei.ZhuweiDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.myzhuwei.ThemeSetActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="com.android.banana.theme" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 下载礼物横幅 -->
+        <service android:name=".service.DownLoadService" />
+        <!-- 微信支付回调界面 -->
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
+        <!-- 支付宝支付H5界面 -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!-- bugly更新 -->
+        <!-- 3fcab5cf-333f-4564-a74d-086c0955dc76测试 -->
+        <!-- d8c363ec-78dd-403c-9717-d23ac3df6949线上 -->
+        <meta-data
+            android:name="com.tencent.rdm.uuid"
+            android:value="d8c363ec-78dd-403c-9717-d23ac3df6949" />
+
+        <activity
+            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.android.bughdupdate.UpgradeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- 兼容7.0 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.android.xjq.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <!-- 友盟 -->
+        <!-- 线上5a0552268f4a9d33ac0000d9 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5a0552268f4a9d33ac0000d9" />
+
+        <!-- ###################注册SDK使用的Activity###################### -->
+        <activity
+            android:name=".WBShareActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!--
+        <service android:name="com.sina.weibo.sdk.net.DownloadService"
+            android:exported="false"></service>
+        -->
+        <!-- wechat callback -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- tencent -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1106188567" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".activity.setting.BindPhoneNumActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.setting.CertificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.setting.ManagePwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.login.LoginMainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="com.android.xjq.loginmain" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.userInfo.PasswordManagerActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.android.xjq.passwordManagerView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.userInfo.InitSetPasswordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize">
+            <intent-filter>
+                <action android:name="com.android.xjq.initsetpassword" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.userInfo.ChangePayPasswordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".activity.userInfo.SuccessTipActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.accountdeatils.AccountDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.NewsDetailActivity" />
+        <activity
+            android:name=".activity.message.MessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.message.MessageNotifyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SubjectDetailActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.android.xjq.subject_detail_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.message.ReplyMeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activity.message.WriteMySubjectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.message.ReplyDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SpeechRuleDescriptionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.dynamic.MessageAndNotifyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.homepage.HomePageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.dynamic.TransmitDetailsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.android.xjq.transmit_detail_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.dynamic.ScheduleDetailsActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".test.TestActivity1"
+            android:screenOrientation="portrait">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="xjq.app"
+                    android:pathPrefix="/openApp"
+                    android:scheme="com.android.xjq" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.playways.PlayWaysRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SimpleModifyActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.android.xjq.simple_modify_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.GroupZoneActivity"
+            android:configChanges="keyboardHidden|keyboard|navigation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="com.android.banana.zone" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MatchSelectListActivity"
+            android:configChanges="keyboardHidden|keyboard|navigation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activity.TransformTransitionActivity"
+            android:configChanges="keyboardHidden|keyboard|navigation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activity.AddressModifyActivity"
+            android:configChanges="keyboardHidden|keyboard|navigation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activity.FansFollowListActivity"
+            android:configChanges="keyboardHidden|keyboard|navigation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activity.PackageActivity"
+            android:configChanges="keyboardHidden|keyboard|navigation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activity.wall.LiveWallDetailActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.android.xjq.live_wall_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.UserTagActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

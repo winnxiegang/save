@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_marginTop="3dp">
+
+    <include layout="@layout/layout_subject_title_user"></include>
+
+    <include layout="@layout/layout_subject_item_title"></include>
+
+    <include layout="@layout/layout_subject_item_transform"></include>
+
+    <include layout="@layout/layout_subject_item_footer"></include>
+
+</LinearLayout>

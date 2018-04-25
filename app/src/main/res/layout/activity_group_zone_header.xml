@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/green_500">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingBottom="30dp"
+        android:paddingLeft="@dimen/dp16">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/title_portraitIv"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/user_default_logo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp16"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                tools:text="莫小小不是小小个" />
+
+            <TextView
+                android:id="@+id/title_memo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:textSize="13sp"
+                tools:text="我们一起来聊一聊足球" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

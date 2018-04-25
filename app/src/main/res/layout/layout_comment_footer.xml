@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/commentFooterLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:visibility="visible">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingRight="@dimen/dp10"
+        android:orientation="vertical">
+
+        <View style="@style/cutLine" />
+
+            <TextView
+                android:paddingTop="@dimen/dp5"
+                android:id="@+id/firstComment"
+                android:text="jkfjklsfakjfklasjfksjkfj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/secondComment"
+                android:text="jkfjklsfakjfklasjfksjkfj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/thirdComment"
+                android:text="jkfjklsfakjfklasjfksjkfj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp">
+
+            <TextView
+                android:id="@+id/showMoreTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="查看更多回复..."
+                android:textColor="#3b73b2" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

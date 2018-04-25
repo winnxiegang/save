@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/title_lay"
+        layout="@layout/layout_title"></include>
+
+    <com.android.banana.commlib.view.swipetab.SlidingTabLayout
+        android:id="@+id/sliding_tab_layout"
+        android:layout_below="@+id/title_lay"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="#FFFFFF"
+        app:tl_textSelectColor="#F63f3f"
+        app:tl_textUnselectColor="#666666"
+        app:tl_indicator_color="#F63f3f"
+        app:tl_textAllCaps="true"
+        app:tl_textBold="2"
+        app:tl_textsize="16sp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_below="@+id/sliding_tab_layout"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/no_content_schedule_img"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_no_content_about_match_schedule_detail" />
+
+</RelativeLayout>

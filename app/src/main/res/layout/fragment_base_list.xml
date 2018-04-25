@@ -1,0 +1,31 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.banana.pullrecycler.recyclerview.PullRecycler
+        android:id="@+id/pullRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.android.banana.pullrecycler.recyclerview.PullRecycler>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        style="@style/progress_circle_green"/>
+
+
+    <ImageView
+        android:id="@+id/latest_img"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="@drawable/icon_set_latest_pos" />
+
+</FrameLayout>

@@ -1,0 +1,646 @@
+[
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_silver_banana_coin.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_silver_banana_coin.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv8.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv8.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\customer_password_keyboard_delete_pressed.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\customer_password_keyboard_delete_pressed.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_coupon_detail_foot_bg.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_coupon_detail_foot_bg.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv35.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv35.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_achieve_ji_qi.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_achieve_ji_qi.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_lucky_draw_notify_bg.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_lucky_draw_notify_bg.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_achieve_hei_meiu_qiu.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_achieve_hei_meiu_qiu.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_field_consume_lv20.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_field_consume_lv20.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv19.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv19.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_share.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_share.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_filed_content_lv30.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_filed_content_lv30.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_to_live_yellow.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_to_live_yellow.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\gold_coin.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\gold_coin.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\leak_canary_icon.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\571094ac70dcb28556976b59943d5b9947af739f\\output\\res\\drawable-xxhdpi-v4\\leak_canary_icon.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv18.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv18.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_banana_gold_coin.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_banana_gold_coin.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv20.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv20.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_field_consume_lv35.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_field_consume_lv35.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv7.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv7.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_achieve_niu_hong.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_achieve_niu_hong.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv22.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv22.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_filed_game_lv1.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_filed_game_lv1.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv17.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv17.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv33.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv33.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv36.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv36.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_fetch_coupon_fail_bg.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_fetch_coupon_fail_bg.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_filed_game_lv10.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_filed_game_lv10.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_banana_gold_coin_white.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_banana_gold_coin_white.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv16.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv16.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_coupon_all_empty_style.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_coupon_all_empty_style.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_dialog_title_success.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_dialog_title_success.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\design_ic_visibility.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\8281c46b1f41441ac3bac1d0b2a72a3266eaa2d8\\output\\res\\drawable-xxhdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv38.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv38.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_filed_game_lv40.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_filed_game_lv40.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_filed_content_lv40.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_filed_content_lv40.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv23.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv23.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_banana_gold_large_coin.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_banana_gold_large_coin.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv29.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv29.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_achieve_niu_jin.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_achieve_niu_jin.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_field_consume_lv10.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_field_consume_lv10.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_filed_game_lv30.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_filed_game_lv30.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv3.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv3.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv0.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv0.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv32.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv32.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_coupon_expired_style.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_coupon_expired_style.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_package_dollar.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_package_dollar.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv9.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv10.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv10.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_gift_gold_large_coin.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_gift_gold_large_coin.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv6.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv6.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv13.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv13.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_open_coupon_dialog_bg.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_open_coupon_dialog_bg.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_fetch_coupon_success_bg.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_fetch_coupon_success_bg.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_field_consume_lv25.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_field_consume_lv25.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv30.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv30.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_filed_content_lv35.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_filed_content_lv35.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv2.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv2.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_filed_game_lv35.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_filed_game_lv35.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv27.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv27.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_group_coupon_bottom_bg.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_group_coupon_bottom_bg.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_filed_game_lv20.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_filed_game_lv20.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv12.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv12.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv26.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv26.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv1.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv1.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_send_coupon_main_bg.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_send_coupon_main_bg.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\progress_bar_ctr_icon.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\progress_bar_ctr_icon.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_field_consume_lv1.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_field_consume_lv1.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv31.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv31.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_coupon_detail_mid_bg.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_coupon_detail_mid_bg.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_achieve_wen_hong.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_achieve_wen_hong.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\seek_bar_bg.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\seek_bar_bg.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_limit_speed_notify_bg.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_limit_speed_notify_bg.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\customer_password_keyboard_delete_normal.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\customer_password_keyboard_delete_normal.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_achieve_bao_jin.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_achieve_bao_jin.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv14.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv14.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv11.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv11.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\anim_popwdr_bg.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\anim_popwdr_bg.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_send_coupon_red_bg.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_send_coupon_red_bg.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_achieve_bao_hong.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_achieve_bao_hong.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv28.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv28.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_gold_coin.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_gold_coin.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_colorful_ctr_pk_progress.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_colorful_ctr_pk_progress.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\design_ic_visibility_off.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\8281c46b1f41441ac3bac1d0b2a72a3266eaa2d8\\output\\res\\drawable-xxhdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_field_consume_lv30.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_field_consume_lv30.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_group_coupon_bg.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_group_coupon_bg.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv25.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv25.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_achieve_wen_jin.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_achieve_wen_jin.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_filed_content_lv20.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_filed_content_lv20.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv39.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv39.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\close_popwdr.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\close_popwdr.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv24.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv24.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv5.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv5.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_gift_gold_coin.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_gift_gold_coin.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_coupon_detail_top2_bg.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_coupon_detail_top2_bg.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_filed_content_lv25.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_filed_content_lv25.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv4.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv4.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_filed_content_lv10.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_filed_content_lv10.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv15.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv15.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_field_consume_lv40.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_field_consume_lv40.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv37.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv37.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_achieve_shen_hua.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_achieve_shen_hua.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv34.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv34.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_gold_large_coin.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_gold_large_coin.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_filed_game_lv25.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_filed_game_lv25.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_open_coupon_btn.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_open_coupon_btn.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_silver_gift_coin.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_silver_gift_coin.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_dialog_title_identity.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_dialog_title_identity.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv40.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv40.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_achieve_hei_yao_shi.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_achieve_hei_yao_shi.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_silver_money_coin.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_silver_money_coin.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_filed_content_lv1.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_filed_content_lv1.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_ctr_progress.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\icon_ctr_progress.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_medal_grade_lv21.png",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\drawable-xxhdpi\\ic_medal_grade_lv21.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    }
+]

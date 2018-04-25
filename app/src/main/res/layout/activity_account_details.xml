@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/main_bg"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/dropDownView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/layout_title"></include>
+    <LinearLayout
+        android:background="@color/main_red"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <FrameLayout
+            android:id="@+id/goldCoinTabLayout"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/goldCoinTv"
+                    android:textColor="@color/white"
+                    android:text="金币明细"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:visibility="gone"
+                    android:padding="@dimen/dp5"
+                    android:id="@+id/leftArrowIv"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/icon_arrow_pink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/leftTriangleIv"
+                android:layout_gravity="bottom|center_horizontal"
+                android:src="@drawable/icon_down_white_triangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/giftCoinTabLayout"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/giftCoinTv"
+                    android:textSize="15sp"
+                    android:text="礼金明细"
+                    android:textColor="@color/alphaWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/middleArrowIv"
+                    android:padding="@dimen/dp5"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/icon_arrow_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/middleTriangleIv"
+                android:layout_gravity="bottom|center_horizontal"
+                android:src="@drawable/icon_down_white_triangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/couponTabLayout"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/couponTv"
+                    android:textSize="15sp"
+                    android:text="香蕉币明细"
+                    android:textColor="@color/alphaWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/rightArrowIv"
+                    android:padding="@dimen/dp5"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/icon_arrow_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/rightTriangleIv"
+                android:layout_gravity="bottom|center_horizontal"
+                android:src="@drawable/icon_down_white_triangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="@dimen/dp15"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp10"
+        android:paddingRight="@dimen/dp10"
+        android:paddingTop="@dimen/dp5"
+        android:paddingBottom="@dimen/dp5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_date" />
+            <TextView
+                android:paddingLeft="@dimen/dp10"
+                android:paddingRight="@dimen/dp10"
+                android:id="@+id/startDateTv"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColor="@color/gray_text_color"
+                android:text="开始日期" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/right_arrow" />
+
+            <TextView
+                android:paddingLeft="@dimen/dp10"
+                android:paddingRight="@dimen/dp10"
+                android:id="@+id/endDateTv"
+                android:layout_width="100dp"
+                android:textSize="12sp"
+                android:textColor="@color/gray_text_color"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="结束日期" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/searchBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="15dp"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:background="@drawable/shape_btn_red_border_white_solid"
+            android:text="搜索"
+            android:textColor="@color/main_red1" />
+    </LinearLayout>
+
+
+    <include layout="@layout/view_slide_refresh_listview" />
+</LinearLayout>

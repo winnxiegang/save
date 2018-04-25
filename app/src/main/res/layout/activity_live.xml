@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.xjq.view.CouponFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/couponFl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/contentView"
+        android:layout_width="match_parent"
+        android:layout_marginTop="36dp"
+        android:layout_height="@dimen/live_video_height">
+
+        <!--  <com.tencent.ilivesdk.view.AVRootView
+              android:id="@+id/avRootView"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" />-->
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/portraitView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <include layout="@layout/layout_live_portrait" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/landscapeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <include layout="@layout/layout_live_landscape" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/commentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <include layout="@layout/layout_live_input_comment" />
+    </LinearLayout>
+
+    <com.android.xjq.view.LandscapeGiftShow
+        android:id="@+id/giftShowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.android.xjq.view.PathAnimView
+            android:id="@+id/giftLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.android.xjq.view.LandscapeGiftShow>
+
+
+</com.android.xjq.view.CouponFrameLayout>

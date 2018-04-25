@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_toolbar_40dp" />
+
+    <com.android.banana.commlib.view.MyTabLayout
+        android:id="@+id/tabLayout"
+        style="@style/match_select_tab_layout_style"
+        android:background="@color/white"
+        >
+
+    </com.android.banana.commlib.view.MyTabLayout>
+
+    <com.android.banana.pullrecycler.recyclerview.PullRecycler
+        android:id="@+id/PullRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorBackground">
+
+    </com.android.banana.pullrecycler.recyclerview.PullRecycler>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/leftArrowIv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_insert_match_left_arrow" />
+
+        <ImageView
+            android:id="@+id/rightArrowIv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_insert_match_right_arrow" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dateTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015-10-23" />
+
+            <TextView
+                android:id="@+id/dayTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="星期五"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
