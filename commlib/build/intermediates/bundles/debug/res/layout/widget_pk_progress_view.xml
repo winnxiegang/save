@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="270dp"
+    android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:id="@+id/ctr_pk_progress_lay"
+        android:layout_centerInParent="true"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+
+        <com.android.banana.commlib.view.pk.PKSeekBar
+            android:id="@+id/pk_seekBar"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:splitTrack="false"
+            android:thumb="@drawable/icon_colorful_ctr_pk_progress">
+
+        </com.android.banana.commlib.view.pk.PKSeekBar>
+
+        <TextView
+            android:id="@+id/left_pk_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/high_light_yellow"
+            android:text="5236礼物" />
+
+        <TextView
+            android:id="@+id/right_pk_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/high_light_yellow"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="45236礼物" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/right_round_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/shape_blue_round_bg">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/right_img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gold_coin" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/left_round_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/shape_red_round_bg">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/left_img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gold_coin"  />
+
+    </FrameLayout>
+
+</RelativeLayout>

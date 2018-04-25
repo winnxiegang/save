@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gag_array">
+        <item>10分钟</item>
+        <item>1小时</item>
+        <item>12小时</item>
+        <item>24小时</item>
+        <item>永久</item>
+        <item>自定义</item>
+    </string-array>
+    <color name="ColorGray">#c7c7c7</color>
+    <color name="alpha_black">#88000000</color>
+    <color name="alpha_blue_gray">#99002344</color>
+    <color name="alpha_gray">#55000000</color>
+    <color name="analysisDrawColor">#43AEFB</color>
+    <color name="analysisLostColor">#54b545</color>
+    <color name="analysis_gray_bg_color">#787878</color>
+    <color name="analysis_green_bg_color">#3d9e2b</color>
+    <color name="analysis_red_bg_color">#df2a1f</color>
+    <color name="appred">#fb4748</color>
+    <color name="attack_end">#667cb4</color>
+    <color name="attack_start">#2b424f</color>
+    <color name="ball_control">#5f77b0</color>
+    <color name="base">#FFFFFB</color>
+    <color name="black">#000000</color>
+    <color name="blue_look">#5898ee</color>
+    <color name="brown_800">#4e342e</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">@color/appred</color>
+    <color name="colorPrimaryDark">@color/appred</color>
+    <color name="com_gray_color">#d5d5d5</color>
+    <color name="copy_count_color">#008C21</color>
+    <color name="coupon_dialog_tv_color">#d25d1d</color>
+    <color name="coupon_record_num_tv_color">#fff333</color>
+    <color name="coupon_record_tv_colot">#9f9f9f</color>
+    <color name="coupon_tab_tv_color">#fff38f</color>
+    <color name="coupon_tv_color">#ffa27a</color>
+    <color name="creat_family_next_step">#658138</color>
+    <color name="custom_gray">#bababa</color>
+    <color name="dangerous_attack_end">#bd5654</color>
+    <color name="dangerous_attack_middle">#5b73a8</color>
+    <color name="dangerous_attack_start">#2c4351</color>
+    <color name="deep_bg">#e2e2e2</color>
+    <color name="dialog_analysis_text_color">#787878</color>
+    <color name="dialog_text_color">#666666</color>
+    <color name="edit_text_stroke">#f3f3f3</color>
+    <color name="f2f2f2">#f2f2f2</color>
+    <color name="focus_match">#468630</color>
+    <color name="focus_match_tab_text">#468630</color>
+    <color name="frame">#86C166</color>
+    <color name="gray">#ff9c9c9c</color>
+    <color name="gray2">#ffd7d7d7</color>
+    <color name="gray3">#f7f6f4</color>
+    <color name="gray_text_color">#666666</color>
+    <color name="group_chat_characters_purple">#8390e1</color>
+    <color name="guide">#AA86C166</color>
+    <color name="half_transparent">#70000000</color>
+    <color name="half_transparent_4statusbar">#30000000</color>
+    <color name="hall_of_fame">#5081DB</color>
+    <color name="handle">#86C166</color>
+    <color name="hint_blue_light">#e9f2ff</color>
+    <color name="hint_green_light">#ecf7e6</color>
+    <color name="hint_red">#FFF1B4B4</color>
+    <color name="hint_red_light">#ffeae6</color>
+    <color name="history_most">#FDD06C</color>
+    <color name="im_blue">#4496ea</color>
+    <color name="im_green">#00a549</color>
+    <color name="influential_people">#FFD93A</color>
+    <color name="influential_people_red">#fc4734</color>
+    <color name="influential_people_text">#b16348</color>
+    <color name="jclq_show_guest_color">#B3D8F8</color>
+    <color name="jclq_show_home_color">#F4AAAA</color>
+    <color name="left_attack_end">#8db338</color>
+    <color name="left_attack_start">#1d4033</color>
+    <color name="left_ball_control">#6d8f49</color>
+    <color name="left_dangerous_attack_end">#e8632b</color>
+    <color name="left_dangerous_attack_middle">#9db94f</color>
+    <color name="left_dangerous_attack_start">#264034</color>
+    <color name="light_blue">#0099ff</color>
+    <color name="light_blue_pressed">#500099ff</color>
+    <color name="light_gray">#f8f8f8</color>
+    <color name="light_gray1">#d5d5d5</color>
+    <color name="light_gray2">#E3E2E2</color>
+    <color name="light_gray3">#E5E5E5</color>
+    <color name="light_gray5">#E5E5E5</color>
+    <color name="light_gray_text_color">#3B3B3B</color>
+    <color name="light_red">#d64f4c</color>
+    <color name="light_red_pressed">#70d64f4c</color>
+    <color name="light_text_color">#999999</color>
+    <color name="lignt_blue">#c2f7fb</color>
+    <color name="lignt_pink">#FAE2E2</color>
+    <color name="liked_text_color">#fd511d</color>
+    <color name="live_score_bt_header">#2E1E1E</color>
+    <color name="live_score_click_join">#ffb8a8</color>
+    <color name="live_score_ft_header">#386a93</color>
+    <color name="live_second_black">#2d0b05</color>
+    <color name="main_background">#F1F1F1</color>
+    <color name="main_bg">#f4f4f4</color>
+    <color name="main_black_text_color">#333333</color>
+    <color name="main_red">#f63f3f</color>
+    <color name="main_red_pressed">#50f63f3f</color>
+    <color name="main_text_color">#333333</color>
+    <color name="menu_bg">#FFFFFB</color>
+    <color name="money_num_big_tv_color">#f6dd50</color>
+    <color name="my_coupon_normal_text_color">#FFF095</color>
+    <color name="normal_bg">#f4f4f4</color>
+    <color name="notify_message_text_color">#989898</color>
+    <color name="optimization_type_color">#333333</color>
+    <color name="orange_color">#FF7E00</color>
+    <color name="order_detail_look">#3668B2</color>
+    <color name="order_detail_remarks">#404B56</color>
+    <color name="overlay">#AA1C1C1C</color>
+    <color name="perple_light">#38385b</color>
+    <color name="pie_blue">#62a0ff</color>
+    <color name="pie_green">#79c850</color>
+    <color name="pie_orange">#FF9A3A</color>
+    <color name="plan_detail_item">#fafafa</color>
+    <color name="plan_detail_item_select">#eeeeee</color>
+    <color name="plan_gray">#aaaaaa</color>
+    <color name="plateTypeNameTv_color">#333333</color>
+    <color name="purple_deep">#373652</color>
+    <color name="red_jiu_hong">#ab3131</color>
+    <color name="sample_background_color_write">#f4f4f4</color>
+    <color name="sample_background_color_write_other">#ffffff</color>
+    <color name="sample_prize_fee_black">#333333</color>
+    <color name="selector_red_normal">@color/appred</color>
+    <color name="selector_red_pressed">@color/top1</color>
+    <color name="send_coupon_bg_false">#fed494</color>
+    <color name="send_coupon_bg_true_color">#f6dd50</color>
+    <color name="send_coupon_false_text_color">#d19f9f</color>
+    <color name="send_coupon_true_text_color">#da4d3c</color>
+    <color name="slide_tab_anim">#191919</color>
+    <color name="slide_tab_normal">#99000000</color>
+    <color name="snap_match_jclq_title_text_color">#be9760</color>
+    <color name="snap_match_jczq_title_text_color">#4d962e</color>
+    <color name="subscribeItemTextColor">#E8E8E8</color>
+    <color name="subscribeItemTitleBack">#EFEFEF</color>
+    <color name="subscribeItemValueBack">#F8F8F8</color>
+    <color name="support_text_color">#bbbbbb</color>
+    <color name="system_gray">#8a8a8a</color>
+    <color name="text">#1C1C1C</color>
+    <color name="text_black">#434547</color>
+    <color name="text_color_username">#6c8dee</color>
+    <color name="text_gray1">#c0c0c0</color>
+    <color name="text_orange">#ffb923</color>
+    <color name="title_light_normal">#FFC3C3</color>
+    <color name="top1">#d22b00</color>
+    <color name="top2">#ffd270</color>
+    <color name="topOther">#b8b8b8</color>
+    <color name="txt_deep">#ff333333</color>
+    <color name="txt_light">#ff999999</color>
+    <color name="txt_middle">#ff666666</color>
+    <color name="unlike_text_color">#A4A4A4</color>
+    <color name="white">#ffffff</color>
+    <color name="with_red">#713040</color>
+    <color name="yellowred">#ffe84c00</color>
+    <color name="yi_dan_cheng_ming">#F5391E</color>
+    <color name="yi_dan_cheng_ming_tab_text">#4f0502</color>
+    <color name="zhan_lan_blue">#0e4ea6</color>
+    <declare-styleable name="CountEditText"><attr format="integer" name="count_text_size"/><attr format="color" name="count_text_color"/></declare-styleable>
+    <declare-styleable name="LabelTextView"><attr format="string" name="label_text_top"/><attr format="string" name="label_text_left"/><attr format="string" name="label_text_right"/><attr format="string" name="label_text_bottom"/><attr format="dimension" name="label_text_size"/><attr format="dimension" name="label_text_size_left"/><attr format="dimension" name="label_text_size_top"/><attr format="dimension" name="label_text_size_right"/><attr format="dimension" name="label_text_size_bottom"/><attr format="reference|color" name="label_text_color"/><attr format="reference|color" name="label_text_color_left"/><attr format="reference|color" name="label_text_color_right"/><attr format="reference|color" name="label_text_color_top"/><attr format="reference|color" name="label_text_color_bottom"/><attr format="dimension|reference" name="label_padding"/><attr format="dimension|reference" name="label_padding_left"/><attr format="dimension|reference" name="label_padding_right"/><attr format="dimension|reference" name="label_padding_top"/><attr format="dimension|reference" name="label_padding_bottom"/><attr format="boolean" name="draw_right_line"/><attr format="boolean" name="draw_bottom_line"/><attr format="boolean" name="draw_bottom_line_without_right"/><attr format="dimension" name="line_padding_right"/><attr format="dimension" name="line_padding_bottom"/><attr format="color|reference" name="right_line_color"/><attr format="color|reference" name="bottom_line_color"/></declare-styleable>
+    <declare-styleable name="LoadFrameLayout"><attr format="reference" name="emptyView"/><attr format="reference" name="errorView"/><attr format="reference" name="loadingView"/></declare-styleable>
+    <declare-styleable name="MarqueeText"><attr format="dimension" name="real_height"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="comment_popup_base_width">100dp</dimen>
+    <dimen name="common_username_size">14sp</dimen>
+    <dimen name="copy_btn_height">36dp</dimen>
+    <dimen name="copy_btn_width">76dp</dimen>
+    <dimen name="dp1">1dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp120">120dp</dimen>
+    <dimen name="dp140">160dp</dimen>
+    <dimen name="dp150">150dp</dimen>
+    <dimen name="dp16">16dp</dimen>
+    <dimen name="dp18">18dp</dimen>
+    <dimen name="dp1Point5">1.5dp</dimen>
+    <dimen name="dp2">2dp</dimen>
+    <dimen name="dp20">20dp</dimen>
+    <dimen name="dp22">22dp</dimen>
+    <dimen name="dp24">24dp</dimen>
+    <dimen name="dp26">26dp</dimen>
+    <dimen name="dp3">3dp</dimen>
+    <dimen name="dp30">30dp</dimen>
+    <dimen name="dp300">300dp</dimen>
+    <dimen name="dp35">35dp</dimen>
+    <dimen name="dp4">4dp</dimen>
+    <dimen name="dp40">40dp</dimen>
+    <dimen name="dp5">5dp</dimen>
+    <dimen name="dp50">50dp</dimen>
+    <dimen name="dp60">60dp</dimen>
+    <dimen name="dp80">84dp</dimen>
+    <dimen name="dp90">52dp</dimen>
+    <dimen name="dpPoint0">0dp</dimen>
+    <dimen name="dpPoint5">0.5dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="horizontal_page_margin">16dp</dimen>
+    <dimen name="item_setting_height">55dp</dimen>
+    <dimen name="item_setting_marginLeft">10dp</dimen>
+    <dimen name="item_setting_marginRight">10dp</dimen>
+    <dimen name="lv_item_gap">12dp</dimen>
+    <dimen name="mNavButtonView_width">45dp</dimen>
+    <dimen name="normalTextSize">14sp</dimen>
+    <dimen name="order_table_height">60dp</dimen>
+    <dimen name="popup_collect_height">70dp</dimen>
+    <dimen name="popup_collect_height_with_report">110dp</dimen>
+    <dimen name="popup_homepage_height">550dp</dimen>
+    <dimen name="portrait_margin_left">10dp</dimen>
+    <dimen name="portrait_size">40dp</dimen>
+    <dimen name="predict_right_width">55dp</dimen>
+    <dimen name="predict_show_height">30dp</dimen>
+    <dimen name="shape_padding">6dp</dimen>
+    <dimen name="share_img_margin_top">12dp</dimen>
+    <dimen name="share_img_radius">44dp</dimen>
+    <dimen name="share_text_margin_bottom">10dp</dimen>
+    <dimen name="share_text_margin_top">6dp</dimen>
+    <dimen name="share_weight">70dp</dimen>
+    <dimen name="sp12">12sp</dimen>
+    <dimen name="sp14">14sp</dimen>
+    <dimen name="sp15">15sp</dimen>
+    <dimen name="sp16">16sp</dimen>
+    <dimen name="sp20">24sp</dimen>
+    <dimen name="sp9">9sp</dimen>
+    <dimen name="tabLayoutIndicatorHeight">2dp</dimen>
+    <dimen name="tabLayoutMarginBottom">15dp</dimen>
+    <dimen name="tab_height">42dp</dimen>
+    <dimen name="text_below_username_size">12sp</dimen>
+    <dimen name="text_value">14.0sp</dimen>
+    <dimen name="titleBarHeight">45dp</dimen>
+    <dimen name="titleBarHeight_40dp">40dp</dimen>
+    <dimen name="titleHeight">50dp</dimen>
+    <dimen name="topic_min_height">30dp</dimen>
+    <dimen name="width">200dp</dimen>
+    <item name="dp300" type="id">300dp</item>
+    <item name="im_coin" type="id">im_coin</item>
+    <item name="im_coupon" type="id">im_coupon</item>
+    <item name="im_image" type="id">im_image</item>
+    <item name="speech_message_layout" type="id"/>
+    <string name="acount_query_falied">账户信息查询失败,请返回后重试.</string>
+    <string name="app_name">groupchat</string>
+    <string name="camera_permission_denied">使用相机权限被禁止,相关功能将不能正常使用。</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_gag">取消禁言</string>
+    <string name="command">口令</string>
+    <string name="creat_family_title">创建群</string>
+    <string name="data_error">头像数据解析错误,找不到fileName</string>
+    <string name="debug_json_exception">json解析出错了~~~~请debug调试</string>
+    <string name="debug_user_authority_query_falied">获取私聊配置信息失败,请重新进入房间---debug</string>
+    <string name="delete_content">删除此内容</string>
+    <string name="empty_error_tip">暂无数据~</string>
+    <string name="exit_chat_room">退出聊天室</string>
+    <string name="exit_chat_room_success">退出聊天室成功</string>
+    <string name="family_cover">设为封面</string>
+    <string name="family_creat">创建</string>
+    <string name="family_creat_tip">战袍名称创建成功后,不可修改,请谨慎填写</string>
+    <string name="family_description">简介</string>
+    <string name="family_fight_shirt">群战袍</string>
+    <string name="family_fight_shirt_description">2字以内必填</string>
+    <string name="fans_attention_count">关注 %1$d       粉丝  %2$d</string>
+    <string name="file_crop_failed">图片裁剪失败</string>
+    <string name="file_not_found">文件不存在</string>
+    <string name="file_upload_failed">文件上传失败,请稍后重试</string>
+    <string name="focus_success">关注成功</string>
+    <string name="forbidden">禁言</string>
+    <string name="forbidden_cancel">取消禁言</string>
+    <string name="forbidden_cancel_success">取消禁言成功</string>
+    <string name="forbidden_custom_tip">自定义禁言时间不能小于1分钟</string>
+    <string name="gag_format">dd天-HH时-mm分</string>
+    <string name="gag_manager">禁言管理</string>
+    <string name="gag_time">选择禁言的时长</string>
+    <string name="gag_time_title">禁言时长</string>
+    <string name="group_avart_must">请选择群组头像</string>
+    <string name="group_chat_announcement_title">公告</string>
+    <string name="group_chat_coupon">有红包</string>
+    <string name="group_chat_delete_confirm">删除后的消息将不会出现在聊天列表中</string>
+    <string name="group_chat_image_compress_failed">图片发送失败</string>
+    <string name="group_chat_member">聊天室成员</string>
+    <string name="group_chat_menu_item_coupon">红包</string>
+    <string name="group_chat_menu_item_pic">图片</string>
+    <string name="group_chat_notice">公告\n%1$s</string>
+    <string name="group_chat_setting_ad">公告</string>
+    <string name="group_chat_setting_forbidden">禁言管理</string>
+    <string name="group_chat_setting_msgtop">聊天室消息置顶</string>
+    <string name="group_chat_setting_speak">发言设置</string>
+    <string name="group_chat_setting_title">聊天室设置</string>
+    <string name="group_chat_theme">主题</string>
+    <string name="group_chat_title">聊天室名称</string>
+    <string name="group_check">待审核成员</string>
+    <string name="group_creat_failed">群组创建失败</string>
+    <string name="group_creat_success">群组创建成功</string>
+    <string name="group_info">群名称</string>
+    <string name="group_manage">管理群</string>
+    <string name="group_notice_null">未设置</string>
+    <string name="group_set_leader">设置管理员</string>
+    <string name="group_shirt_label_setting">设置战袍名</string>
+    <string name="group_update_success">群资料修改成功</string>
+    <string name="has_no_cheer">暂无助威</string>
+    <string name="help_strong">助威</string>
+    <string name="init_pwd_first">请先设置支付密码</string>
+    <string name="list_dialog_cancel">取消</string>
+    <string name="live_score_chatroom_close">聊天室已关闭,下次比赛再聊吧</string>
+    <string name="live_score_chatroom_close_1">聊天室已关闭</string>
+    <string name="live_score_coupon">的金币</string>
+    <string name="live_score_coupon_fetch">%1$s抢到了%2$s的</string>
+    <string name="live_score_coupon_fetch_1">你打赏了%1$s</string>
+    <string name="live_score_coupon_fetch_2">%1$s打赏了你</string>
+    <string name="live_score_edit_hint">别憋着,说点啥...</string>
+    <string name="live_score_forbidden">您已被禁言\n禁言原因:{0} 解封时间:{1}</string>
+    <string name="live_score_forbidden_1">禁言中,解封时间%1$s</string>
+    <string name="live_score_forbidden_2">禁言中,大约%1$s后解禁</string>
+    <string name="live_score_forbidden_3">永久禁言中</string>
+    <string name="live_score_send">发送</string>
+    <string name="live_score_send_txt_too_long">输入文本过长,请分段发送!</string>
+    <string name="loading">正在加载...</string>
+    <string name="login_in_other_device">该账号已在另一处登录,需要重新登录!</string>
+    <string name="max_reward_amount_request">打赏金额不能大于%d</string>
+    <string name="min_reward_amount_request">打赏金额不能小于%d</string>
+    <string name="modify_group_info">修改群资料</string>
+    <string name="name">名称</string>
+    <string name="next_step">下一步</string>
+    <string name="no_more_load">没有更多了</string>
+    <string name="ok">确定</string>
+    <string name="pelease_input_group_des_within_80wrods">请输入80字以内的群简介</string>
+    <string name="pelease_input_group_name_within_10wrods">请输入10字以内的群名称</string>
+    <string name="pelease_input_group_shirt_name">请输入2字以内的战袍名</string>
+    <string name="pelease_input_valid_commad">请输入有效的口令!</string>
+    <string name="perform_success">操作成功</string>
+    <string name="permission_only_group_manager">仅管理员发言</string>
+    <string name="permission_type_all">全员发言</string>
+    <string name="permission_type_special">管理员和指定人员</string>
+    <string name="please_input_command">请输入口令</string>
+    <string name="please_input_family_descrition">80字以内简介(必填)</string>
+    <string name="please_input_family_name_must">请输入群名称(必填)</string>
+    <string name="rang_fen">让分</string>
+    <string name="rang_qiu">让球</string>
+    <string name="reward">确认打赏</string>
+    <string name="reward_amount">打赏金额</string>
+    <string name="reward_amount_span">(金币余额%1$s金币)</string>
+    <string name="reward_beizhu">打赏说明</string>
+    <string name="reward_coin">个礼金</string>
+    <string name="reward_gold">打赏金币</string>
+    <string name="reward_sucess">打赏成功</string>
+    <string name="reward_title">打赏</string>
+    <string name="save_pic">保存图片到本地</string>
+    <string name="select_from_system">从系统背景选择</string>
+    <string name="send_success">赠送成功</string>
+    <string name="setting_str">设置</string>
+    <string name="simple_chat_indentifyed_null">聊天%s为空,请重新进入房间.</string>
+    <string name="sticky_canceled_success">取消置顶成功</string>
+    <string name="sticky_top_success">置顶成功</string>
+    <string name="storage_permission_denied">存储卡权限被禁止,相关功能将不能正常使用。</string>
+    <string name="time_select">时间选择</string>
+    <string name="tip">提示</string>
+    <string name="title_group_join">群聊</string>
+    <string name="try_again">加载失败,点击重试</string>
+    <string name="user_quit_group_text">你已被移除聊天室,点击确定,退出群组!</string>
+    <string name="xjq_coupon">香蕉球红包</string>
+    <style name="AppDropDownListViewStyle" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:showDividers">middle</item>
+        <item name="android:divider">@android:color/white</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+    <style name="MyDialog" parent="android:style/Theme.Dialog">  
+                <!--背景颜色及和透明程度-->  
+            <item name="android:windowBackground">@android:color/transparent</item>  
+        <!--是否去除标题 -->
+        <item name="android:windowNoTitle">true</item>  
+                <!--是否去除边框-->  
+            <item name="android:windowFrame">@null</item>  
+                <!--是否浮现在activity之上-->  
+            <item name="android:windowIsFloating">true</item>  
+                <!--是否模糊-->  
+            <item name="android:backgroundDimEnabled">true</item>  
+
+        <item name="android:windowFullscreen">true</item>
+         
+    </style>
+    <style name="MyToolbarNavigationButtonStyle" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="OverflowMenu" parent="@style/ThemeOverlay.AppCompat.Light">
+        <!-- 是否覆盖锚点，默认为true，即盖住Toolbar -->
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <!-- 弹出层背景颜色 -->
+        <item name="android:popupBackground">@android:color/black</item>
+        <!-- 弹出层垂直方向上的偏移，即在竖直方向上距离Toolbar的距离，值为负则会盖住Toolbar -->
+        <item name="android:dropDownVerticalOffset">4dp</item>
+        <!-- 弹出层水平方向上的偏移，即距离屏幕左边的距离，负值会导致右边出现空隙 -->
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+        <!--设置弹出菜单文字颜色-->
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ToolBarStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!--<!– 更换Toolbar OVerFlow menu icon –>-->
+        <item name="actionOverflowButtonStyle">@style/MyToolbarNavigationButtonStyle</item>
+        <!-- 设置 toolbar 溢出菜单的文字的颜色 -->
+        <item name="android:textColor">@android:color/white</item>
+        <!-- 设置 显示在toobar上菜单文字的颜色 -->
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <!-- 设置toolbar 弹出菜单的字体大小-->
+        <item name="android:textSize">14sp</item>
+        <!-- 加入toolbar溢出【弹出】菜单的风格 -->
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+        <!--加入toolbar溢出ListView风格-->
+        <item name="android:dropDownListViewStyle">@style/AppDropDownListViewStyle</item>
+    </style>
+    <style name="Toolbar_MatchWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/titleBarHeight</item>
+        <item name="android:minHeight">@dimen/titleBarHeight</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+    </style>
+    <style name="cutLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+    <style name="cutLine10">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+    <style name="group_chat_setting_label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">#666</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:gravity">center|right</item>
+        <item name="android:background">@drawable/selector_comm</item>
+        <item name="android:clickable">true</item>
+        <item name="draw_bottom_line">true</item>
+        <item name="bottom_line_color">@color/line_color</item>
+        <item name="label_text_size">14sp</item>
+        <item name="label_text_color_left">#333</item>
+        <item name="line_padding_bottom">10dp</item>
+    </style>
+</resources>

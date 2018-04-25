@@ -1,0 +1,1 @@
+D com/android/banana/groupchat/bean/ChatRoomInfo$UserLevel

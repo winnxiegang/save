@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/progressBackI"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:background="@drawable/icon_progressbackground"
+        android:orientation="horizontal"></TextView>
+
+    <TextView
+        android:id="@+id/progress"
+        android:layout_width="10dp"
+        android:layout_height="18dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/icon_progressing"
+        android:orientation="horizontal"></TextView>
+
+    <LinearLayout
+        android:id="@+id/viewGroup2"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+</FrameLayout>

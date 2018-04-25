@@ -1,0 +1,782 @@
+[
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\timepicker_line.xml",
+        "source": "E:\\201843_banana_update\\timepicklib\\build\\intermediates\\bundles\\default\\res\\layout\\timepicker_line.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_chat_transform_right.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_chat_transform_right.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\51d422263cbd2d070d15b5ffd05db05a678dc21e\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_chat_room_member.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\item_chat_room_member.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_customer_toast.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_customer_toast.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\show_pop_lay.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\show_pop_lay.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_subject_title_family_info.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_subject_title_family_info.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_popupwindow.xml",
+        "source": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\bundles\\default\\res\\layout\\item_popupwindow.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\chuck_activity_main.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\319ee110d28831969f6b3338f0c473ad5857481e\\output\\res\\layout\\chuck_activity_main.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\dialog_get_coupon_failed.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\dialog_get_coupon_failed.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\im_menu_layout.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\im_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_chat_text_right.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_chat_text_right.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\dialog_send_coupon.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\dialog_send_coupon.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_group_set_leader.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_group_set_leader.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\widget_toolbar.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\widget_toolbar.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_loading_layout.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_loading_layout.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\menu_action_layout.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\menu_action_layout.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_simple_chat.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_simple_chat.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\vp_item_game_view.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\vp_item_game_view.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_image_gallery.xml",
+        "source": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\bundles\\default\\res\\layout\\activity_image_gallery.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\51d422263cbd2d070d15b5ffd05db05a678dc21e\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_emoj_show.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_emoj_show.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\dialog_share_subject.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\dialog_share_subject.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\base_widget_load_more.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\base_widget_load_more.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_group_chat_setting.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_group_chat_setting.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_game_board.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\item_game_board.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_group_chat_members_manage.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_group_chat_members_manage.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_right_img.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_right_img.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\51d422263cbd2d070d15b5ffd05db05a678dc21e\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_group_chat_new_1.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_group_chat_new_1.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_search.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_search.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_home_header_msgrecyclerview.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_home_header_msgrecyclerview.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_send_coupon_info_head.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_send_coupon_info_head.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\51d422263cbd2d070d15b5ffd05db05a678dc21e\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\51d422263cbd2d070d15b5ffd05db05a678dc21e\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\base_list_dialog_item.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\base_list_dialog_item.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_edit_photo.xml",
+        "source": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\bundles\\default\\res\\layout\\activity_edit_photo.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_chat_coupon_right.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_chat_coupon_right.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\chuck_activity_transaction.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\319ee110d28831969f6b3338f0c473ad5857481e\\output\\res\\layout\\chuck_activity_transaction.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\chuck_fragment_transaction_overview.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\319ee110d28831969f6b3338f0c473ad5857481e\\output\\res\\layout\\chuck_fragment_transaction_overview.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_group_chat_notification.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\item_group_chat_notification.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_group_chat_message.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\item_group_chat_message.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_fetch_coupon_fail.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_fetch_coupon_fail.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_jczq_analysis_path_anim_controller_header.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\activity_jczq_analysis_path_anim_controller_header.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_gag.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_gag.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_speak_set.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\item_speak_set.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\dialog_delete_member.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\dialog_delete_member.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\widget_time_line_mark.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\widget_time_line_mark.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_verify_command.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_verify_command.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_member_check.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_member_check.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_chat_coupon_left.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_chat_coupon_left.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\view_photo_picker_popup.xml",
+        "source": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\bundles\\default\\res\\layout\\view_photo_picker_popup.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_chat_pk_left.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_chat_pk_left.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\view_slide_refresh_listview.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\view_slide_refresh_listview.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\vp_item_game_view2.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\vp_item_game_view2.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_gag_list_item_1.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_gag_list_item_1.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\dialog_normal_message.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\dialog_normal_message.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\timepicker_layout.xml",
+        "source": "E:\\201843_banana_update\\timepicklib\\build\\intermediates\\bundles\\default\\res\\layout\\timepicker_layout.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\progressbar_view.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\progressbar_view.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_group_manage.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_group_manage.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\base_widget_empty_layout.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\base_widget_empty_layout.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\at_group_shit_label_setting.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\at_group_shit_label_setting.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\dialog_layout_whith_image.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\dialog_layout_whith_image.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\base_list_dialog.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\base_list_dialog.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_kjgg_issue_selector.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\item_kjgg_issue_selector.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\dialog_forbid_message.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\dialog_forbid_message.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_popupwindow_group_coupon.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_popupwindow_group_coupon.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_chat_pk_right.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_chat_pk_right.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\51d422263cbd2d070d15b5ffd05db05a678dc21e\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\dialog_layout.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_group_memberlist.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_group_memberlist.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_group_coupon.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_group_coupon.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_chat_coupon_system.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_chat_coupon_system.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_load_progress.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_load_progress.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_send_coupon_view.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_send_coupon_view.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_selector_list.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\item_selector_list.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_chat_room_member_info.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_chat_room_member_info.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_chat_coupon_reward.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_chat_coupon_reward.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_gag_list_item.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_gag_list_item.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_chat_hand_speed_left.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_chat_hand_speed_left.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\image_thumbnail.xml",
+        "source": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\bundles\\default\\res\\layout\\image_thumbnail.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\fullscreen_image.xml",
+        "source": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\bundles\\default\\res\\layout\\fullscreen_image.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\base_widget_pullrecycler.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\base_widget_pullrecycler.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\dialog_coupon_detail.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\dialog_coupon_detail.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\simple_dialog_layout_whith_image.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\simple_dialog_layout_whith_image.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\51d422263cbd2d070d15b5ffd05db05a678dc21e\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\base_widget_list.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\base_widget_list.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_group_chat_message.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_group_chat_message.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_chat_transform_left.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_chat_transform_left.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_popupwindow_coupon_time_select.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_popupwindow_coupon_time_select.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_chat_hand_speed_right.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_chat_hand_speed_right.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\view_live_score_controller.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\view_live_score_controller.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_leader_add.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\item_leader_add.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_reward.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_reward.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\chuck_fragment_transaction_list.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\319ee110d28831969f6b3338f0c473ad5857481e\\output\\res\\layout\\chuck_fragment_transaction_list.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_bottom_grid_item.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\item_bottom_grid_item.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_user.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\item_user.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_tab.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_tab.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\chuck_list_item_transaction.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\319ee110d28831969f6b3338f0c473ad5857481e\\output\\res\\layout\\chuck_list_item_transaction.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\widget_toolbar_40dp.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\widget_toolbar_40dp.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_emoj.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\item_emoj.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_member_select.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\item_member_select.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\at_group_shirt_detail.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\at_group_shirt_detail.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\empty_view_main.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\empty_view_main.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_item_coupon_detail.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_item_coupon_detail.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_speak_setting.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_speak_setting.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_full_screen_image_gallery.xml",
+        "source": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\bundles\\default\\res\\layout\\activity_full_screen_image_gallery.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\view_activity_title_bar.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\view_activity_title_bar.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_group_info.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_group_info.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_simple_listview.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\item_simple_listview.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_group_coupon_view.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_group_coupon_view.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\widget_pk_progress_view.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\widget_pk_progress_view.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_item_msg_recyclerview.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_item_msg_recyclerview.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_popupwindow_bottom_pay.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_popupwindow_bottom_pay.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_cheer_betting_game_group1.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\item_cheer_betting_game_group1.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_customer_keyboard.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_customer_keyboard.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\51d422263cbd2d070d15b5ffd05db05a678dc21e\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_family_description.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_family_description.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\51d422263cbd2d070d15b5ffd05db05a678dc21e\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\dialog_open_coupon.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\dialog_open_coupon.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\chuck_fragment_transaction_payload.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\319ee110d28831969f6b3338f0c473ad5857481e\\output\\res\\layout\\chuck_fragment_transaction_payload.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_im_chat_input.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_im_chat_input.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\51d422263cbd2d070d15b5ffd05db05a678dc21e\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\view_issue_selector.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\view_issue_selector.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_title.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_title.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_group_zone_header.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_group_zone_header.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_member_check.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\item_member_check.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_search_and_join_group.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_search_and_join_group.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_guess_live_header_recently.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\activity_guess_live_header_recently.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\pop_selector_view.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\pop_selector_view.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\pop_send_coupon.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\pop_send_coupon.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_leader_set.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\item_leader_set.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_menu_emoji.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_menu_emoji.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\view_title.xml",
+        "source": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\bundles\\default\\res\\layout\\view_title.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_left_img.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_left_img.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\view_lianhong_medal.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\view_lianhong_medal.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\timepicker_toolbar.xml",
+        "source": "E:\\201843_banana_update\\timepicklib\\build\\intermediates\\bundles\\default\\res\\layout\\timepicker_toolbar.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_own_allocated_info_head.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_own_allocated_info_head.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\51d422263cbd2d070d15b5ffd05db05a678dc21e\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_group_chat_notification.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_group_chat_notification.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_photo.xml",
+        "source": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\bundles\\default\\res\\layout\\item_photo.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\51d422263cbd2d070d15b5ffd05db05a678dc21e\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\dialog_limit_hand_speed_layout.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\dialog_limit_hand_speed_layout.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_bet_gift_recyclerview.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\item_bet_gift_recyclerview.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\view_pop_live_coupon.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\view_pop_live_coupon.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\dialog_send_coupon_success.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\dialog_send_coupon_success.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\activity_group_chat_announcement.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\activity_group_chat_announcement.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_common_status.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_common_status.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\item_add_speaker.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\item_add_speaker.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\default_load_more.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\default_load_more.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_chat_text_left.xml",
+        "source": "E:\\201843_banana_update\\groupchat\\src\\main\\res\\layout\\layout_chat_text_left.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\layout_fetch_coupon_success.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_fetch_coupon_success.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\widget_anim_popwindow_view.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\widget_anim_popwindow_view.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\widget_load_dialog.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\widget_load_dialog.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\51d422263cbd2d070d15b5ffd05db05a678dc21e\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\51d422263cbd2d070d15b5ffd05db05a678dc21e\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    }
+]

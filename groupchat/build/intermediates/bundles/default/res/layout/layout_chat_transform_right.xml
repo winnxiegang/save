@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dp10"
+    android:paddingTop="8dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right">
+
+
+            <ImageView
+                android:id="@+id/medal_iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="3dp" />
+
+            <ImageView
+                android:id="@+id/medal_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/icon_group_owner"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginLeft="3dp"
+                android:textColor="#747c9e"
+                android:textSize="12sp"
+                tools:text="userName" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/transform_layout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_chat_transform_right"
+            android:clickable="true"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/trans_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/main_text_color"
+                android:textSize="@dimen/sp15"
+                android:visibility="visible"
+                tools:text="标题标题标题标题标题标题标题标题标题标题标题标题标题标题" />
+
+
+            <ImageView
+                android:id="@+id/trans_logo"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/trans_title"
+                android:layout_marginLeft="@dimen/dp10"
+                android:src="@drawable/user_default_logo" />
+
+
+            <TextView
+                android:id="@+id/trans_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/trans_title"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/trans_logo"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:paddingRight="10dp"
+                android:textColor="@color/light_text_color"
+                android:textSize="13sp"
+                tools:text="123456789123123132131231313113" />
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/trans_logo"
+                android:layout_marginTop="8dp"
+                android:background="#80e8e8e8"></View>
+
+            <TextView
+                android:id="@+id/trans_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line"
+                android:layout_marginBottom="@dimen/dp5"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginTop="3dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/light_text_color"
+                android:textSize="@dimen/sp12"
+                tools:text="by_小编" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/portraitIv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/user_default_logo" />
+
+
+</LinearLayout>
+

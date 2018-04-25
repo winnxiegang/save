@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/portraitIv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/user_default_logo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left">
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginLeft="3dp"
+                android:textColor="#747c9e"
+                android:textSize="12sp"
+                tools:text="userName" />
+
+            <ImageView
+                android:id="@+id/medal_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/icon_group_owner"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/medal_iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="3dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/hand_speed_layout"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_chat_transform_left">
+
+            <TextView
+                android:id="@+id/pk_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_marginTop="8dp"
+                android:text="主播在直播间搞事情了,快去看看"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/sp15" />
+
+            <LinearLayout
+                android:id="@+id/pk_info_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pk_title"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_marginRight="@dimen/dp16"
+                android:background="@drawable/bg_chat_limit_speed"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/dp10">
+
+
+                <LinearLayout
+                    android:id="@+id/hostInfoLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dp10"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/hostPortraitIv"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/user_default_logo" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:src="@drawable/icon_game_sponsorship_tag" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/hostNameTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:ellipsize="end"
+                        android:maxLength="6"
+                        android:textColor="#FC5529"
+                        tools:text="福尔摩斯" />
+
+                    <com.android.banana.commlib.view.MedalLayout
+                        android:id="@+id/medal_layout"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"></com.android.banana.commlib.view.MedalLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/prizeInfoLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="@dimen/dp10"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+
+                    <TextView
+                        android:id="@+id/prizeNameTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorSendName11"
+                        android:textSize="12sp"
+                        tools:text="iphoneX" />
+
+                    <TextView
+                        android:id="@+id/prizeNumTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:textColor="@color/colorSendName11"
+                        android:textSize="12sp"
+                        tools:text="共2个" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/pk_info_layout"
+                android:layout_marginTop="8dp"
+                android:background="#80e8e8e8"></View>
+
+            <TextView
+                android:id="@+id/trans_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/line"
+                android:layout_marginBottom="@dimen/dp5"
+                android:layout_marginRight="@dimen/dp16"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="查看详情"
+                android:textColor="@color/blue_300"
+                android:textSize="@dimen/sp12" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

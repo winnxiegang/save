@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.banana.view.TapLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_toolbar_40dp"></include>
+
+    <com.android.banana.pullrecycler.recyclerview.PullRecycler
+        android:id="@+id/PullRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="5dp">
+
+
+    </com.android.banana.pullrecycler.recyclerview.PullRecycler>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color" />
+
+
+    <com.android.banana.view.ImLayout
+        android:id="@+id/imlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.android.banana.view.ImLayout>
+</com.android.banana.view.TapLinearLayout>

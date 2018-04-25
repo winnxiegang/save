@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/view_activity_title_bar"/>
+    <TextView
+        android:id="@+id/tvListTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:text="管理员（3／10）"
+        android:textColor="@color/gray_text_color"/>
+    <!-- 这边的ID不要任意更改-->
+    <com.android.banana.commlib.view.swipyrefreshlayout.VpSwipeRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.android.banana.view.ScrollListView
+            android:id="@+id/scrollListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/main_background"
+            android:dividerHeight="10dp" />
+
+    </com.android.banana.commlib.view.swipyrefreshlayout.VpSwipeRefreshLayout>
+</LinearLayout>

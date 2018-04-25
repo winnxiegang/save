@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/shape_red_solid_radius" android:state_selected="false"></item>
+    <item android:drawable="@drawable/shape_solid_jiuhong_stroke_pink" android:state_selected="true"></item>
+    <item android:drawable="@drawable/shape_red_solid_radius"></item>
+</selector>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_gravity="bottom"
+            android:background="#dcdcdc"></View>
+
+        <RadioGroup
+            android:id="@+id/inputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.android.banana.commlib.view.EmojiEditTextView
+                android:id="@+id/editv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/live_score_edit"
+                android:gravity="center_vertical"
+                android:hint="@string/live_score_edit_hint"
+                android:maxHeight="60dp"
+                android:minHeight="35dp"
+                android:paddingLeft="10dp"
+                android:text=""
+                android:textColor="@color/txt_deep"
+                android:textColorHint="@color/txt_light"
+                android:textSize="@dimen/sp14" />
+
+
+            <RadioButton
+                android:id="@+id/emoji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:button="@drawable/live_score_emoji_selector" />
+
+
+            <TextView
+                android:id="@+id/sendMsg"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/live_score_send_shape"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/live_score_send"
+                android:textColor="@color/txt_middle"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:id="@+id/more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:button="@drawable/selector_chat_more"
+                android:checked="false"
+                android:gravity="center" />
+        </RadioGroup>
+
+        <com.android.banana.view.MenuLayout
+            android:id="@+id/moreMenuLayout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:visibility="gone"></com.android.banana.view.MenuLayout>
+    </LinearLayout>
+</merge>

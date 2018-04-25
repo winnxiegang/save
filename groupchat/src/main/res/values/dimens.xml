@@ -1,0 +1,123 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="tabLayoutIndicatorHeight">2dp</dimen>
+    <dimen name="normalTextSize">14sp</dimen>
+    <dimen name="horizontal_page_margin">16dp</dimen>
+    <dimen name="mNavButtonView_width">45dp</dimen>
+    <!-- 设置页面相关属性  -->
+
+    <dimen name="portrait_size">40dp</dimen>
+
+    <dimen name="popup_collect_height">70dp</dimen>
+
+    <dimen name="popup_collect_height_with_report">110dp</dimen>
+
+    <dimen name="popup_homepage_height">550dp</dimen>
+
+    <dimen name="width">200dp</dimen>
+
+    <dimen name="item_setting_height">55dp</dimen>
+
+    <dimen name="item_setting_marginLeft">10dp</dimen>
+
+    <dimen name="item_setting_marginRight">10dp</dimen>
+
+    <dimen name="tab_height">42dp</dimen>
+
+    <dimen name="order_table_height">60dp</dimen>
+
+    <dimen name="portrait_margin_left">10dp</dimen>
+
+    <dimen name="lv_item_gap">12dp</dimen>
+
+    <dimen name="copy_btn_width">76dp</dimen>
+
+    <dimen name="copy_btn_height">36dp</dimen>
+
+    <!-- 分享弹出菜单布局文件设置属性  -->
+
+    <dimen name="share_weight">70dp</dimen>
+
+    <dimen name="shape_padding">6dp</dimen>
+
+    <dimen name="share_img_radius">44dp</dimen>
+
+    <dimen name="share_img_margin_top">12dp</dimen>
+
+    <dimen name="share_text_margin_top">6dp</dimen>
+
+    <dimen name="share_text_margin_bottom">10dp</dimen>
+
+    <dimen name="titleBarHeight_40dp">40dp</dimen>
+    <dimen name="titleBarHeight">45dp</dimen>
+
+    <dimen name="sp12">12sp</dimen>
+    <dimen name="dp10">10dp</dimen>
+
+    <dimen name="dpPoint0">0dp</dimen>
+
+    <dimen name="dpPoint5">0.5dp</dimen>
+
+    <dimen name="dp1">1dp</dimen>
+
+    <dimen name="dp2">2dp</dimen>
+
+    <dimen name="dp1Point5">1.5dp</dimen>
+
+    <dimen name="dp300">300dp</dimen>
+
+    <dimen name="dp3">3dp</dimen>
+
+    <dimen name="dp4">4dp</dimen>
+
+    <dimen name="dp26">26dp</dimen>
+
+    <dimen name="dp24">24dp</dimen>
+    <dimen name="dp30">30dp</dimen>
+    <dimen name="sp15">15sp</dimen>
+    <dimen name="sp16">16sp</dimen>
+
+    <dimen name="sp9">9sp</dimen>
+
+    <dimen name="tabLayoutMarginBottom">15dp</dimen>
+    <dimen name="common_username_size">14sp</dimen>
+    <dimen name="text_below_username_size">12sp</dimen>
+    <dimen name="dp90">52dp</dimen>
+    <dimen name="dp140">160dp</dimen>
+    <dimen name="dp35">35dp</dimen>
+    <dimen name="dp120">120dp</dimen>
+
+    <dimen name="dp150">150dp</dimen>
+
+    <dimen name="dp50">50dp</dimen>
+
+    <dimen name="dp22">22dp</dimen>
+
+    <dimen name="dp18">18dp</dimen>
+    <dimen name="dp16">16dp</dimen>
+
+    <dimen name="dp40">40dp</dimen>
+
+    <dimen name="titleHeight">50dp</dimen>
+
+    <dimen name="dp60">60dp</dimen>
+
+    <dimen name="sp14">14sp</dimen>
+
+    <dimen name="sp20">24sp</dimen>
+
+    <dimen name="dp5">5dp</dimen>
+    <dimen name="predict_show_height">30dp</dimen>
+    <dimen name="predict_right_width">55dp</dimen>
+
+
+    <dimen name="comment_popup_base_width">100dp</dimen>
+    <dimen name="dp20">20dp</dimen>
+    <dimen name="text_value">14.0sp</dimen>
+    <dimen name="dp80">84dp</dimen>
+    <dimen name="topic_min_height">30dp</dimen>
+</resources>
+

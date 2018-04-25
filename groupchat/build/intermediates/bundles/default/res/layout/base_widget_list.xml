@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_toolbar_40dp" />
+
+    <com.android.banana.pullrecycler.recyclerview.PullRecycler
+        android:id="@+id/PullRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+    </com.android.banana.pullrecycler.recyclerview.PullRecycler>
+</LinearLayout>

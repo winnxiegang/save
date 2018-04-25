@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sendCouponInfoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/icon_coupon_detail_top2_bg"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:paddingRight="20dp"
+    android:paddingTop="38dp"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/portraitIv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/user_default_logo" />
+
+        <TextView
+            android:id="@+id/userNameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/colorTextG4" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/couponTitleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:text=""
+        android:singleLine="true"
+        android:textColor="#bc850a" />
+
+</LinearLayout>

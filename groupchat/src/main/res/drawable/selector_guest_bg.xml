@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shape_blue_solid_radius" android:state_selected="false"></item>
+    <item android:drawable="@drawable/shape_solid_zhanlan_stroke_blue" android:state_selected="true"></item>
+    <item android:drawable="@drawable/shape_blue_solid_radius"></item>
+</selector>

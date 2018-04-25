@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">groupchat</string>
+    <string name="list_dialog_cancel">取消</string>
+    <string name="empty_error_tip">暂无数据~</string>
+    <string name="loading">正在加载...</string>
+    <string name="no_more_load">没有更多了</string>
+
+    <string name="group_chat_title">聊天室名称</string>
+    <string name="group_chat_theme">主题</string>
+    <string name="group_chat_member">聊天室成员</string>
+    <string name="group_chat_setting_title">聊天室设置</string>
+    <string name="group_chat_setting_ad">公告</string>
+    <string name="group_chat_setting_speak">发言设置</string>
+    <string name="group_chat_setting_forbidden">禁言管理</string>
+    <string name="group_chat_setting_msgtop">聊天室消息置顶</string>
+    <string name="exit_chat_room">退出聊天室</string>
+    <string name="group_chat_announcement_title">公告</string>
+    <string name="gag_time">选择禁言的时长</string>
+    <string name="gag_time_title">禁言时长</string>
+    <string name="gag_format">dd天-HH时-mm分</string>
+    <string name="time_select">时间选择</string>
+    <string name="cancel_gag">取消禁言</string>
+    <string name="gag_manager">禁言管理</string>
+    <string name="setting_str">设置</string>
+    <string name="delete_content">删除此内容</string>
+    <string name="forbidden">禁言</string>
+    <string name="forbidden_cancel">取消禁言</string>
+    <string name="group_chat_notice">公告\n%1$s</string>
+    <string name="permission_type_all">全员发言</string>
+    <string name="permission_type_special">管理员和指定人员</string>
+    <string name="permission_only_group_manager">仅管理员发言</string>
+    <string name="group_notice_null">未设置</string>
+    <string name="perform_success">操作成功</string>
+
+    <string name="live_score_send">发送</string>
+    <string name="live_score_edit_hint">别憋着,说点啥...</string>
+    <string name="group_chat_menu_item_pic">图片</string>
+    <string name="group_chat_menu_item_coupon">红包</string>
+    <string name="live_score_forbidden_2">禁言中,大约%1$s后解禁</string>
+    <string name="group_chat_coupon">有红包</string>
+    <string name="sticky_top_success">置顶成功</string>
+    <string name="sticky_canceled_success">取消置顶成功</string>
+    <string name="exit_chat_room_success">退出聊天室成功</string>
+    <string name="live_score_chatroom_close_1">聊天室已关闭</string>
+    <string name="login_in_other_device">该账号已在另一处登录,需要重新登录!</string>
+    <string name="tip">提示</string>
+    <string name="save_pic">保存图片到本地</string>
+    <string name="live_score_coupon">的金币</string>
+    <string name="reward_coin">个礼金</string>
+    <string name="live_score_coupon_fetch">%1$s抢到了%2$s的</string>
+    <string name="live_score_coupon_fetch_1">你打赏了%1$s</string>
+    <string name="live_score_coupon_fetch_2">%1$s打赏了你</string>
+    <string name="live_score_forbidden">您已被禁言\n禁言原因:{0} 解封时间:{1}</string>
+    <string name="live_score_forbidden_1">禁言中,解封时间%1$s</string>
+    <string name="live_score_forbidden_3">永久禁言中</string>
+    <string name="live_score_send_txt_too_long">输入文本过长,请分段发送!</string>
+    <string name="forbidden_cancel_success">取消禁言成功</string>
+    <string name="group_chat_delete_confirm">删除后的消息将不会出现在聊天列表中</string>
+    <string name="forbidden_custom_tip">自定义禁言时间不能小于1分钟</string>
+    <string name="live_score_chatroom_close">聊天室已关闭,下次比赛再聊吧</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="has_no_cheer">暂无助威</string>
+
+    <string name="please_input_command">请输入口令</string>
+    <string name="creat_family_title">创建群</string>
+    <string name="command">口令</string>
+    <string name="next_step">下一步</string>
+    <string name="name">名称</string>
+    <string name="please_input_family_name_must">请输入群名称(必填)</string>
+    <string name="family_description">简介</string>
+    <string name="family_fight_shirt">群战袍</string>
+    <string name="family_fight_shirt_description">2字以内必填</string>
+    <string name="please_input_family_descrition">80字以内简介(必填)</string>
+    <string name="family_creat">创建</string>
+    <string name="select_from_system">从系统背景选择</string>
+    <string name="family_cover">设为封面</string>
+    <string name="pelease_input_valid_commad">请输入有效的口令!</string>
+
+
+    <string name="group_info">群名称</string>
+    <string name="group_manage">管理群</string>
+    <string name="group_shirt_label_setting">设置战袍名</string>
+
+    <string name="group_check">待审核成员</string>
+    <string name="group_set_leader">设置管理员</string>
+
+    <string name="pelease_input_group_name_within_10wrods">请输入10字以内的群名称</string>
+    <string name="pelease_input_group_des_within_80wrods">请输入80字以内的群简介</string>
+    <string name="pelease_input_group_shirt_name">请输入2字以内的战袍名</string>
+    <string name="camera_permission_denied">使用相机权限被禁止,相关功能将不能正常使用。</string>
+    <string name="storage_permission_denied">存储卡权限被禁止,相关功能将不能正常使用。</string>
+    <string name="file_upload_failed">文件上传失败,请稍后重试</string>
+    <string name="group_creat_failed">群组创建失败</string>
+    <string name="data_error">头像数据解析错误,找不到fileName</string>
+    <string name="group_creat_success">群组创建成功</string>
+    <string name="group_update_success">群资料修改成功</string>
+    <string name="group_avart_must">请选择群组头像</string>
+    <string name="xjq_coupon">香蕉球红包</string>
+    <string name="reward_gold">打赏金币</string>
+    <string name="reward">确认打赏</string>
+    <string name="reward_title">打赏</string>
+    <string name="reward_amount">打赏金额</string>
+    <string name="reward_amount_span">(金币余额%1$s金币)</string>
+    <string name="simple_chat_indentifyed_null">聊天%s为空,请重新进入房间.</string>
+    <string name="acount_query_falied">账户信息查询失败,请返回后重试.</string>
+    <string name="reward_beizhu">打赏说明</string>
+    <string name="help_strong">助威</string>
+    <string name="rang_qiu">让球</string>
+    <string name="rang_fen">让分</string>
+    <string name="min_reward_amount_request">打赏金额不能小于%d</string>
+    <string name="max_reward_amount_request">打赏金额不能大于%d</string>
+    <string name="reward_sucess">打赏成功</string>
+    <string name="debug_user_authority_query_falied">获取私聊配置信息失败,请重新进入房间---debug</string>
+    <string name="debug_json_exception">json解析出错了~~~~请debug调试</string>
+    <string name="init_pwd_first">请先设置支付密码</string>
+    <string name="user_quit_group_text">你已被移除聊天室,点击确定,退出群组!</string>
+    <string name="try_again">加载失败,点击重试</string>
+    <string name="family_creat_tip">战袍名称创建成功后,不可修改,请谨慎填写</string>
+    <string name="file_crop_failed">图片裁剪失败</string>
+    <string name="file_not_found">文件不存在</string>
+
+    <string name="fans_attention_count">关注 %1$d       粉丝  %2$d</string>
+    <string name="modify_group_info">修改群资料</string>
+    <string name="title_group_join">群聊</string>
+
+    <string name="send_success">赠送成功</string>
+    <string name="group_chat_image_compress_failed">图片发送失败</string>
+
+    <string name="focus_success">关注成功</string>
+
+    <string-array name="gag_array">
+        <item>10分钟</item>
+        <item>1小时</item>
+        <item>12小时</item>
+        <item>24小时</item>
+        <item>永久</item>
+        <item>自定义</item>
+    </string-array>
+</resources>

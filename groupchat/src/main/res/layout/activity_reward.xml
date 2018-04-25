@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_toolbar_40dp"></include>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/portraitIv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/user_default_logo" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#333333"
+        tools:text="小飞侠" />
+
+
+    <TextView
+        android:id="@+id/reward_gold_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="20dp"
+        android:text="@string/reward_gold"
+        android:textColor="#333333" />
+
+    <com.android.banana.commlib.view.ToggleEditTextView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/reward_clear_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/transparent"
+        android:drawableLeft="@drawable/icon_gold_large_coin"
+        android:drawablePadding="5dp"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:textColor="#333333"
+        android:textSize="32sp"
+        app:toggle_visible="@drawable/ic_clear" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/line_color"></View>
+
+
+    <com.android.banana.commlib.view.ToggleEditTextView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/reward_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/transparent"
+        android:hint="@string/reward_beizhu"
+        android:imeOptions="actionGo"
+        android:inputType="number"
+        android:minHeight="40dp"
+        android:singleLine="true"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:toggle_visible="@drawable/ic_clear_small" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/line_color"></View>
+
+
+    <TextView
+        android:id="@+id/reward_tv"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/selector_rect_red"
+        android:gravity="center"
+        android:text="@string/reward"
+        android:textColor="@color/white" />
+</LinearLayout>

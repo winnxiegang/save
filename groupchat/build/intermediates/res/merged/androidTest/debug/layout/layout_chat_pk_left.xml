@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/portraitIv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/user_default_logo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left">
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginLeft="3dp"
+                android:textColor="#747c9e"
+                android:textSize="12sp"
+                tools:text="userName" />
+
+            <ImageView
+                android:id="@+id/medal_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/icon_group_owner"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/medal_iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="3dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/pk_layout"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_chat_transform_left">
+
+            <TextView
+                android:id="@+id/pk_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_marginTop="8dp"
+                android:text="我在直播间怒砸N金锭,为我的坚持"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/sp15" />
+
+            <LinearLayout
+                android:id="@+id/pk_info_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pk_title"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_marginRight="@dimen/dp16"
+                android:background="@color/blue_700"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/dp10">
+
+                <TextView
+                    android:id="@+id/themeTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    tools:text="阿森纳这个点球进不进?" />
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/themeTv"
+                    android:layout_marginBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/icon_pk_progressing_bg" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:layout_width="110dp"
+                                android:layout_height="match_parent">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:id="@+id/leftGiftIv"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:src="@drawable/icon_guest_default" />
+
+                                <TextView
+                                    android:id="@+id/leftPointTv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_gravity="right"
+                                    android:layout_marginRight="35dp"
+                                    android:layout_marginTop="20dp"
+                                    android:ellipsize="end"
+                                    android:maxEms="3"
+                                    android:singleLine="true"
+                                    android:text="进"
+                                    android:textColor="@color/white"
+                                    android:textSize="12sp" />
+
+
+                                <TextView
+                                    android:id="@+id/leftJoinPeopleNumTv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom|center_horizontal"
+                                    android:layout_marginBottom="15dp"
+                                    android:textColor="@color/white"
+                                    android:textSize="10sp"
+                                    tools:text="6人" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="110dp"
+                                android:layout_height="match_parent">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:id="@+id/rightGiftIv"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:layout_gravity="center|right"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginRight="15dp"
+                                    android:src="@drawable/icon_guest_default" />
+
+                                <TextView
+                                    android:id="@+id/rightPointTv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginTop="20dp"
+                                    android:ellipsize="end"
+                                    android:maxEms="3"
+                                    android:singleLine="true"
+                                    android:text="不进"
+                                    android:textColor="@color/white"
+                                    android:textSize="12sp" />
+
+
+                                <TextView
+                                    android:id="@+id/rightJoinPeopleNumTv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom|center_horizontal"
+                                    android:layout_marginBottom="15dp"
+                                    android:textColor="@color/white"
+                                    android:textSize="10sp"
+                                    tools:text="254人" />
+                            </FrameLayout>
+
+
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/icon_pk_img" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/pk_info_layout"
+                android:layout_marginTop="8dp"
+                android:background="#80e8e8e8"></View>
+
+            <TextView
+                android:id="@+id/trans_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/line"
+                android:layout_marginBottom="@dimen/dp5"
+                android:layout_marginRight="@dimen/dp16"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="查看详情"
+                android:textColor="@color/blue_300"
+                android:textSize="@dimen/sp12" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

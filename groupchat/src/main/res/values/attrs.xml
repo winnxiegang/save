@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <!--  <attr name="label_btm_padding_later"/>-->
+    <declare-styleable name="LabelTextView">
+        <attr name="label_text_top" format="string" />
+        <attr name="label_text_left" format="string" />
+        <attr name="label_text_right" format="string" />
+        <attr name="label_text_bottom" format="string" />
+
+        <attr name="label_text_size" format="dimension" />
+        <attr name="label_text_size_left" format="dimension" />
+        <attr name="label_text_size_top" format="dimension" />
+        <attr name="label_text_size_right" format="dimension" />
+        <attr name="label_text_size_bottom" format="dimension" />
+
+        <attr name="label_text_color" format="reference|color" />
+        <attr name="label_text_color_left" format="reference|color" />
+        <attr name="label_text_color_right" format="reference|color" />
+        <attr name="label_text_color_top" format="reference|color" />
+        <attr name="label_text_color_bottom" format="reference|color" />
+
+        <attr name="label_padding" format="dimension|reference" />
+        <attr name="label_padding_left" format="dimension|reference" />
+        <attr name="label_padding_right" format="dimension|reference" />
+        <attr name="label_padding_top" format="dimension|reference" />
+        <attr name="label_padding_bottom" format="dimension|reference" />
+
+        <attr name="draw_right_line" format="boolean"></attr>
+        <attr name="draw_bottom_line" format="boolean"></attr>
+        <attr name="draw_bottom_line_without_right" format="boolean"></attr>
+
+        <attr name="line_padding_right" format="dimension"></attr>
+        <attr name="line_padding_bottom" format="dimension"></attr>
+
+        <attr name="right_line_color" format="color|reference"></attr><!--暂时没有用到-->
+        <attr name="bottom_line_color" format="color|reference"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="MarqueeText">
+        <attr name="real_height" format="dimension"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CountEditText">
+        <attr name="count_text_size" format="integer" />
+        <attr name="count_text_color" format="color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/failContentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/fetchCouponFailIv"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:src="@drawable/icon_coupon_expired_style" />
+
+    <TextView
+        android:id="@+id/fetchCouponFailTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="125dp"
+        android:text="您来晚了,\n红包已抢完"
+        android:textColor="#ba6e06"
+        android:textSize="14sp" />
+</RelativeLayout>

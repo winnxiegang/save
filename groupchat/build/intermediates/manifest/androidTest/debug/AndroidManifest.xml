@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.banana.test" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <instrumentation
+        android:name="android.support.test.runner.AndroidJUnitRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.android.banana.test"
+        android:targetPackage="com.android.banana.test" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true" >
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.chat.GroupChatActivity"
+            android:configChanges="keyboardHidden|keyboard|navigation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.chat.GroupAnnounceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.forbidden.ForbiddenActivitty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.forbidden.ForbiddenListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.membermanage.GroupChatMembersManageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.membermanage.SpeakSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.message.GroupChatNotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.SearchAndJoinGroupActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateVisible" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.groupcreat.FamilyCreatActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.groupcreat.FamilyVerifyCommandActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.setInfo.GroupInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.setInfo.GroupManageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.setInfo.GroupShirtLabelSettingActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.GroupShirtDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.setInfo.GroupLeaderSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.setInfo.GroupMemberCheckActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.RewardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.chat.SimpleChatActivity"
+            android:configChanges="keyboardHidden|keyboard|navigation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.GroupJoinListActivity"
+            android:configChanges="keyboardHidden|keyboard|navigation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity> <!-- 消息收发service -->
+        <service
+            android:name="com.tencent.qalsdk.service.QalService"
+            android:exported="false"
+            android:process=":QALSERVICE" />
+        <service
+            android:name="com.tencent.qalsdk.service.QalAssistService"
+            android:exported="false"
+            android:process=":QALSERVICE" /> <!-- 离线消息广播接收器 -->
+        <receiver
+            android:name="com.tencent.qalsdk.QALBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.tencent.qalsdk.broadcast.qal" />
+            </intent-filter>
+        </receiver> <!-- 系统消息广播接收器 -->
+        <receiver
+            android:name="com.tencent.qalsdk.core.NetConnInfoCenter"
+            android:process=":QALSERVICE" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.etiennelawlor.imagegallery.library.fullscreen.FullScreenImageGalleryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label=""
+            android:theme="@style/ImageGalleryTheme" >
+            <intent-filter>
+                <action android:name="com.android.xjq.fullscreengallery" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.etiennelawlor.imagegallery.library.fullscreen.ImageGalleryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label=""
+            android:theme="@style/ImageGalleryTheme" >
+            <intent-filter>
+                <action android:name="com.android.xjq.imagegallery" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.etiennelawlor.imagegallery.library.fullscreen.EditPhotoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label=""
+            android:theme="@style/ImageGalleryTheme" />
+
+        <provider
+            android:name="com.readystatesoftware.chuck.internal.data.ChuckContentProvider"
+            android:authorities="com.android.banana.test.chuck.provider"
+            android:exported="false" />
+
+        <activity
+            android:name="com.readystatesoftware.chuck.internal.ui.MainActivity"
+            android:label="@string/chuck_name"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.readystatesoftware.chuck.task"
+            android:theme="@style/Chuck.Theme" />
+        <activity
+            android:name="com.readystatesoftware.chuck.internal.ui.TransactionActivity"
+            android:parentActivityName="com.readystatesoftware.chuck.internal.ui.MainActivity"
+            android:theme="@style/Chuck.Theme" />
+
+        <service
+            android:name="com.readystatesoftware.chuck.internal.support.ClearTransactionsService"
+            android:exported="false" />
+    </application>
+
+</manifest>

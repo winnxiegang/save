@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ViewFlipper
+        android:id="@+id/default_loadmore_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/transparent">
+
+        <!--style="@android:style/Widget.ProgressBar.Small"-->
+
+
+        <include layout="@layout/layout_load_progress"></include>
+
+        <TextView
+            android:id="@+id/default_loadmore_retry"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:text="加载失败,点击重试" />
+
+        <TextView
+            android:id="@+id/default_loadmore_end"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="-没有更多了-" />
+        <TextView
+            android:id="@+id/default_expand_more"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="展开更多"
+            android:textColor="@color/lignt_blue2"
+            android:background="@drawable/shape_blue_half_radius_bg" />
+
+    </ViewFlipper>
+
+</merge>

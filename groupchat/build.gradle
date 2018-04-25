@@ -1,0 +1,33 @@
+apply plugin: 'com.android.library'
+apply plugin: 'realm-android'
+def configInfo = rootProject.ext.android
+
+android {
+    compileSdkVersion configInfo.compileSdkVersion
+    buildToolsVersion configInfo.buildToolsVersion
+
+
+    defaultConfig {
+        minSdkVersion configInfo.minSdkVersion
+        targetSdkVersion configInfo.targetSdkVersion
+        versionCode hhsConfig.versionCode
+        versionName hhsConfig.versionName
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile project(':timepicklib')
+    compile project(':imlib')
+    compile project(':photoPickerlib')
+
+    compile project(':lubanlib')
+}

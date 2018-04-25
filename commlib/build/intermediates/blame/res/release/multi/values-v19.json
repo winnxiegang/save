@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "E:\\201843_banana_update\\commlib\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v19\\values-v19.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 65,
+                    "endOffset": 116
+                },
+                "from": {
+                    "file": "E:\\201843_banana_update\\commlib\\src\\main\\res\\values-v19\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 19,
+                        "endColumn": 65,
+                        "endOffset": 80
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 121,
+                    "endColumn": 50,
+                    "endOffset": 167
+                },
+                "from": {
+                    "file": "E:\\201843_banana_update\\commlib\\src\\main\\res\\values-v19\\styles.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 200,
+                        "endColumn": 50,
+                        "endOffset": 246
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 172,
+                    "endColumn": 54,
+                    "endOffset": 222
+                },
+                "from": {
+                    "file": "E:\\201843_banana_update\\commlib\\src\\main\\res\\values-v19\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 86,
+                        "endColumn": 54,
+                        "endOffset": 136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 227,
+                    "endColumn": 56,
+                    "endOffset": 279
+                },
+                "from": {
+                    "file": "E:\\201843_banana_update\\commlib\\src\\main\\res\\values-v19\\styles.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 142,
+                        "endColumn": 56,
+                        "endOffset": 194
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/widget_toolbar_40dp"></include>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:paddingTop="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ivPortrait"
+                    android:layout_width="47dp"
+                    android:layout_height="47dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="7dp"
+                    android:src="@drawable/user_default_logo" />
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/ivPortrait"
+                    android:ellipsize="middle"
+                    android:singleLine="true"
+                    android:text="群号  "
+                    android:textColor="@color/main_black_text_color"
+                    android:textSize="@dimen/common_username_size" />
+
+                <TextView
+                    android:id="@+id/tvLeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvName"
+                    android:layout_toRightOf="@+id/ivPortrait"
+                    android:text="群主"
+                    android:textColor="@color/gray_text_color"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvLeaderName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tvLeader"
+                    android:layout_marginLeft="6dp"
+                    android:layout_toRightOf="@+id/tvLeader"
+                    android:textColor="@color/gray_text_color"
+                    android:textSize="12sp"
+                    tools:text="123456" />
+
+                <View
+                    android:id="@+id/viewLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_below="@+id/ivPortrait"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/line_color" />
+
+                <TextView
+                    android:id="@+id/tvIntroTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/viewLine"
+                    android:layout_marginBottom="9dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="12dp"
+                    android:text="群简介"
+                    android:textColor="@color/main_black_text_color"
+                    android:textSize="@dimen/common_username_size" />
+
+                <TextView
+                    android:id="@+id/tvIntro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvIntroTitle"
+                    android:layout_marginLeft="14dp"
+                    android:text="群主很懒~什么也没说"
+                    android:textColor="@color/light_text_color"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/tvCopy"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/shape_gray_corner"
+                    android:gravity="center"
+                    android:text="复制"
+                    android:textColor="@color/gray_text_color"
+                    android:textSize="12sp" />
+
+                <View
+                    android:id="@+id/viewLine1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_below="@+id/tvIntro"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/line_color" />
+
+                <com.android.banana.view.LabelTextView
+                    android:id="@+id/group_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/viewLine1"
+                    android:background="@drawable/selector_comm"
+                    android:drawableRight="@drawable/right_arrow"
+                    android:gravity="center_vertical|right"
+                    android:textColor="@color/light_text_color"
+                    android:visibility="visible"
+                    app:label_padding_left="14dp"
+                    app:label_text_color_left="@color/text_black"
+                    app:label_text_left="我的群名片"
+                    app:label_text_size_left="@dimen/sp14"
+                    tools:text="疯狂球迷" />
+            </RelativeLayout>
+
+
+            <View
+                android:id="@+id/viewLine2"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/tvIntro"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:background="@color/line_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <com.android.banana.view.LabelTextView
+                    android:id="@+id/tvMemberTitle"
+                    style="@style/group_chat_setting_label"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:drawableRight="@drawable/right_arrow"
+                    android:gravity="left|center_vertical"
+                    android:lineSpacingMultiplier="0"
+                    android:minHeight="40dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="5dp"
+                    android:textColor="#333"
+                    app:draw_bottom_line="false"
+                    app:label_padding_right="31dp"
+                    app:label_text_color_right="#666"
+                    app:label_text_left="群成员"
+                    app:label_text_right="4" />
+
+
+                <com.android.banana.groupchat.groupchat.widget.MembersView
+                    android:id="@+id/membersView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"></com.android.banana.groupchat.groupchat.widget.MembersView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_below="@+id/ivPortrait"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/line_color" />
+
+                <LinearLayout
+                    android:id="@+id/layoutManager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:padding="3dp"
+                        android:src="@drawable/manage_set" />
+
+                    <com.android.banana.view.LabelTextView
+                        android:id="@+id/tvManagerGroup"
+                        style="@style/group_chat_setting_label"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/right_arrow"
+                        android:gravity="left|center_vertical"
+                        android:lineSpacingMultiplier="0"
+                        android:minHeight="40dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="5dp"
+                        android:textColor="#333"
+                        app:label_padding_right="31dp"
+                        app:label_text_color_right="#666"
+                        app:label_text_left="管理群" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/background"></View>
+
+            <RelativeLayout
+                android:id="@+id/groupShirtLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/groupShirtTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dp"
+                        android:drawableLeft="@drawable/icon_group_chat_shirt_small"
+                        android:drawablePadding="6dp"
+                        android:text="群战袍"
+                        android:textColor="@color/main_black_text_color" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/groupShirtTv"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="6dp"
+                        android:text="购买群战袍,体验更多有趣的玩法"
+                        android:textColor="@color/light_text_color"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/right_arrow" />
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:background="@color/line_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_comm"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:layout_marginLeft="14dp"
+                    android:background="@drawable/ic_group_zone_foot" />
+
+                <TextView
+                    android:id="@+id/groupZoneTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dp"
+                    android:text="群空间"
+                    android:textColor="@color/main_black_text_color" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:background="@color/line_color" />
+
+            <com.android.banana.view.LabelTextView
+                android:id="@+id/tvNoticeTitle"
+                style="@style/group_chat_setting_label"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/right_arrow"
+                android:gravity="left|center_vertical"
+                android:lineSpacingMultiplier="0"
+                android:minHeight="40dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#333"
+                app:draw_bottom_line="false"
+                app:label_padding_right="31dp"
+                app:label_text_color_right="#666"
+                app:label_text_left="群公告" />
+
+            <TextView
+                android:id="@+id/tvNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="文明发言"
+                android:paddingBottom="10dp"
+                android:paddingLeft="16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/background"></View>
+
+            <LinearLayout
+                android:id="@+id/layoutTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp20"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/layoutThemeCheckbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvThemeTitle"
+                        style="@style/group_chat_setting_label"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:clickable="false"
+                        android:gravity="center_vertical"
+                        android:text="主题模式"
+                        android:textColor="#333" />
+
+                    <ImageView
+                        android:id="@+id/checkBoxTheme"
+                        android:layout_width="45dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="16dp"
+                        android:button="@null"
+                        android:src="@drawable/selector_main_check_box" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@color/line_color" />
+
+                <com.android.banana.view.LabelTextView
+                    android:id="@+id/tvTheme"
+                    style="@style/group_chat_setting_label"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/right_arrow"
+                    android:gravity="left|center_vertical"
+                    android:lineSpacingMultiplier="0"
+                    android:minHeight="40dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="5dp"
+                    android:textColor="#333"
+                    android:visibility="gone"
+                    app:draw_bottom_line="false"
+                    app:label_padding_right="31dp"
+                    app:label_text_color_right="#666"
+                    app:label_text_left="主题设置" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@color/line_color" />
+
+                <com.android.banana.view.LabelTextView
+                    android:id="@+id/tvCheck"
+                    style="@style/group_chat_setting_label"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/right_arrow"
+                    android:gravity="left|center_vertical"
+                    android:lineSpacingMultiplier="0"
+                    android:minHeight="40dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="5dp"
+                    android:textColor="#333"
+                    app:draw_bottom_line="false"
+                    app:label_padding_right="31dp"
+                    app:label_text_color_right="#666"
+                    app:label_text_left="成员审核" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@color/line_color" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/normal_bg">
+
+                <TextView
+                    android:id="@+id/tvBottomBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="退出"
+                    android:textColor="@color/main_red"
+                    android:textSize="14sp" />
+            </FrameLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

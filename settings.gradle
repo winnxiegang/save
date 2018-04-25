@@ -1,0 +1,3 @@
+include ':app', ':refresh_library', ':downloadmanagerlib', ':autoupdate', ':ilive', ':tencentrtmpsdk', ':groupchat', ':commlib', 'live', ':sharelib', ':sdk_jijuxie', ':mytoast', 'imlib', 'timepicklib', ':photoPickerlib', ':lotterylib', ':lubanlib'
+project(':sdk_jijuxie').projectDir = new File(settingsDir, '../oap_android_sdk/sdk_jijuxie')
+

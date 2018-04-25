@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrapLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/headerView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/normal_bg"
+        android:gravity="center"
+        android:text="header"
+        android:textColor="@color/light_text_color"
+        android:visibility="gone" />
+
+    <com.android.banana.commlib.view.ShadowLinearLayout
+        android:id="@+id/shadowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:visibility="gone" />
+
+    <com.android.banana.pullrecycler.recyclerview.WrapRecyclerView
+        android:id="@+id/WrapRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/decorationView"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/normal_bg"
+        android:visibility="gone"></View>
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:text="@string/list_dialog_cancel"
+        android:textColor="@color/light_text_color"
+        android:visibility="gone" />
+</LinearLayout>

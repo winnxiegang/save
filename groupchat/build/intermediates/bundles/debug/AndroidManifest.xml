@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.banana"
+    android:versionCode="4"
+    android:versionName="1.0.4" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <application>
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.chat.GroupChatActivity"
+            android:configChanges="keyboardHidden|keyboard|navigation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.chat.GroupAnnounceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.forbidden.ForbiddenActivitty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.forbidden.ForbiddenListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.membermanage.GroupChatMembersManageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.membermanage.SpeakSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.message.GroupChatNotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.SearchAndJoinGroupActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateVisible" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.groupcreat.FamilyCreatActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.groupcreat.FamilyVerifyCommandActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.setInfo.GroupInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.setInfo.GroupManageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.setInfo.GroupShirtLabelSettingActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.GroupShirtDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.setInfo.GroupLeaderSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.setInfo.GroupMemberCheckActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.RewardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.banana.groupchat.chat.SimpleChatActivity"
+            android:configChanges="keyboardHidden|keyboard|navigation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.android.banana.groupchat.groupchat.GroupJoinListActivity"
+            android:configChanges="keyboardHidden|keyboard|navigation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+    </application>
+
+</manifest>

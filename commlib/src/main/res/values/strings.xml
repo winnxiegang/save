@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">commlib</string>
+    <string name="coupon_min_money_reminder">"最少为%1$s礼金"</string>
+    <string name="coupon_expire_desc">"未领取的红包,将于%1$s小时之后返回于您的账户"</string>
+    <string name="loading">正在拼命加载...</string>
+    <string name="please_choose_gift">请选择礼物，助威...</string>
+    <string name="confirm">确定</string>
+    <string name="relogin">重新登录</string>
+    <string name="account_abnormality">抱歉!您的账号存在异常,请重新登录</string>
+    <string name="account_password_set">您还没有设置支付密码,先去设置支付密码吧</string>
+    <string name="send">发送</string>
+    <string name="account_forbidden">冻结理由: %1$s\n解冻时间: %2$s</string>
+
+    <string name="coupon_min_money_reminder2">"最少为%1$s礼金"</string>
+    <!-- 权限申请-->
+    <string name="tips_permission_request_title">权限申请</string>
+    <string name="tips_permission_request_content">请授予应用申请的权限,如若禁止,可能无法正常使用相关功能</string>
+    <string name="go_and_grant_permission">去授权</string>
+    <string name="deny_and_quit">拒绝</string>
+    <string name="search">搜索</string>
+    <string name="empty_error_tip"> 暂无数据~</string>
+
+    <string name="guest_win">客胜</string>
+    <string name="draw_win">和局</string>
+    <string name="home_win">主胜</string>
+    <string name="no_data">暂无数据</string>
+    <string name="recent_3_hours">近三小时</string>
+    <string name="trade_line">成交走势</string>
+    <string name="trade_bar">交易分布</string>
+    <string name="video_live">视频直播</string>
+    <string name="path_anim_title">动画直播</string>
+    <string name="select_live_path">请选择直播来源</string>
+    <string name="time_over">比赛结束</string>
+    <string name="turn_back">返回</string>
+    <string name="turn_play_back">回放</string>
+    <string name="no_sign_now">暂无信号</string>
+    <string name="have_break">中场休息</string>
+    <string name="total_score">总分</string>
+    <string name="point_spread">分差</string>
+
+    <string name="pos_group_coupon">频道红包</string>
+    <string name="pos_send_coupon">发红包</string>
+    <string name="dialog_share_home_pager">个人主页</string>
+    <string name="dialog_share_group_chat">群</string>
+    <string name="dialog_share_group_zone">群空间</string>
+    <string name="str_cancel">取消</string>
+    <string name="nobody_prized">奖品都溜走了,暂无人中奖</string>
+    <string name="empty_cheer">暂时没有助威</string>
+
+    <string name="channel_area_no_draw">该场节目,主播尚未发起幸运抽奖</string>
+
+    <string name="channel_area_no_prized">本次抽奖已结束,无人参与抽奖</string>
+</resources>

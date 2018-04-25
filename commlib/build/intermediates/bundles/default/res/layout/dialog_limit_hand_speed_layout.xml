@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@drawable/icon_game_jxss_bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/closeIv"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:layout_margin="6dp"
+            android:padding="5dp"
+            android:src="@drawable/icon_coupon_close" />
+
+        <TextView
+            android:id="@+id/noPrizedView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:alpha="0"
+            android:drawableTop="@drawable/icon_nobody_prized"
+            android:text="@string/nobody_prized"
+            android:textColor="@color/colorTextG3"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="35dp"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical">
+
+            <com.android.banana.commlib.view.VerticalScrollTextView2
+                android:id="@+id/prizeShowTv"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/shape_gray_rect_with_top_radius"
+                android:paddingLeft="10dp"
+                android:visibility="gone"
+                app:tv_textColor="#F7F111"
+                tools:text="恭喜!您已抢到iphoneX一次" />
+
+            <LinearLayout
+                android:id="@+id/hostInfoLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/hostPortraitIv"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/user_default_logo" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/icon_game_sponsorship_tag" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/hostNameTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:textColor="@color/colorTextG4"
+                        tools:text="福尔摩斯" />
+
+                    <com.android.banana.commlib.view.MedalLayout
+                        android:id="@+id/medalLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/prizeInfoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFEACB"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp">
+
+
+                <TextView
+                    android:id="@+id/prizeNameTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorSendName11"
+                    android:textSize="12sp"
+                    tools:text="iphoneX" />
+
+                <TextView
+                    android:id="@+id/prizeNumTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textColor="@color/colorSendName11"
+                    android:textSize="12sp"
+                    tools:text="共2个" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:id="@+id/selfSendNumTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="40dp"
+                    android:alpha="0"
+                    android:textColor="@color/colorSendName12"
+                    android:textSize="9sp"
+                    android:visibility="gone"
+                    tools:text="我已送出14个" />
+
+                <FrameLayout
+                    android:id="@+id/sendGiftBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:alpha="0"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/icon_join_game_btn_bg" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/giftIv"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="2dp"
+                        android:src="@drawable/user_default_logo" />
+                </FrameLayout>
+
+                <com.android.banana.commlib.view.CountdownTextView
+                    android:id="@+id/gmtStartTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape_gray_rect_with_radius"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    tools:text="02:00 后开始" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/prizedTitleTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:alpha="1"
+                        android:text="中奖名单"
+                        android:textSize="13sp"
+                        android:visibility="visible" />
+
+                    <ListView
+                        android:id="@+id/listView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0"
+                        android:divider="@null"
+                        android:listSelector="@color/transparent"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/memoTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorSendName11"
+            android:textSize="10sp"
+            tools:text="赠送[啤酒](2礼金/个)夺好礼,点击越快,中奖几率越高" />
+
+        <ImageView
+            android:id="@+id/shareIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="45dp"
+            android:padding="6dp"
+            android:src="@drawable/icon_share_with_color" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="dp300" type="id">300dp</item>
+    <item name="speech_message_layout" type="id" />
+    <item name="im_coupon" type="id">im_coupon</item>
+    <item name="im_image" type="id">im_image</item>
+    <item name="im_coin" type="id">im_coin</item>
+</resources>

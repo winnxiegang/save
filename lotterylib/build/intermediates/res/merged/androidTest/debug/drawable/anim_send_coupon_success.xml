@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+
+    <item
+        android:drawable="@drawable/icon_anim_send_coupon_success_1"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/icon_anim_send_coupon_success_2"
+        android:duration="100"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_send_coupon_success_3"
+        android:duration="100"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_send_coupon_success_4"
+        android:duration="100"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_send_coupon_success_5"
+        android:duration="100"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_send_coupon_success_6"
+        android:duration="100"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_send_coupon_success_7"
+        android:duration="100"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_send_coupon_success_8"
+        android:duration="100"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_send_coupon_success_9"
+        android:duration="100"/>
+
+    <item
+        android:drawable="@drawable/icon_anim_send_coupon_success_10"
+        android:duration="100"/>
+
+</animation-list>
