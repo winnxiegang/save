@@ -80,12 +80,12 @@
         "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\layout\\layout_popupwindow_group_coupon.xml",
-        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\layout\\layout_popupwindow_group_coupon.xml"
-    },
-    {
         "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\layout\\view_slide_refresh_listview.xml",
         "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\layout\\view_slide_refresh_listview.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\layout\\layout_popupwindow_group_coupon.xml",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\layout\\layout_popupwindow_group_coupon.xml"
     },
     {
         "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",

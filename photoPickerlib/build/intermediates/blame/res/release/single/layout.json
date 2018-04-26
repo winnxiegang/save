@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
         "merged": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\res\\merged\\release\\layout\\item_photo.xml",
@@ -76,12 +76,12 @@
         "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\simple_dialog_layout_whith_image.xml"
     },
     {
-        "merged": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
         "merged": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\res\\merged\\release\\layout\\activity_guess_live_header_recently.xml",
         "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\activity_guess_live_header_recently.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\94c2c523750bee3b6dc61a6ce01719cefa9d571a\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\res\\merged\\release\\layout\\widget_anim_popwindow_view.xml",

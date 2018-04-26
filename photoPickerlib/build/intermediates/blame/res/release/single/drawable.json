@@ -304,12 +304,12 @@
         "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\drawable\\shape_blue_half_radius_bg.xml"
     },
     {
-        "merged": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\res\\merged\\release\\drawable\\shape_red_solid_radius.xml",
-        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\drawable\\shape_red_solid_radius.xml"
-    },
-    {
         "merged": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\res\\merged\\release\\drawable\\shape_blue_round_bg.xml",
         "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\drawable\\shape_blue_round_bg.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\res\\merged\\release\\drawable\\shape_red_solid_radius.xml",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\drawable\\shape_red_solid_radius.xml"
     },
     {
         "merged": "E:\\201843_banana_update\\photoPickerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",

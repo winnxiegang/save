@@ -460,12 +460,12 @@
         "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\icon_coupon_has_allocated.png"
     },
     {
-        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\anim_ball_left_6.png",
-        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\anim_ball_left_6.png"
-    },
-    {
         "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\icon_progressbackground.9.png",
         "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\icon_progressbackground.9.png"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\anim_ball_left_6.png",
+        "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\drawable-xhdpi-v4\\anim_ball_left_6.png"
     },
     {
         "merged": "E:\\201843_banana_update\\groupchat\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\icon_title_gray.png",

@@ -76,16 +76,16 @@
         "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\layout\\layout_emoj_show.xml"
     },
     {
-        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\release\\layout\\item_kjgg_issue_selector.xml",
-        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\layout\\item_kjgg_issue_selector.xml"
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\release\\layout\\dialog_share_subject.xml",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\layout\\dialog_share_subject.xml"
     },
     {
         "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\release\\layout\\progressbar_view.xml",
         "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\layout\\progressbar_view.xml"
     },
     {
-        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\release\\layout\\dialog_share_subject.xml",
-        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\layout\\dialog_share_subject.xml"
+        "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\release\\layout\\item_kjgg_issue_selector.xml",
+        "source": "E:\\201843_banana_update\\commlib\\src\\main\\res\\layout\\item_kjgg_issue_selector.xml"
     },
     {
         "merged": "E:\\201843_banana_update\\commlib\\build\\intermediates\\res\\merged\\release\\layout\\abc_expanded_menu_layout.xml",

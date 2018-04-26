@@ -1,11 +1,13 @@
 package com.android.banana.commlib.emoji;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.android.banana.commlib.R;
 
@@ -64,6 +66,8 @@ public class EmojAdapter extends BaseAdapter {
         } else {
             holder.imageView.setVisibility(View.VISIBLE);
             holder.imageView.setImageResource(list.get(position).getResId());
+            Toast.makeText(context, "getView: "+list.get(position).getResId(), Toast.LENGTH_SHORT).show();
+            Log.d("xg", "getView: "+list.get(position).getResId());
         }
         return convertView;
     }

@@ -44,12 +44,12 @@
         "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_group_coupon_view.xml"
     },
     {
-        "merged": "E:\\201843_banana_update\\lotterylib\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
         "merged": "E:\\201843_banana_update\\lotterylib\\build\\intermediates\\res\\merged\\release\\layout\\layout_popupwindow_coupon_time_select.xml",
         "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_popupwindow_coupon_time_select.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\lotterylib\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "E:\\201843_banana_update\\lotterylib\\build\\intermediates\\res\\merged\\release\\layout\\dialog_send_coupon_success.xml",
@@ -156,12 +156,12 @@
         "source": "E:\\201843_banana_update\\commlib\\build\\intermediates\\bundles\\default\\res\\layout\\layout_emoj_show.xml"
     },
     {
-        "merged": "E:\\201843_banana_update\\lotterylib\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
         "merged": "E:\\201843_banana_update\\lotterylib\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\201843_banana_update\\lotterylib\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\xieganag\\.android\\build-cache\\d09a9c93b1071f30664c081e637543624397dd20\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "E:\\201843_banana_update\\lotterylib\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_subheader.xml",
